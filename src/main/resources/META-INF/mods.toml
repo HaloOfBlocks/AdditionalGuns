@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+license="GPL3"
+issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
+
+[[mods]]
+    modId="additionalguns"
+    version="0.1.0"
+    displayName="Additional Guns"
+    updateJSONURL="https://raw.githubusercontent.com/Mr-Pineapple/ModUpdateJSON/master/additionalguns/update.json"
+    displayURL="https://discord.gg/mrcrayfish"
+    #To change when there are more contributors :P
+    authors="Mr. Pineapple"
+    #To change when there are more contributors :P
+    credits="MrCrayfish"
+    description="A community addon pack for MrCrayfish's Gun Mod - To contribute, head over the GitHub or simply join discord.gg/mrcrayfish and let us know!"
+    itemIcon="minecraft:stripped_birch_wood"
+    configBackground="minecraft:textures/block/stripped_birch_log.png"
+
+[[dependencies.additionalguns]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.additionalguns]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.additionalguns]]
+    modId="cgm"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.additionalguns]]
+    modId="obfuscate"
+    mandatory=true
+    versionRange="[0.6.0,)"
+    ordering="NONE"
+    side="BOTH"
