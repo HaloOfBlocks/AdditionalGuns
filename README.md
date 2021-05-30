@@ -6,7 +6,7 @@ Well, the community has come together to add more! This addon introduces a range
 
 ### 🔨 Contributing
 
-If you would like to submit a weapon to add to the mod, you can either comment, or let us know on discord, we're all in [MrCrayfish's Discord](https://discord.gg/mrcrayfish) server!
+If you would like to submit a weapon to add to the mod, you can either comment, PR, or let us know on discord, we're all in [MrCrayfish's Discord](https://discord.gg/mrcrayfish) server!
 
 ### 📜 Current Contributors
 
