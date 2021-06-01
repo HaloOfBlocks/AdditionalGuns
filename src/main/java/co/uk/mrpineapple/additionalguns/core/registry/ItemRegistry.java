@@ -23,4 +23,7 @@ public class ItemRegistry {
 
     /* Stock Attachments */
     public static final RegistryObject<Item> BASIC_STOCK = ITEMS.register("basic_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
+
+    /* Under Barrel Attachments */
+    public static final RegistryObject<Item> ANGLED_GRIP = ITEMS.register("angled_grip", () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.LIGHT_RECOIL), new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
 }
