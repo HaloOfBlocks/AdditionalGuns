@@ -14,8 +14,6 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
     #To change when there are more contributors :P
     credits="MrCrayfish"
     description="A community addon pack for MrCrayfish's Gun Mod - To contribute, head over the GitHub or simply join discord.gg/mrcrayfish and let us know!"
-    itemIcon="minecraft:stripped_birch_wood"
-    configBackground="minecraft:textures/block/stripped_birch_log.png"
 
 [[dependencies.additionalguns]]
     modId="forge"
@@ -41,3 +39,7 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
     versionRange="[0.6.0,)"
     ordering="NONE"
     side="BOTH"
+
+[modproperties.additionalguns]
+    catalogueItemIcon="minecraft:stripped_birch_wood"
+    configuredBackground="minecraft:textures/block/stripped_birch_log.png"
