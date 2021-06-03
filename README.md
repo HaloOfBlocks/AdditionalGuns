@@ -12,6 +12,7 @@ If you would like to submit a weapon to add to the mod, you can either comment, 
 
 After submitting a model or working on the addon, we'll add your name here as well as within the mod's credits.
  - Mr. Pineapple
+ - ThatAvocado_Boi
 
 ### 📥 Updates & Downloads
 
