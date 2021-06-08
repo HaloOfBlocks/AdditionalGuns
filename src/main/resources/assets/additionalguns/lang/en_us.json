@@ -1,5 +1,8 @@
 {
   "item.additionalguns.holo_scope": "Holo Scope",
   "item.additionalguns.basic_stock": "Basic Stock",
-  "item.additionalguns.angled_grip": "Angled Grip"
+  "item.additionalguns.angled_grip": "Angled Grip",
+
+  "item.additionalguns.mammoth": "Mammoth",
+  "item.additionalguns.vector": "Vector"
 }
