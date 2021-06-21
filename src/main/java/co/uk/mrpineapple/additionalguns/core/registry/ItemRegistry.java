@@ -27,7 +27,7 @@ public class ItemRegistry {
         public boolean canColor(ItemStack stack) {
             return false;
         }
-    } );
+    });
     public static final RegistryObject<Item> VECTOR = ITEMS.register("vector", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)){
         @Override
         public boolean canColor(ItemStack stack) {
