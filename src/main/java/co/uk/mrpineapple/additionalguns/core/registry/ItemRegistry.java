@@ -11,6 +11,7 @@ import com.mrcrayfish.guns.item.attachment.impl.Scope;
 import com.mrcrayfish.guns.item.attachment.impl.Stock;
 import com.mrcrayfish.guns.item.attachment.impl.UnderBarrel;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,8 +21,19 @@ public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdditionalGuns.ID);
 
     /* Guns */
-    public static final RegistryObject<Item> MAMMOTH = ITEMS.register("mammoth", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
-    public static final RegistryObject<Item> VECTOR = ITEMS.register("vector", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    //Creating an instance of GunItem to remove the dyeable properties, if there are more, I'll probably just make a class with a new constructor to set it for ease
+    public static final RegistryObject<Item> MAMMOTH = ITEMS.register("mammoth", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)){
+        @Override
+        public boolean canColor(ItemStack stack) {
+            return false;
+        }
+    } );
+    public static final RegistryObject<Item> VECTOR = ITEMS.register("vector", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)){
+        @Override
+        public boolean canColor(ItemStack stack) {
+            return false;
+        }
+    });
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.625F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
