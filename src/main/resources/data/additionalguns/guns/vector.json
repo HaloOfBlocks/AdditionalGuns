@@ -26,6 +26,12 @@
     "cock": "cgm:item.rifle.cock",
     "silencedFire": "cgm:item.machine_pistol.silenced_fire"
   },
+  "display": {
+    "flash": {
+      "yOffset": 2.9,
+      "zOffset": 0.5
+    }
+  },
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
