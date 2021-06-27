@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 9
+    },
+    {
+      "item": "minecraft:glass_pane",
+      "count": 2
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 4
+    }
+  ],
+  "result": {
+    "item": "additionalguns:9a91_scope"
+  }
+}

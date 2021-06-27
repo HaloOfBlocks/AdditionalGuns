@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 25
+    }
+  ],
+  "result": {
+    "item": "additionalguns:9a91"
+  }
+}
