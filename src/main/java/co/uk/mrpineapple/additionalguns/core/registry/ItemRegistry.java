@@ -35,6 +35,12 @@ public class ItemRegistry {
         }
     });
     public static final RegistryObject<Item> NINE_A_NINE_ONE = ITEMS.register("9a91", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> ACE_OF_SPADES = ITEMS.register("ace_of_spades", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)){
+        @Override
+        public boolean canColor(ItemStack stack) {
+            return false;
+        }
+    });
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.625F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
