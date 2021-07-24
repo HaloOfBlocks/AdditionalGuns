@@ -1,8 +1,8 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "additionalguns_avo:val"
+		"3": "additionalguns:item/val"
 	},
 	"elements": [
 		{
@@ -240,7 +240,7 @@
 			}
 		},
 		{
-			"from": [7.6, -0.2, 11.5],
+			"from": [7.6, -0.2, 11.6],
 			"to": [8.4, 3.2, 13.1],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 1.65, 11.8]},
 			"faces": {
@@ -320,7 +320,7 @@
 		{
 			"name": "octagon",
 			"from": [7.75147, 3.1, -0.3],
-			"to": [8.24853, 3.23, 9],
+			"to": [8.24853, 3.43, 9],
 			"rotation": {"angle": 45, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#3"},
@@ -334,7 +334,7 @@
 		{
 			"name": "octagon",
 			"from": [7.75147, 3.1, -0.3],
-			"to": [8.24853, 3.23, 9],
+			"to": [8.24853, 3.43, 9],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#3"},
@@ -347,7 +347,7 @@
 		},
 		{
 			"name": "octagon",
-			"from": [7.75147, 4.17, -0.3],
+			"from": [7.75147, 3.97, -0.3],
 			"to": [8.24853, 4.3, 9],
 			"rotation": {"angle": 45, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
@@ -361,7 +361,7 @@
 		},
 		{
 			"name": "octagon",
-			"from": [7.75147, 4.17, -0.3],
+			"from": [7.75147, 3.97, -0.3],
 			"to": [8.24853, 4.3, 9],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
@@ -376,7 +376,7 @@
 		{
 			"name": "octagon",
 			"from": [7.4, 3.45147, -0.3],
-			"to": [7.53, 3.94853, 9],
+			"to": [7.73, 3.94853, 9],
 			"rotation": {"angle": 45, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#3"},
@@ -390,7 +390,7 @@
 		{
 			"name": "octagon",
 			"from": [7.4, 3.45147, -0.3],
-			"to": [7.53, 3.94853, 9],
+			"to": [7.73, 3.94853, 9],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 0.5], "texture": "#3"},
@@ -403,7 +403,7 @@
 		},
 		{
 			"name": "octagon",
-			"from": [8.47, 3.45147, -0.3],
+			"from": [8.27, 3.45147, -0.3],
 			"to": [8.6, 3.94853, 9],
 			"rotation": {"angle": 45, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
@@ -417,7 +417,7 @@
 		},
 		{
 			"name": "octagon",
-			"from": [8.47, 3.45147, -0.3],
+			"from": [8.27, 3.45147, -0.3],
 			"to": [8.6, 3.94853, 9],
 			"rotation": {"angle": 0, "axis": "z", "origin": [8, 3.7, 8.5]},
 			"faces": {
