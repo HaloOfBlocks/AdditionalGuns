@@ -101,7 +101,7 @@
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"fixed": {
-			"translation": [0, 2, -2]
+			"translation": [0, 2, -1]
 		}
 	}
 }
