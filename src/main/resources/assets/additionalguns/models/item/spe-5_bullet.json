@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"textures": {
-		"1": "mod:v1.3/surplus_bullet",
-		"particle": "mod:v1.3/surplus_bullet"
+		"1": "additionalguns:item/spe-5_bullet",
+		"particle": "additionalguns:item/spe-5_bullet"
 	},
 	"elements": [
 		{
@@ -20,7 +20,7 @@
 		},
 		{
 			"from": [7.2, 5, 7.2],
-			"to": [8.8, 5.7, 8.8],
+			"to": [8.8, 5.5, 8.8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
 			"faces": {
 				"north": {"uv": [4, 2, 2, 4], "texture": "#1"},
@@ -32,8 +32,8 @@
 			}
 		},
 		{
-			"from": [7.35, 5.7, 7.3],
-			"to": [8.65, 6.4, 8.7],
+			"from": [7.35, 5.5, 7.3],
+			"to": [8.65, 6.2, 8.7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
 			"faces": {
 				"north": {"uv": [4, 1, 2, 3], "texture": "#1"},
@@ -45,8 +45,8 @@
 			}
 		},
 		{
-			"from": [7.5, 6.4, 7.5],
-			"to": [8.5, 7.1, 8.5],
+			"from": [7.5, 6.2, 7.5],
+			"to": [8.5, 6.8, 8.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
 			"faces": {
 				"north": {"uv": [4, 0, 2, 1], "texture": "#1"},
@@ -58,8 +58,8 @@
 			}
 		},
 		{
-			"from": [7.7, 7.1, 7.7],
-			"to": [8.3, 7.8, 8.3],
+			"from": [7.7, 6.8, 7.7],
+			"to": [8.3, 7.4, 8.3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
 			"faces": {
 				"north": {"uv": [4, 0, 2, 1], "texture": "#1"},
