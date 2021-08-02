@@ -1,8 +1,8 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [8, 8],
 	"textures": {
-		"2": "additionalguns_avo:flimsy_stock"
+		"2": "additionalguns:item/flimsy_stock"
 	},
 	"elements": [
 		{
@@ -32,8 +32,8 @@
 			}
 		},
 		{
-			"from": [7.57, 3.20032, 6.52],
-			"to": [8.47, 4.20032, 6.67],
+			"from": [7.57, 3.20032, 6.42],
+			"to": [8.47, 4.20032, 6.57],
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.97, 4.05032, 21.66977]},
 			"faces": {
 				"north": {"uv": [36, 0, 40, 2], "rotation": 90, "texture": "#2"},
