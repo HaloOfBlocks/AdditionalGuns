@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "additionalguns:item/556_bullet",
-		"particle": "additionalguns:item/556_bullet"
+		"3": "additionalguns:item/ammo_556",
+		"particle": "additionalguns:item/ammo_556"
 	},
 	"elements": [
 		{
@@ -179,13 +179,12 @@
 			"translation": [0, 9.25, 0]
 		},
 		"ground": {
-			"translation": [0, 15, 0],
-			"scale": [2, 2, 2]
+			"translation": [0, 4, 0]
 		},
 		"gui": {
 			"rotation": [30, 45, 0],
-			"translation": [0, 18, 0],
-			"scale": [3.5, 3.5, 3.5]
+			"translation": [0, 16.5, 0],
+			"scale": [3, 3, 3]
 		},
 		"fixed": {
 			"translation": [0, 12, 0],
