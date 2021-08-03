@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "additionalguns:item/ammo_762",
-		"particle": "additionalguns:item/ammo_762"
+		"3": "additionalguns:item/ammo_762x51",
+		"particle": "additionalguns:item/ammo_762x51"
 	},
 	"elements": [
 		{
