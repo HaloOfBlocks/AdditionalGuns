@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "minecraft:dark_oak_log",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "additionalguns:mammoth_stock"
+  }
+}

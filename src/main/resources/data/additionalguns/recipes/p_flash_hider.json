@@ -3,10 +3,10 @@
   "materials": [
     {
       "item": "minecraft:iron_ingot",
-      "count": 12
+      "count": 3
     }
   ],
   "result": {
-    "item": "additionalguns:vector"
+    "item": "additionalguns:p_flash_hider"
   }
 }

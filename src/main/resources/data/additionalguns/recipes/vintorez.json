@@ -3,14 +3,18 @@
   "materials": [
     {
       "item": "minecraft:iron_ingot",
-      "count": 20
+      "count": 28
     },
+    {
+      "item": "minecraft:stripped_oak_log",
+      "count": 2
+    }
     {
       "item": "minecraft:sponge",
       "count": 1
     }
   ],
   "result": {
-    "item": "additionalguns:9a91"
+    "item": "additionalguns:vintorez"
   }
 }

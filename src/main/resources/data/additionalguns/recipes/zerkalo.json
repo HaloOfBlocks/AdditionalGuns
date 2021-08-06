@@ -3,11 +3,11 @@
   "materials": [
     {
       "item": "minecraft:iron_ingot",
-      "count": 9
+      "count": 8
     },
     {
       "item": "minecraft:glass_pane",
-      "count": 2
+      "count": 1
     },
     {
       "item": "minecraft:redstone",
@@ -15,6 +15,6 @@
     }
   ],
   "result": {
-    "item": "additionalguns:9a91_scope"
+    "item": "additionalguns:zerkalo"
   }
 }
