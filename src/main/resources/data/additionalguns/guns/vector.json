@@ -15,7 +15,7 @@
     "item": "cgm:basic_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 15.0,
+    "damage": 4.0,
     "size": 0.0625,
     "speed": 30.0,
     "life": 10
