@@ -15,7 +15,7 @@
     "item": "cgm:advanced_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 15.0,
+    "damage": 8.0,
     "size": 0.0625,
     "speed": 30.0,
     "life": 10
@@ -50,7 +50,7 @@
       },
       "underBarrel": {
         "yOffset": 2.8,
-        "zOffset": 1,
+        "zOffset": 0.7,
         "scale": 0.75
       }
     }
