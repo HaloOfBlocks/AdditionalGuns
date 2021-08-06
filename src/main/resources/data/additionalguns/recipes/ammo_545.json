@@ -11,15 +11,15 @@
     },
     {
       "item": "minecraft:gold_nugget",
-      "count": 2
+      "count": 1
     },
 {
-      "item": "minecraft:blue_dye",
+      "item": "minecraft:red_dye",
       "count": 1
     }
   ],
   "result": {
-    "item": "additionalguns:ammo_939_SP5",
+    "item": "additionalguns:ammo_545",
 	"count": 16
   }
 }
