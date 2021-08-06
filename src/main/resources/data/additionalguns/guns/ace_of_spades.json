@@ -43,12 +43,12 @@
         "scale": 0.75
       },
       "barrel": {
-        "yOffset": 3.65,
-        "zOffset": -5.8,
-        "scale": 0.5
+        "yOffset": 3.7,
+        "zOffset": -5.2,
+        "scale": 0.75
       },
       "underBarrel": {
-        "yOffset": 2.8,
+        "yOffset": 2.3,
         "zOffset": 1,
         "scale": 0.75
       }
