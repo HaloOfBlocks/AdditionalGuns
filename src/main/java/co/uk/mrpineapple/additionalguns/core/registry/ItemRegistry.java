@@ -30,6 +30,12 @@ public class ItemRegistry {
     public static final RegistryObject<Item> VAL = ITEMS.register("val", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
     public static final RegistryObject<Item> AUG = ITEMS.register("aug", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
     public static final RegistryObject<Item> FN_TWO_THOUSAND = ITEMS.register("fn2000", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> PP_NINETEEN = ITEMS.register("pp_19", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> MAT_FORTY_NINE = ITEMS.register("mat_49", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> SCHWARZLOSE = ITEMS.register("schwarzlose", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> OTS_THREE = ITEMS.register("ots_03", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> AK_HUNDRED_FIVE = ITEMS.register("ak105", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> RAVENS_CLAW = ITEMS.register("ravens_claw", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.625F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));

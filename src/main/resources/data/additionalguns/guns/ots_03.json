@@ -5,30 +5,30 @@
     "maxAmmo": 10,
     "reloadAmount": 1,
     "recoilAngle": 10.0,
-    "recoilKick": 0.5,
+    "recoilKick": 1.0,
     "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
-    "spread": 1.0
+    "spread": 1.5
   },
   "projectile": {
-    "item": "cgm:advanced_bullet",
+    "item": "cgm:basic_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 15.0,
+    "damage": 25.0,
     "size": 0.0625,
     "speed": 30.0,
     "life": 10
   },
   "sounds": {
-    "fire": "additionalguns:item.additionalguns.mammoth_fire",
+    "fire": "cgm:item.rifle.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "additionalguns:item.additionalguns.mammoth_suppressed"
+    "silencedFire": "cmg:item.rifle.silenced_fire"
   },
   "display": {
     "flash": {
       "yOffset": 3.7,
-      "zOffset": -7.25
+      "zOffset": -7.75
     }
   },
   "modules": {
@@ -39,18 +39,13 @@
     "attachments": {
       "scope": {
         "yOffset": 4.0,
-        "zOffset": 3.0,
+        "zOffset": 1.8,
         "scale": 0.75
       },
       "barrel": {
         "yOffset": 3.7,
-        "zOffset": -7.25,
+        "zOffset": -7.75,
         "scale": 0.4
-      },
-      "underBarrel": {
-        "yOffset": 3.25,
-        "zOffset": 0.0,
-        "scale": 0.75
       }
     }
   }

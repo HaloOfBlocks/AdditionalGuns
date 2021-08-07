@@ -14,5 +14,13 @@
         "name": "additionalguns:item/mammoth_suppressed"
       }
     ]
+  },
+  "item.additionalguns.val_fire": {
+    "subtitle": "subtitle.additionalguns.val_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/val_fire"
+      }
+    ]
   }
 }

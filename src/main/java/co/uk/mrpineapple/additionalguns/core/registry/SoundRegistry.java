@@ -12,8 +12,9 @@ public class SoundRegistry {
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AdditionalGuns.ID);
 
     /* Sounds */
-    public static final RegistryObject<SoundEvent> MAMMOTH_FIRE = register("item.additionalguns.mammoth_fire");
-    public static final RegistryObject<SoundEvent> MAMMOTH_SUPPRESSED = register("item.additionalguns.mammoth_suppressed");
+    public static final RegistryObject<SoundEvent> MAMMOTH_FIRE = register("item." + AdditionalGuns.ID + ".mammoth_fire");
+    public static final RegistryObject<SoundEvent> MAMMOTH_SUPPRESSED = register("item." + AdditionalGuns.ID + ".mammoth_suppressed");
+    public static final RegistryObject<SoundEvent> VAL_FIRE = register("item." + AdditionalGuns.ID + ".val_fire");
 
     private static RegistryObject<SoundEvent> register(String name) {
         return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(AdditionalGuns.ID, name)));
