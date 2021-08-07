@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "D:/aug_bullpup"
+		"0": "additionalguns:item/aug"
 	},
 	"elements": [
 		{
