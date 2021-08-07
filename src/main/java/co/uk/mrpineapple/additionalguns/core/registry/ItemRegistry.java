@@ -29,6 +29,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> VINTOREZ = ITEMS.register("vintorez", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
     public static final RegistryObject<Item> VAL = ITEMS.register("val", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
     public static final RegistryObject<Item> AUG = ITEMS.register("aug", () -> new GunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> FN_TWO_THOUSAND = ITEMS.register("fn2000", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.625F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
