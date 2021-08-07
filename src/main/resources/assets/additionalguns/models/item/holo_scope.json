@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "cgm:Новая папка/short_scope",
-		"particle": "cgm:Новая папка/short_scope"
+		"1": "cgm:items/short_scope",
+		"particle": "cgm:items/short_scope"
 	},
 	"elements": [
 		{

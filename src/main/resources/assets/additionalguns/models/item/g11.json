@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "additionalguns_content:g11",
-		"particle": "additionalguns_content:g11"
+		"1": "additionalguns:item/g11",
+		"particle": "additionalguns:item/g11"
 	},
 	"elements": [
 		{
