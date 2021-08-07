@@ -1,10 +1,15 @@
 {
-  "item.additionalguns.holo_scope": "Holo Scope",
-  "item.additionalguns.basic_stock": "Basic Stock",
-  "item.additionalguns.angled_grip": "Angled Grip",
-  "item.additionalguns.9a91_scope": "9A-91 Scope",
+  "item.additionalguns.9a91": "9A-91",
+  "item.additionalguns.ace_of_spades": "Ace of Spades",
+  "item.additionalguns.g11": "G11",
   "item.additionalguns.mammoth": "Mammoth",
   "item.additionalguns.vector": "Vector",
-  "item.additionalguns.9a91": "9A-91",
-  "item.additionalguns.ace_of_spades": "Ace of Spades"
+  "item.additionalguns.vintorez": "Vintorez",
+
+  "item.additionalguns.9a91_scope": "9A-91 Scope",
+  "item.additionalguns.holo_scope": "Holo Scope",
+
+  "item.additionalguns.basic_stock": "Basic Stock",
+
+  "item.additionalguns.angled_grip": "Angled Grip"
 }
