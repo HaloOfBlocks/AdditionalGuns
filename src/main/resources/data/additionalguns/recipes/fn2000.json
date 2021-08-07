@@ -3,14 +3,14 @@
   "materials": [
     {
       "item": "minecraft:iron_ingot",
-      "count": 20
+      "count": 25
     },
-    {
-      "item": "minecraft:sponge",
-      "count": 1
+{
+      "item": "minecraft:white_concrete",
+      "count": 5
     }
   ],
   "result": {
-    "item": "additionalguns:9a91"
+    "item": "additionalguns:fn2000"
   }
 }

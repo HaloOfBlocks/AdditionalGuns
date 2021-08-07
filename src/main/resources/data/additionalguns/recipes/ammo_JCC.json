@@ -1,0 +1,21 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 6
+    },
+{
+      "item": "minecraft:cactus",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:ammo_JCC",
+	"count": 32
+  }
+}
