@@ -3,14 +3,14 @@
   "materials": [
     {
       "item": "minecraft:iron_ingot",
-      "count": 45
+      "count": 13
     },
 {
-      "item": "minecraft:grey_wool",
-      "count": 3
+      "item": "minecraft:black_wool",
+      "count": 5
     }
   ],
   "result": {
-    "item": "additionalguns:ots-03"
+    "item": "additionalguns:pp_19"
   }
 }

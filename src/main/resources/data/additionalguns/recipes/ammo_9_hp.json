@@ -3,15 +3,16 @@
   "materials": [
     {
       "item": "minecraft:gunpowder",
-      "count": 4
+      "count": 1
     },
     {
       "item": "minecraft:iron_nugget",
-      "count": 6
+      "count": 1
     },
-    {
-      "item": "minecraft:gold_nugget",
-      "count": 2
+
+{
+      "item": "minecraft:grey_dye",
+      "count": 1
     },
 {
       "item": "minecraft:green_dye",
@@ -19,7 +20,7 @@
     }
   ],
   "result": {
-    "item": "additionalguns:ammo_939_SP6",
+    "item": "additionalguns:ammo_9_hp",
 	"count": 16
   }
 }

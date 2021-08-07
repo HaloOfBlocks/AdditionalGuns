@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "additionalguns:item/ammo_939_SP6",
-		"particle": "additionalguns:item/ammo_939_SP6"
+		"3": "additionalguns:item/ammo_939_sp5",
+		"particle": "additionalguns:item/ammo_939_sp5"
 	},
 	"elements": [
 		{
@@ -14,7 +14,7 @@
 				"north": {"uv": [0, 0, 2, 10], "texture": "#3"},
 				"east": {"uv": [0, 0, 2, 10], "texture": "#3"},
 				"south": {"uv": [0, 0, 2, 10], "texture": "#3"},
-				"west": {"uv": [0, 0, 2, 10], "texture": "#3"},
+				"west": {"uv": [0, 1, 2, 16], "texture": "#3"},
 				"up": {"uv": [0, 0, 0.25, 0.25], "texture": "#3"},
 				"down": {"uv": [0, 0, 0.25, 0.25], "texture": "#3"}
 			}
@@ -24,8 +24,8 @@
 			"to": [8.23438, 2.2836, 8.23438],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.97387, 8]},
 			"faces": {
-				"north": {"uv": [0, 2, 3, 6], "texture": "#3"},
-				"east": {"uv": [0, 0, 3, 4], "texture": "#3"},
+				"north": {"uv": [0, 4, 3, 8], "texture": "#3"},
+				"east": {"uv": [0, 10, 3, 14], "texture": "#3"},
 				"south": {"uv": [0, 2, 2, 8], "texture": "#3"},
 				"west": {"uv": [0, 5, 2, 11], "texture": "#3"},
 				"up": {"uv": [0, 6, 2, 9], "texture": "#3"},
@@ -50,11 +50,11 @@
 			"to": [8.19531, 2.75235, 8.19531],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.97387, 8]},
 			"faces": {
-				"north": {"uv": [12, 2, 16, 16], "texture": "#3"},
-				"east": {"uv": [12, 2, 16, 16], "texture": "#3"},
-				"south": {"uv": [12, 2, 16, 16], "texture": "#3"},
-				"west": {"uv": [12, 2, 16, 16], "texture": "#3"},
-				"up": {"uv": [13, 1, 16, 4], "texture": "#3"},
+				"north": {"uv": [12, 3, 16, 16], "texture": "#3"},
+				"east": {"uv": [12, 3, 16, 16], "texture": "#3"},
+				"south": {"uv": [12, 3, 16, 16], "texture": "#3"},
+				"west": {"uv": [12, 3, 16, 16], "texture": "#3"},
+				"up": {"uv": [13, 0, 16, 3], "texture": "#3"},
 				"down": {"uv": [0, 0, 0.15625, 0.15625], "texture": "#3"}
 			}
 		},

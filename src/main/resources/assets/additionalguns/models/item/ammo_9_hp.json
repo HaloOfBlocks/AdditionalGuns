@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "additionalguns:item/ammo_9_HP"
+		"particle": "additionalguns:item/ammo_9_hp"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "Documents/MAT-49",
-		"particle": "Documents/MAT-49"
+		"0": "Documents/mat_49",
+		"particle": "Documents/mat_49"
 	},
 	"elements": [
 		{
