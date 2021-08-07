@@ -20,10 +20,10 @@
     "life": 10
   },
   "sounds": {
-    "fire": "additionalguns:item.mammoth_fire",
+    "fire": "additionalguns:item.additionalguns.mammoth_fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "additionalguns:item.mammoth_supressed"
+    "silencedFire": "additionalguns:item.additionalguns.mammoth_suppressed"
   },
   "display": {
     "flash": {

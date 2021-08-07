@@ -14,5 +14,8 @@
 
   "item.additionalguns.basic_stock": "Basic Stock",
 
-  "item.additionalguns.angled_grip": "Angled Grip"
+  "item.additionalguns.angled_grip": "Angled Grip",
+
+  "subtitle.additionalguns.mammoth_fire": "Gunfire",
+  "subtitle.additionalguns.mammoth_suppressed": "Gunfire"
 }
