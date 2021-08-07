@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "additionalguns:item/zerkalo",
-		"particle": "additionalguns:item/zerkalo"
+		"0": "additionalguns:item/zerkalo_scope",
+		"particle": "additionalguns:item/zerkalo_scope"
 	},
 	"elements": [
 		{
