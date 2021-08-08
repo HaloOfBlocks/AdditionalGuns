@@ -24,12 +24,12 @@
     "fire": "cgm:item.assault_rifle.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "cgm:item.assault_rifle.fire"
+    "silencedFire": "cgm:item.assault_rifle.silenced_fire"
   },
   "display": {
     "flash": {
       "yOffset": 3.25,
-      "zOffset": -12.0
+      "zOffset": -11.5
     }
   },
   "modules": {
@@ -39,18 +39,18 @@
     },
     "attachments": {
       "scope": {
-        "yOffset": 4.35,
-        "zOffset": 3.0,
+        "yOffset": 4.75,
+        "zOffset": 1.0,
         "scale": 0.75
       },
       "barrel": {
-        "yOffset": 3.65,
-        "zOffset": -5.8,
+        "yOffset": 3.25,
+        "zOffset": -11.5,
         "scale": 0.5
       },
       "underBarrel": {
-        "yOffset": 2.8,
-        "zOffset": 0.7,
+        "yOffset": 2.4,
+        "zOffset": -6.0,
         "scale": 0.75
       }
     }
