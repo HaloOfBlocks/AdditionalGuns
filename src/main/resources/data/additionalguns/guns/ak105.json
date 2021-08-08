@@ -12,7 +12,7 @@
     "spread": 1.5
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
+    "item": "additionalguns:ammo_545",
     "visible": false,
     "gravity": true,
     "damage": 15,

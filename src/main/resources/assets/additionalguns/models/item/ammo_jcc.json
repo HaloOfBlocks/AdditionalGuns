@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "cgm:D:/jcc_bullet",
-		"particle": "cgm:D:/jcc_bullet"
+		"1": "additionalguns:item/jcc_bullet",
+		"particle": "additionalguns:item/jcc_bullet"
 	},
 	"elements": [
 		{
