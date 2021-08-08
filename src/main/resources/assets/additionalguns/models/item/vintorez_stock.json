@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [8, 8],
 	"textures": {
-		"3": "additionalguns_avo:vintorez_stock"
+		"3": "additionalguns:item/vintorez_stock"
 	},
 	"elements": [
 		{

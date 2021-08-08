@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "mod:items/silencer",
-		"particle": "mod:items/silencer"
+		"1": "additionalguns:item/muzzle_brake",
+		"particle": "additionalguns:item/muzzle_brake"
 	},
 	"elements": [
 		{
