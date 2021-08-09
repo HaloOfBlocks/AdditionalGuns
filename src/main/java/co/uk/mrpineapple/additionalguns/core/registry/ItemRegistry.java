@@ -42,9 +42,10 @@ public class ItemRegistry {
 
     /* Stock Attachments */
     public static final RegistryObject<Item> BASIC_STOCK = ITEMS.register("basic_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
-    public static final RegistryObject<Item> FLIMSY_STOCK = ITEMS.register("flimsy_stock", () -> new StockItem(Stock.create(GunModifiers.SLOWER_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), true));
-    public static final RegistryObject<Item> MAMMOTH_STOCK = ITEMS.register("mammoth_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
-    public static final RegistryObject<Item> VINTOREZ_STOCK = ITEMS.register("vintorez_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
+    // Removed until fixed!
+    //public static final RegistryObject<Item> FLIMSY_STOCK = ITEMS.register("flimsy_stock", () -> new StockItem(Stock.create(GunModifiers.SLOWER_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), true));
+    //public static final RegistryObject<Item> MAMMOTH_STOCK = ITEMS.register("mammoth_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
+    //public static final RegistryObject<Item> VINTOREZ_STOCK = ITEMS.register("vintorez_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
 
     /* Barrel Attachments */
     public static final RegistryObject<Item> MUZZLE_BRAKE = ITEMS.register("muzzle_brake", () -> new BarrelItem(Barrel.create(8.0f, GunModifiers.REDUCED_RECOIL), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
