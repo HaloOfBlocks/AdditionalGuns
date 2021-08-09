@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench by ThatAvocado_Boi",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
 		"1": "additionalguns:item/banshee",
@@ -14,7 +14,7 @@
 			"faces": {
 				"north": {"uv": [0, 1, 2, 3], "texture": "#1", "tintindex": 0},
 				"east": {"uv": [7.5, 0, 0, 4], "texture": "#1", "tintindex": 0},
-				"south": {"uv": [7, 1.5, 9, 3], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [8, 1.5, 10, 3], "texture": "#1", "tintindex": 0},
 				"west": {"uv": [2, 2, 7, 3.5], "texture": "#1", "tintindex": 0},
 				"up": {"uv": [0.5, 2, 1.5, 3.5], "texture": "#1"},
 				"down": {"uv": [5, 4.5, 11.5, 8.5], "rotation": 270, "texture": "#1", "tintindex": 0}
@@ -168,42 +168,39 @@
 			"from": [7.85, 3.65, 17],
 			"to": [8.15, 3.76, 17.4],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.75, 14]},
-			"color": 2,
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"east": {"uv": [15, 0, 14, 12.5], "rotation": 270, "texture": "#missing", "tintindex": 0},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"west": {"uv": [14.5, 0, 15, 6.5], "rotation": 90, "texture": "#missing", "tintindex": 0},
-				"up": {"uv": [15, 0, 15.5, 6.5], "texture": "#missing", "tintindex": 0},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
+				"north": {"uv": [3.5, 10, 4, 12], "texture": "#1"},
+				"east": {"uv": [4, 10.5, 3.5, 12], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [3.5, 10.5, 4, 12], "texture": "#1"},
+				"west": {"uv": [3.5, 10.5, 4, 12], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [3.5, 10.5, 4, 12], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [3.5, 10.5, 4, 12], "texture": "#1"}
 			}
 		},
 		{
 			"from": [8.05, 3.65, 17.1],
 			"to": [8.35, 3.75, 17.3],
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [8.3, 3.75, 17.2]},
-			"color": 2,
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"east": {"uv": [15, 0, 14, 12.5], "rotation": 270, "texture": "#missing", "tintindex": 0},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"west": {"uv": [14.5, 0, 15, 6.5], "rotation": 90, "texture": "#missing", "tintindex": 0},
-				"up": {"uv": [15, 0, 15.5, 6.5], "texture": "#missing", "tintindex": 0},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
+				"north": {"uv": [3.5, 10, 4, 12], "texture": "#1"},
+				"east": {"uv": [4, 10.5, 3.5, 12], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [3.5, 10.5, 4, 12], "texture": "#1"},
+				"west": {"uv": [3.5, 10.5, 4, 12], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [3.5, 10.5, 4, 12], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [3.5, 10.5, 4, 12], "texture": "#1"}
 			}
 		},
 		{
 			"from": [7.65, 3.65, 17.1],
 			"to": [7.95, 3.75, 17.3],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.7, 3.75, 17.2]},
-			"color": 2,
 			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"east": {"uv": [15, 0, 14, 12.5], "rotation": 270, "texture": "#missing", "tintindex": 0},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#missing"},
-				"west": {"uv": [14.5, 0, 15, 6.5], "rotation": 90, "texture": "#missing", "tintindex": 0},
-				"up": {"uv": [15, 0, 15.5, 6.5], "texture": "#missing", "tintindex": 0},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
+				"north": {"uv": [3.5, 10, 4, 12], "texture": "#1"},
+				"east": {"uv": [4, 10.5, 3.5, 12], "rotation": 270, "texture": "#1", "tintindex": 0},
+				"south": {"uv": [3.5, 10.5, 4, 12], "texture": "#1"},
+				"west": {"uv": [3.5, 10.5, 4, 12], "rotation": 90, "texture": "#1", "tintindex": 0},
+				"up": {"uv": [3.5, 10.5, 4, 12], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [3.5, 10.5, 4, 12], "texture": "#1"}
 			}
 		},
 		{
@@ -351,7 +348,7 @@
 			"scale": [1.2, 1.2, 1.2]
 		},
 		"firstperson_righthand": {
-			"translation": [-3.5, 8.5, 0],
+			"translation": [-4.25, 9.25, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {

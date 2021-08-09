@@ -34,10 +34,11 @@ public class ItemRegistry {
     public static final RegistryObject<Item> OTS_THREE = ITEMS.register("ots_03", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
     public static final RegistryObject<Item> AK_HUNDRED_FIVE = ITEMS.register("ak105", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
     public static final RegistryObject<Item> RAVENS_CLAW = ITEMS.register("ravens_claw", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> BANSHEE = ITEMS.register("banshee", () -> new UndyeableGunItem(new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.375F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
-    public static final RegistryObject<Item> ZERKALO_SCOPE = ITEMS.register("zerkalo_scope", () -> new ScopeItem(Scope.create(0.025F, 1.65F, GunModifiers.SLOWER_ADS).viewFinderOffset(0.3), new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
+    public static final RegistryObject<Item> ZERKALO_SCOPE = ITEMS.register("zerkalo_scope", () -> new ScopeItem(Scope.create(0.025F, 1.65F, GunModifiers.SLOWER_ADS).viewFinderOffset(0.3), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
 
     /* Stock Attachments */
     public static final RegistryObject<Item> BASIC_STOCK = ITEMS.register("basic_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
@@ -46,7 +47,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> VINTOREZ_STOCK = ITEMS.register("vintorez_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
 
     /* Barrel Attachments */
-    public static final RegistryObject<Item> MUZZLE_BRAKE = ITEMS.register("muzzle_brake", () -> new BarrelItem(Barrel.create(8.0f, GunModifiers.REDUCED_RECOIL), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), true));
+    public static final RegistryObject<Item> MUZZLE_BRAKE = ITEMS.register("muzzle_brake", () -> new BarrelItem(Barrel.create(8.0f, GunModifiers.REDUCED_RECOIL), new Item.Properties().maxStackSize(1).group(GunMod.GROUP), false));
 
     /* Under Barrel Attachments */
     public static final RegistryObject<Item> ANGLED_GRIP = ITEMS.register("angled_grip", () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.LIGHT_RECOIL), new Item.Properties().maxStackSize(1).group(GunMod.GROUP)));
@@ -59,6 +60,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> AMMO_FIVE_FIVE_SIX = ITEMS.register("ammo_556", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
     public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_THIRTY_NINE = ITEMS.register("ammo_762_39", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
     public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_ONE = ITEMS.register("ammo_762_51", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
+    public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_FOUR = ITEMS.register("ammo_762_54", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
     public static final RegistryObject<Item> AMMO_NINE_THREE_NINE = ITEMS.register("ammo_939", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
     public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_FIVE = ITEMS.register("ammo_939_sp5", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
     public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_SIX = ITEMS.register("ammo_939_sp6", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
