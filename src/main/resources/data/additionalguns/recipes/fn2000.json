@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 25
+    },
+{
+      "item": "minecraft:white_concrete",
+      "count": 5
+    }
+  ],
+  "result": {
+    "item": "additionalguns:fn2000"
+  }
+}

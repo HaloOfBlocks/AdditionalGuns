@@ -1,0 +1,52 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 3,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 20,
+    "reloadAmount": 2,
+    "recoilAngle": 4.5,
+    "recoilKick": 0.5,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 1.0
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_939_sp5",
+    "visible": false,
+    "gravity": true,
+    "damage": 12,
+    "size": 0.0625,
+    "speed": 30.0,
+    "life": 10
+  },
+  "sounds": {
+    "fire": "additionalguns:item.additionalguns.val_fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.rifle.cock",
+    "silencedFire": "additionalguns:item.additionalguns.val_fire"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 3.75,
+      "zOffset": -9.0
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 5.0
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 4.2,
+        "zOffset": 4.6,
+        "scale": 0.75
+      },
+      "stock": {
+        "yOffset": 3.35,
+        "zOffset": 8.65
+      }
+    }
+  }
+}

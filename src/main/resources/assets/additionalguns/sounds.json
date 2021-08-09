@@ -1,0 +1,26 @@
+{
+  "item.additionalguns.mammoth_fire": {
+    "subtitle": "subtitle.additionalguns.mammoth_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/mammoth_fire"
+      }
+    ]
+  },
+  "item.additionalguns.mammoth_suppressed": {
+    "subtitle": "subtitle.additionalguns.mammoth_suppressed",
+    "sounds": [
+      {
+        "name": "additionalguns:item/mammoth_suppressed"
+      }
+    ]
+  },
+  "item.additionalguns.val_fire": {
+    "subtitle": "subtitle.additionalguns.val_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/val_fire"
+      }
+    ]
+  }
+}

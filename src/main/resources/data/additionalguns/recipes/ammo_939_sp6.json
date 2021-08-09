@@ -1,0 +1,25 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 4
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 6
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 2
+    },
+    {
+      "item": "minecraft:green_dye",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:ammo_939_sp6",
+	"count": 16
+  }
+}

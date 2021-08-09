@@ -3,7 +3,11 @@
   "materials": [
     {
       "item": "minecraft:iron_ingot",
-      "count": 25
+      "count": 20
+    },
+    {
+      "item": "minecraft:sponge",
+      "count": 1
     }
   ],
   "result": {

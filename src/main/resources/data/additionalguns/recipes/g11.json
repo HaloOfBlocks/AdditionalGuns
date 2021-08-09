@@ -3,18 +3,18 @@
   "materials": [
     {
       "item": "minecraft:iron_ingot",
-      "count": 9
+      "count": 65
     },
-    {
-      "item": "minecraft:glass_pane",
-      "count": 2
+{
+      "item": "minecraft:grey_wool",
+      "count": 10
     },
-    {
+{
       "item": "minecraft:redstone",
-      "count": 4
+      "count": 5
     }
   ],
   "result": {
-    "item": "additionalguns:9a91_scope"
+    "item": "additionalguns:g11"
   }
 }
