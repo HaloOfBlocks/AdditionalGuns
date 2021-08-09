@@ -28,8 +28,8 @@
   },
   "display": {
     "flash": {
-      "yOffset": 3.75,
-      "zOffset": -9.0
+      "yOffset": 3.65,
+      "zOffset": -3.2
     }
   },
   "modules": {
