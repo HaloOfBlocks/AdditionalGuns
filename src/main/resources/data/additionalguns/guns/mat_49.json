@@ -2,7 +2,7 @@
   "general": {
     "auto": true,
     "rate": 5,
-    "gripType": "cgm:two_handed",
+    "gripType": "cgm:one_handed",
     "maxAmmo": 28,
     "reloadAmount": 4,
     "recoilAngle": 4.5,
@@ -28,8 +28,9 @@
   },
   "display": {
     "flash": {
-      "yOffset": 3.25,
-      "zOffset": -2.0
+      "yOffset": 3.0,
+      "zOffset": -12.0,
+      "scale": 1.5
     }
   },
   "modules": {
@@ -39,13 +40,14 @@
     },
     "attachments": {
       "barrel": {
-        "yOffset": 3.25,
-        "zOffset": -2.0,
-        "scale": 0.5
+        "yOffset": 3.0,
+        "zOffset": -12.0,
+        "scale": 1.0
       },
       "stock": {
         "yOffset": 3.1,
-        "zOffset": 7.75
+        "zOffset": 10.75,
+        "scale": 1.5
       }
     }
   }

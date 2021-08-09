@@ -39,13 +39,13 @@
     },
     "attachments": {
       "barrel": {
-        "yOffset": 3.25,
-        "zOffset": -2.0,
+        "yOffset": 3.0,
+        "zOffset": 2.25,
         "scale": 0.5
       },
       "stock": {
         "yOffset": 3.1,
-        "zOffset": 7.75
+        "zOffset": 12.85
       }
     }
   }
