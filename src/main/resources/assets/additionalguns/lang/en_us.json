@@ -40,6 +40,6 @@
   "item.additionalguns.ammo_jcc": "JCC",
 
   "subtitle.additionalguns.mammoth_fire": "Gunfire",
-  "subtitle.additionalguns.mammoth_suppressed": "Gunfire",
-  "subtitle.additionalguns.val_fire": "Gunfire"
+  "subtitle.additionalguns.mammoth_suppressed": "Silenced gunfire",
+  "subtitle.additionalguns.val_fire": "Silenced gunfire"
 }
