@@ -8,7 +8,7 @@
 		{
 			"from": [7.925, 3.62532, 6.46977],
 			"to": [8.125, 4.07532, 12.06977],
-			"rotation": {"angle": 0, "axis": "x", "origin": [8.025, 3.25032, 18.11977]},
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.025, 3.85032, 9.26977]},
 			"faces": {
 				"north": {"uv": [0, 0, 2, 4], "rotation": 90, "texture": "#2"},
 				"east": {"uv": [36, 0, 40, 2], "texture": "#2"},
@@ -47,20 +47,23 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 6.5, -6.75],
+			"translation": [0, 5, -0.25],
 			"scale": [1.1, 1.1, 1.1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, -0.25]
 		},
 		"firstperson_righthand": {
 			"translation": [-3.5, 8.5, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {
-			"translation": [0, 5, -1]
+			"translation": [0, 3.25, -1]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
 			"translation": [1.25, 4.5, 0],
-			"scale": [1.2, 1.2, 1.2]
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],

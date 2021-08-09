@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench by ThatAvocado_Boi",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "additionalguns:item/fn2000"
@@ -379,25 +379,23 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 7, -6]
+			"translation": [0, 4.75, -4.25],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [75, 255, 0],
-			"translation": [0, 2.5, 0],
-			"scale": [0.375, 0.375, 0.375]
+			"translation": [0, 4.5, -4.25],
+			"scale": [0.7, 0.7, 0.7]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 45, 0],
-			"translation": [2.5, 2.5, 0],
-			"scale": [0.4, 0.4, 0.4]
+			"translation": [-3, 9, -2.75]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
-			"translation": [0, 2.5, 0],
+			"translation": [0, 5.25, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
-			"scale": [0.25, 0.25, 0.25]
+			"translation": [0, 3.75, -3.25],
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
