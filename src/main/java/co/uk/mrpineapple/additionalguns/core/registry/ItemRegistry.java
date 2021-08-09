@@ -17,7 +17,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 //CLASS FOR REGISTERING GUNS
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdditionalGuns.ID);
-    public static final Item.Properties genericProperties = new Item.Properties().maxStackSize(1).group(GunMod.GROUP);
+    public static final Item.Properties genericProperties = new Item.Properties().maxStackSize(1).group(AdditionalGuns.GROUP);
 
     /* Guns */
     public static final RegistryObject<Item> MAMMOTH = ITEMS.register("mammoth", () -> new UndyeableGunItem(genericProperties));
@@ -55,16 +55,16 @@ public class ItemRegistry {
     public static final RegistryObject<Item> ANGLED_GRIP = ITEMS.register("angled_grip", () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.LIGHT_RECOIL), genericProperties));
 
     /* Ammunition */
-    public static final RegistryObject<Item> AMMO_NINE = ITEMS.register("ammo_9", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
+    public static final RegistryObject<Item> AMMO_NINE = ITEMS.register("ammo_9", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
     public static final RegistryObject<Item> AMMO_NINE_HP = ITEMS.register("ammo_9_hp", () -> new AmmoItem(new Item.Properties())); // Removed from creative tab until the next update!
-    public static final RegistryObject<Item> AMMO_FORTY_FIVE = ITEMS.register("ammo_45", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
-    public static final RegistryObject<Item> AMMO_FIVE_FOUR_FIVE = ITEMS.register("ammo_545", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
-    public static final RegistryObject<Item> AMMO_FIVE_FIVE_SIX = ITEMS.register("ammo_556", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
+    public static final RegistryObject<Item> AMMO_FORTY_FIVE = ITEMS.register("ammo_45", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
+    public static final RegistryObject<Item> AMMO_FIVE_FOUR_FIVE = ITEMS.register("ammo_545", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
+    public static final RegistryObject<Item> AMMO_FIVE_FIVE_SIX = ITEMS.register("ammo_556", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
     public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_THIRTY_NINE = ITEMS.register("ammo_762_39", () -> new AmmoItem(new Item.Properties())); // Removed from creative tab until the next update!
-    public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_ONE = ITEMS.register("ammo_762_51", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
+    public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_ONE = ITEMS.register("ammo_762_51", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
     public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_FOUR = ITEMS.register("ammo_762_54", () -> new AmmoItem(new Item.Properties())); // Removed from creative tab until the next update!
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE = ITEMS.register("ammo_939", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_FIVE = ITEMS.register("ammo_939_sp5", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_SIX = ITEMS.register("ammo_939_sp6", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
-    public static final RegistryObject<Item> AMMO_JCC = ITEMS.register("ammo_jcc", () -> new AmmoItem(new Item.Properties().group(GunMod.GROUP)));
+    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE = ITEMS.register("ammo_939", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
+    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_FIVE = ITEMS.register("ammo_939_sp5", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
+    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_SIX = ITEMS.register("ammo_939_sp6", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
+    public static final RegistryObject<Item> AMMO_JCC = ITEMS.register("ammo_jcc", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
 }

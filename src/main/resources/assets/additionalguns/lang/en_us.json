@@ -40,5 +40,7 @@
 
   "subtitle.additionalguns.mammoth_fire": "Gunfire",
   "subtitle.additionalguns.mammoth_suppressed": "Silenced gunfire",
-  "subtitle.additionalguns.val_fire": "Silenced gunfire"
+  "subtitle.additionalguns.val_fire": "Silenced gunfire",
+
+  "itemGroup.additionalguns": "Additional Guns"
 }
