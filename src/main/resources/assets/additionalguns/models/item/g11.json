@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "additionalguns_content:g11",
-		"particle": "additionalguns_content:g11"
+		"1": "additionalguns:item/g11",
+		"particle": "additionalguns:item/g11"
 	},
 	"elements": [
 		{
@@ -255,18 +255,17 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 6, 0.25],
-			"scale": [1.1, 1.1, 1.1]
+			"translation": [0, 6, 1.5]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 6, 0.5]
+			"translation": [0, 6, 1.25]
 		},
 		"firstperson_righthand": {
 			"translation": [-3.5, 8.5, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {
-			"translation": [0, 5, -3.25]
+			"translation": [0, 5.25, 1.5]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
