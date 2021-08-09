@@ -29,7 +29,7 @@
   "display": {
     "flash": {
       "yOffset": 3.65,
-      "zOffset": -6.5
+      "zOffset": -7.8
     }
   },
   "modules": {
@@ -40,18 +40,17 @@
     "attachments": {
       "scope": {
         "yOffset": 4.35,
-        "zOffset": 3.0,
+        "zOffset": 4.1,
         "scale": 0.75
       },
       "barrel": {
-        "yOffset": 3.65,
-        "zOffset": -5.8,
+        "yOffset": 3.6,
+        "zOffset": -7.8,
         "scale": 0.5
       },
-      "underBarrel": {
-        "yOffset": 2.8,
-        "zOffset": 0.7,
-        "scale": 0.75
+      "stock": {
+        "yOffset": 3.65,
+        "zOffset": 8.2
       }
     }
   }
