@@ -18,12 +18,12 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.vector.Matrix3f;
 import net.minecraft.util.math.vector.Matrix4f;
 
-public class NineAScopeModel implements IOverrideModel {
+public class ZerkaloScopeModel implements IOverrideModel {
     private static final ResourceLocation RED_DOT_RETICLE = new ResourceLocation(Reference.MOD_ID, "textures/effect/red_dot_reticle.png");
     private static final ResourceLocation RED_DOT_RETICLE_GLOW = new ResourceLocation(Reference.MOD_ID, "textures/effect/red_dot_reticle_glow.png");
     private static final ResourceLocation VIGNETTE = new ResourceLocation(Reference.MOD_ID, "textures/effect/scope_vignette.png");
 
-    public NineAScopeModel() {}
+    public ZerkaloScopeModel() {}
 
     public void render(float partialTicks, ItemCameraTransforms.TransformType transformType, ItemStack stack, ItemStack parent, LivingEntity entity, MatrixStack matrixStack, IRenderTypeBuffer renderTypeBuffer, int light, int overlay) {
         if (OptifineHelper.isShadersEnabled()) {
@@ -82,4 +82,3 @@ public class NineAScopeModel implements IOverrideModel {
         }
     }
 }
-
