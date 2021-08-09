@@ -9,10 +9,8 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
     displayName="Additional Guns"
     updateJSONURL="https://raw.githubusercontent.com/Mr-Pineapple/ModUpdateJSON/master/additionalguns/update.json"
     displayURL="https://discord.gg/mrcrayfish"
-    #To change when there are more contributors :P
     authors="Mr. Pineapple"
-    #To change when there are more contributors :P
-    credits="MrCrayfish"
+    credits="Autovw - Code, ThatAvocado_Boi, JamesTheMaker, JaMychal1, SirSpark1313 - Assets"
     description="A community addon pack for MrCrayfish's Gun Mod - To contribute, head over the GitHub or simply join discord.gg/mrcrayfish and let us know!"
 
 [[dependencies.additionalguns]]
