@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench. Made by VIKTORWOOD",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/texture",
-		"particle": "block/texture"
+		"0": "additionalguns:item/glock18",
+		"particle": "additionalguns:item/glock18"
 	},
 	"elements": [
 		{
