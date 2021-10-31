@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench. Made by VIKTORWOOD",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "akmcustom",
-		"particle": "akmcustom"
+		"0": "additionalguns:item/akm_custom",
+		"particle": "additionalguns:item/akm_custom"
 	},
 	"elements": [
 		{
