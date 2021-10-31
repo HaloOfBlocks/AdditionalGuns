@@ -385,10 +385,10 @@
 			"translation": [0, 6, -4.25]
 		},
 		"firstperson_righthand": {
-			"translation": [-3.25, 9.25, -0.75]
+			"translation": [-3.25, 9.25, -0.5]
 		},
 		"firstperson_lefthand": {
-			"translation": [0, 7, 0]
+			"translation": [-3.25, 9.25, -0.5]
 		},
 		"ground": {
 			"translation": [-1, 5.75, -5]
@@ -400,7 +400,8 @@
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [-3.75, 5.25, -2]
+			"translation": [-3.75, 5.25, -2],
+			"scale": [1.2, 1.2, 1.2]
 		}
 	},
 	"groups": [
