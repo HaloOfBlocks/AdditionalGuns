@@ -35,6 +35,12 @@ public class ItemRegistry {
     public static final RegistryObject<Item> AK_HUNDRED_FIVE = registerUndyeableGun("ak105");
     public static final RegistryObject<Item> RAVENS_CLAW = registerUndyeableGun("ravens_claw");
     public static final RegistryObject<Item> BANSHEE = registerUndyeableGun("banshee");
+    public static final RegistryObject<Item> M_FOUR_A_ONE_S = registerGun("m4a1s");
+    public static final RegistryObject<Item> M_FOUR_A_FOUR = registerGun("m4a4");
+    public static final RegistryObject<Item> GLOCK_EIGHT_TEEN = registerGun("glock18");
+    public static final RegistryObject<Item> AKM = registerGun("akm");
+    public static final RegistryObject<Item> AKM_CUSTOM = registerGun("akm_custom");
+    public static final RegistryObject<Item> SSG_ZERO_EIGHT = registerGun("ssg08");
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.375F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), genericProperties, false));
