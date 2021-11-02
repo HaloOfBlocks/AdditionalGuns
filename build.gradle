@@ -76,10 +76,9 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.0'
     compile fg.deobf('curse.maven:obfuscate-289380:3336021')
-    compile fg.deobf('curse.maven:controllable-317269:3298267')
     compile fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3224957')
-    compile fg.deobf('curse.maven:configured-457570:3340535')
-    compile fg.deobf('curse.maven:catalogue-459701:3399554')
+    runtimeOnly fg.deobf('curse.maven:configured-457570:3434071')
+    runtimeOnly fg.deobf('curse.maven:catalogue-459701:3399554')
 }
 
 jar {
