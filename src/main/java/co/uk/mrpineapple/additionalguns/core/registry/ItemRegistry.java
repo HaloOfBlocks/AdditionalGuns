@@ -60,15 +60,15 @@ public class ItemRegistry {
     public static final RegistryObject<Item> ANGLED_GRIP = ITEMS.register("angled_grip", () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.LIGHT_RECOIL), genericProperties));
 
     /* Ammunition */
-    public static final RegistryObject<Item> AMMO_NINE = ITEMS.register("ammo_9", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_FORTY_FIVE = ITEMS.register("ammo_45", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_FIVE_FOUR_FIVE = ITEMS.register("ammo_545", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_FIVE_FIVE_SIX = ITEMS.register("ammo_556", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_ONE = ITEMS.register("ammo_762_51", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE = ITEMS.register("ammo_939", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_FIVE = ITEMS.register("ammo_939_sp5", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_SIX = ITEMS.register("ammo_939_sp6", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
-    public static final RegistryObject<Item> AMMO_JCC = ITEMS.register("ammo_jcc", () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
+    public static final RegistryObject<Item> AMMO_NINE = registerAmmo("ammo_9");
+    public static final RegistryObject<Item> AMMO_FORTY_FIVE = registerAmmo("ammo_45");
+    public static final RegistryObject<Item> AMMO_FIVE_FOUR_FIVE = registerAmmo("ammo_545");
+    public static final RegistryObject<Item> AMMO_FIVE_FIVE_SIX = registerAmmo("ammo_556");
+    public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_ONE = registerAmmo("ammo_762_51");
+    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE = registerAmmo("ammo_939");
+    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_FIVE = registerAmmo("ammo_939_sp5");
+    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_SIX = registerAmmo("ammo_939_sp6");
+    public static final RegistryObject<Item> AMMO_JCC = registerAmmo("ammo_jcc");
 
     /**
      * Helper method used to register a basic gun.
@@ -88,5 +88,15 @@ public class ItemRegistry {
      */
     private static RegistryObject<Item> registerUndyeableGun(String name) {
         return ITEMS.register(name, () -> new UndyeableGunItem(genericProperties));
+    }
+
+    /**
+     * Helper method used to register new ammunition.
+     *
+     * @param name Registry name of the ammunition
+     * @return The ammunition
+     */
+    private static RegistryObject<Item> registerAmmo(String name) {
+        return ITEMS.register(name, () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
     }
 }
