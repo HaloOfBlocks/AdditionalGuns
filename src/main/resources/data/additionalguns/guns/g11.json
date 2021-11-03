@@ -35,7 +35,8 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 5.0
+      "yOffset": 6.75,
+      "zOffset": 5.0
     },
     "attachments": {
       "scope": {
@@ -50,7 +51,7 @@
       },
       "underBarrel": {
         "yOffset": 2.4,
-        "zOffset": -6.0,
+        "zOffset": -7.0,
         "scale": 0.75
       }
     }
