@@ -348,11 +348,12 @@
 			"scale": [1.2, 1.2, 1.2]
 		},
 		"firstperson_righthand": {
-			"translation": [-4.25, 9.25, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"translation": [-4.75, 10, -2],
+			"scale": [0.9, 0.9, 0.9]
 		},
 		"ground": {
-			"translation": [0, 5, -5.5]
+			"translation": [0, 9.25, -5.5],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
@@ -361,11 +362,23 @@
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [-10.75, 12.5, -2],
+			"translation": [-13.25, 10, -2],
 			"scale": [2, 2, 2]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11,
 		{
 			"name": "charging handle",
 			"origin": [7.7, 3.64392, 17.04395],
