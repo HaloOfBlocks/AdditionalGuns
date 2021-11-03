@@ -768,17 +768,18 @@
 			"scale": [0.9, 0.9, 0.9]
 		},
 		"ground": {
-			"translation": [0, 5, -1]
+			"translation": [0, 7.75, -1],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [2.25, 4, 0],
-			"scale": [1.2, 1.2, 1.2]
+			"translation": [2.75, 4.5, 0],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [-3, 6.25, -1],
-			"scale": [1.2, 1.2, 1.2]
+			"translation": [-4.75, 8.5, -1],
+			"scale": [1.75, 1.75, 1.75]
 		}
 	},
 	"groups": [
