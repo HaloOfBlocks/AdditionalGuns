@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[32,)"
-license="GPL3"
+license="GNU General Public License v3.0"
 issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
 
 [[mods]]
@@ -8,7 +8,7 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
     version="0.2.0"
     displayName="Additional Guns"
     updateJSONURL="https://raw.githubusercontent.com/Mr-Pineapple/ModUpdateJSON/master/additionalguns/update.json"
-    displayURL="https://discord.gg/mrcrayfish"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/additional-guns"
     authors="Mr. Pineapple"
     credits="Autovw - Code, ThatAvocado_Boi, JamesTheMaker, JaMychal1, SirSpark1313, VIKTORWOOD - Assets"
     description="A community addon pack for MrCrayfish's Gun Mod - To contribute, head over the GitHub or simply join discord.gg/mrcrayfish and let us know!"
