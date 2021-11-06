@@ -17,6 +17,8 @@ After submitting a model or working on the addon, we'll add your name here as we
  - JamesTheMaker
  - JaMychal1
  - SirSpark1313
+ - Pomeow16
+ - VIKTORWOOD
 
 ### 📥 Updates & Downloads
 
