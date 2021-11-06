@@ -22,4 +22,5 @@ After submitting a model or working on the addon, we'll add your name here as we
 
 ### 📥 Updates & Downloads
 
-Currently, there is no download for the mod, as we are still working on the first version. However, the files will be uploaded here and on Curseforge.
+This mod will be updated with new content over time so ensure you keep updated! \
+The mod can be downloaded from [this CurseForge page](https://www.curseforge.com/minecraft/mc-mods/additional-guns)!
