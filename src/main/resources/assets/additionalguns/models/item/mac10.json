@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench. Made by VIKTORWOOD",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "mac10",
-		"particle": "mac10"
+		"0": "additionalguns:item/mac10",
+		"particle": "additionalguns:item/mac10"
 	},
 	"elements": [
 		{
@@ -537,11 +537,11 @@
 			"scale": [0.56, 0.56, 0.56]
 		},
 		"firstperson_righthand": {
-			"translation": [-3.25, 9.25, -1],
+			"translation": [-0.75, 7.25, 2.25],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_lefthand": {
-			"translation": [-3.25, 9.25, -1],
+			"translation": [-0.75, 7.25, 2.25],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {
@@ -550,13 +550,11 @@
 			"scale": [0.56, 0.56, 0.56]
 		},
 		"gui": {
-			"rotation": [91.42, -45.2, 91.01],
-			"translation": [-6.5, 4.5, 0],
+			"rotation": [-153.69, -36.56, -179.69],
+			"translation": [0.5, 7.5, 0],
 			"scale": [1.2, 1.2, 1.2]
 		},
 		"head": {
-			"rotation": [36, 0, 0],
-			"translation": [7, -25.25, 3.5],
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"fixed": {
