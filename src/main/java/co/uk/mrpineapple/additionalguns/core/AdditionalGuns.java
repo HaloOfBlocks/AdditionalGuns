@@ -1,11 +1,14 @@
 package co.uk.mrpineapple.additionalguns.core;
 
 import co.uk.mrpineapple.additionalguns.client.ClientHandler;
+import co.uk.mrpineapple.additionalguns.core.config.Config;
 import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
 import co.uk.mrpineapple.additionalguns.core.registry.SoundRegistry;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -15,8 +18,11 @@ public class AdditionalGuns {
     public static final ItemGroup GROUP = new AdditionalGunsTab(ID);
 
     public AdditionalGuns() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.clientConfig);
+
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.register(this);
+
         ItemRegistry.ITEMS.register(bus);
         SoundRegistry.SOUNDS.register(bus);
 
