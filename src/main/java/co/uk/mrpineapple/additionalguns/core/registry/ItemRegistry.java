@@ -1,7 +1,7 @@
 package co.uk.mrpineapple.additionalguns.core.registry;
 
 import co.uk.mrpineapple.additionalguns.core.AdditionalGuns;
-import co.uk.mrpineapple.additionalguns.core.content.UndyeableGunItem;
+import co.uk.mrpineapple.additionalguns.core.item.AdditionalGunItem;
 import com.mrcrayfish.guns.common.GunModifiers;
 import com.mrcrayfish.guns.item.*;
 import com.mrcrayfish.guns.item.attachment.impl.Barrel;
@@ -19,28 +19,28 @@ public class ItemRegistry {
     public static final Item.Properties genericProperties = new Item.Properties().maxStackSize(1).group(AdditionalGuns.GROUP);
 
     /* Guns */
-    public static final RegistryObject<Item> MAMMOTH = registerUndyeableGun("mammoth");
-    public static final RegistryObject<Item> VECTOR = registerUndyeableGun("vector");
-    public static final RegistryObject<Item> NINE_A_NINE_ONE = registerGun("9a91");
-    public static final RegistryObject<Item> ACE_OF_SPADES = registerUndyeableGun("ace_of_spades");
-    public static final RegistryObject<Item> G_ELEVEN = registerGun("g11");
-    public static final RegistryObject<Item> VINTOREZ = registerUndyeableGun("vintorez");
-    public static final RegistryObject<Item> VAL = registerUndyeableGun("val");
-    public static final RegistryObject<Item> AUG = registerGun("aug");
-    public static final RegistryObject<Item> FN_TWO_THOUSAND = registerUndyeableGun("fn2000");
-    public static final RegistryObject<Item> PP_NINETEEN = registerUndyeableGun("pp_19");
-    public static final RegistryObject<Item> MAT_FORTY_NINE = registerGun("mat_49");
-    public static final RegistryObject<Item> SCHWARZLOSE = registerGun("schwarzlose");
-    public static final RegistryObject<Item> OTS_THREE = registerUndyeableGun("ots_03");
-    public static final RegistryObject<Item> AK_HUNDRED_FIVE = registerUndyeableGun("ak105");
-    public static final RegistryObject<Item> RAVENS_CLAW = registerUndyeableGun("ravens_claw");
-    public static final RegistryObject<Item> BANSHEE = registerUndyeableGun("banshee");
-    public static final RegistryObject<Item> M_FOUR_A_ONE_S = registerGun("m4a1s");
-    public static final RegistryObject<Item> M_FOUR_A_FOUR = registerGun("m4a4");
-    public static final RegistryObject<Item> GLOCK_EIGHT_TEEN = registerGun("glock18");
-    public static final RegistryObject<Item> AKM = registerGun("akm");
-    public static final RegistryObject<Item> AKM_CUSTOM = registerGun("akm_custom");
-    public static final RegistryObject<Item> SSG_ZERO_EIGHT = registerGun("ssg08");
+    public static final RegistryObject<Item> MAMMOTH = registerGun("mammoth", false);
+    public static final RegistryObject<Item> VECTOR = registerGun("vector", false);
+    public static final RegistryObject<Item> NINE_A_NINE_ONE = registerGun("9a91", true);
+    public static final RegistryObject<Item> ACE_OF_SPADES = registerGun("ace_of_spades", false);
+    public static final RegistryObject<Item> G_ELEVEN = registerGun("g11", true);
+    public static final RegistryObject<Item> VINTOREZ = registerGun("vintorez", false);
+    public static final RegistryObject<Item> VAL = registerGun("val", false);
+    public static final RegistryObject<Item> AUG = registerGun("aug", true);
+    public static final RegistryObject<Item> FN_TWO_THOUSAND = registerGun("fn2000", false);
+    public static final RegistryObject<Item> PP_NINETEEN = registerGun("pp_19", false);
+    public static final RegistryObject<Item> MAT_FORTY_NINE = registerGun("mat_49", true);
+    public static final RegistryObject<Item> SCHWARZLOSE = registerGun("schwarzlose", true);
+    public static final RegistryObject<Item> OTS_THREE = registerGun("ots_03", false);
+    public static final RegistryObject<Item> AK_HUNDRED_FIVE = registerGun("ak105", false);
+    public static final RegistryObject<Item> RAVENS_CLAW = registerGun("ravens_claw", false);
+    public static final RegistryObject<Item> BANSHEE = registerGun("banshee", false);
+    public static final RegistryObject<Item> M_FOUR_A_ONE_S = registerGun("m4a1s", true);
+    public static final RegistryObject<Item> M_FOUR_A_FOUR = registerGun("m4a4", true);
+    public static final RegistryObject<Item> GLOCK_EIGHT_TEEN = registerGun("glock18", true);
+    public static final RegistryObject<Item> AKM = registerGun("akm", true);
+    public static final RegistryObject<Item> AKM_CUSTOM = registerGun("akm_custom", true);
+    public static final RegistryObject<Item> SSG_ZERO_EIGHT = registerGun("ssg08", true);
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.375F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), genericProperties, false));
@@ -71,23 +71,14 @@ public class ItemRegistry {
     public static final RegistryObject<Item> AMMO_JCC = registerAmmo("ammo_jcc");
 
     /**
-     * Helper method used to register a basic gun.
+     * Helper method used to register guns in Additional Guns.
      *
      * @param name Registry name of the gun
-     * @return The gun
+     * @param canColor If the gun can be colored or not
+     * @return The registered gun
      */
-    private static RegistryObject<Item> registerGun(String name) {
-        return ITEMS.register(name, () -> new GunItem(genericProperties));
-    }
-
-    /**
-     * Helper method used to register an undyeable gun.
-     *
-     * @param name Registry name of the gun
-     * @return The undyeable gun
-     */
-    private static RegistryObject<Item> registerUndyeableGun(String name) {
-        return ITEMS.register(name, () -> new UndyeableGunItem(genericProperties));
+    private static RegistryObject<Item> registerGun(String name, boolean canColor) {
+        return ITEMS.register(name, () -> new AdditionalGunItem(genericProperties, canColor));
     }
 
     /**
