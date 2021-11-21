@@ -1,0 +1,47 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 2,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 20,
+    "reloadAmount": 10,
+    "recoilAngle": 4.0,
+    "recoilKick": 0.25,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 6.0
+  },
+  "projectile": {
+    "item": "cgm:basic_bullet",
+    "visible": false,
+    "damage": 4.0,
+    "size": 0.2,
+    "speed": 25.0,
+    "life": 10
+  },
+  "sounds": {
+    "fire": "cgm:item.machine_pistol.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.rifle.cock",
+    "silencedFire": "cgm:item.machine_pistol.silenced_fire"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 4.6,
+      "zOffset": -2.775
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 7.5
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 4.6,
+        "zOffset": -2.75,
+        "scale": 0.5
+      }
+    }
+  }
+}
