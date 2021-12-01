@@ -5,10 +5,11 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
 		classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
 }
+
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
@@ -21,13 +22,14 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 minecraft {
     mappings channel: 'snapshot', version: '20201028-1.16.3'
+
     runs {
         client {
-			property 'mixin.env.disableRefMap', 'true'
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-			arg '-mixin.config=additionalguns.mixins.json'
+            property 'mixin.env.disableRefMap', 'true'
+            arg '-mixin.config=additionalguns.mixins.json'
 
             mods {
                 additionalguns {
@@ -40,7 +42,7 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-			arg '-mixin.config=additionalguns.mixins.json'
+            arg '-mixin.config=additionalguns.mixins.json'
 
             mods {
                 additionalguns {
@@ -54,7 +56,7 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             args '--mod', 'additionalguns', '--all', '--output', file('src/generated/resources/')
-			arg '-mixin.config=additionalguns.mixins.json'
+            arg '-mixin.config=additionalguns.mixins.json'
 
             mods {
                 additionalguns {
@@ -75,8 +77,9 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.0'
-    compile fg.deobf('curse.maven:obfuscate-289380:3336021')
-    compile fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3224957')
+
+    implementation fg.deobf('curse.maven:obfuscate-289380:3336021')
+    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3224957')
     runtimeOnly fg.deobf('curse.maven:configured-457570:3529559')
     runtimeOnly fg.deobf('curse.maven:catalogue-459701:3399554')
 }
@@ -87,11 +90,11 @@ jar {
             "Specification-Title": "Additional Guns",
             "Specification-Vendor": "Mr Pineapple",
             "Specification-Version": "1",
-            "Implementation-Title": "Additional Guns",
-            "Implementation-Version": project.version,
+            "Implementation-Title": project.name,
+            "Implementation-Version": project.jar.archiveVersion,
             "Implementation-Vendor" :"Mr Pineapple",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-			"MixinConfigs": "additionalguns.mixins.json"
+            "MixinConfigs": "additionalguns.mixins.json"
         ])
     }
 }
