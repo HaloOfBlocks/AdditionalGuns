@@ -1,0 +1,25 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:gunpowder",
+      "count": 4
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 6
+    },
+    {
+      "tag": "forge:nuggets/gold",
+      "count": 2
+    },
+    {
+      "item": "minecraft:blue_dye",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:ammo_939_sp5",
+    "count": 16
+  }
+}

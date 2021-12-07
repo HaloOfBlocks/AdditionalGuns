@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 45
+    },
+    {
+      "item": "minecraft:sponge",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:val"
+  }
+}

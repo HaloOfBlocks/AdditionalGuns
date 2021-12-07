@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 8
+    },
+    {
+      "item": "minecraft:glass_pane",
+      "count": 1
+    },
+    {
+      "tag": "forge:dusts/redstone",
+      "count": 4
+    }
+  ],
+  "result": {
+    "item": "additionalguns:zerkalo_scope"
+  }
+}

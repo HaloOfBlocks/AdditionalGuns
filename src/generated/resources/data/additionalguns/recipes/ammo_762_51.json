@@ -1,0 +1,21 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:gunpowder",
+      "count": 5
+    },
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 5
+    },
+    {
+      "tag": "forge:nuggets/gold",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "additionalguns:ammo_762_51",
+    "count": 16
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 30
+    }
+  ],
+  "result": {
+    "item": "additionalguns:ssg08"
+  }
+}

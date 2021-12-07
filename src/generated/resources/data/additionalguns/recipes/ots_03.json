@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 45
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "additionalguns:ots_03"
+  }
+}

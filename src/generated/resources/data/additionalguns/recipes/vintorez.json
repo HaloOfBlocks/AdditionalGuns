@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 45
+    },
+    {
+      "item": "minecraft:stripped_oak_log",
+      "count": 3
+    },
+    {
+      "item": "minecraft:sponge",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:vintorez"
+  }
+}
