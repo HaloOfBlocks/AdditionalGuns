@@ -153,6 +153,18 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 30))
                 .addCriterion("has_iron_ingot", hasItem(Tags.Items.INGOTS_IRON))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.DESERT_EAGLE.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 18))
+                .addCriterion("has_iron_ingot", hasItem(Tags.Items.INGOTS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.MAC_TEN.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 24))
+                .addCriterion("has_iron_ingot", hasItem(Tags.Items.INGOTS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.AWM.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 60))
+                .addCriterion("has_iron_ingot", hasItem(Tags.Items.INGOTS_IRON))
+                .build(consumer);
 
 
         // Scopes
@@ -178,6 +190,12 @@ public class ModRecipeGenerator extends RecipeProvider {
         WorkbenchRecipeBuilder.crafting(ItemRegistry.BASIC_STOCK.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 9))
                 .addCriterion("has_iron_ingot", hasItem(Tags.Items.INGOTS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.VINTOREZ_STOCK.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 4))
+                .addIngredient(WorkbenchIngredient.of(Items.STRIPPED_OAK_LOG, 1))
+                .addCriterion("has_iron_ingot", hasItem(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_stripped_oak_log", hasItem(Items.STRIPPED_OAK_LOG))
                 .build(consumer);
 
 
