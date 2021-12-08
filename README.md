@@ -6,7 +6,7 @@ Well, the community has come together to add more! This addon introduces a range
 
 ### 🔨 Contributing
 
-If you would like to submit a weapon to add to the mod, you can either comment, PR, or let us know on discord, we're all in [MrCrayfish's Discord](https://discord.gg/mrcrayfish) server!
+Check out the [Additional Guns Wiki](https://github.com/Mr-Pineapple/AdditionalGuns/wiki/How-To-Contribute:-Introduction) if you would like to submit a weapon or other asset to add to the mod.
 
 ### 📜 Current Contributors
 
@@ -19,6 +19,7 @@ After submitting a model or working on the addon, we'll add your name here as we
  - SirSpark1313
  - Pomeow16
  - VIKTORWOOD
+ - PixVoxel
 
 ### 📥 Updates & Downloads
 
