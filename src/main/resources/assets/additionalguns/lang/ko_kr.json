@@ -1,0 +1,54 @@
+{
+  "item.additionalguns.9a91": "9A-91",
+  "item.additionalguns.ace_of_spades": "스페이드 에이스",
+  "item.additionalguns.ak105": "AK-105",
+  "item.additionalguns.aug": "AUG",
+  "item.additionalguns.banshee": "밴시",
+  "item.additionalguns.fn2000": "FN2000",
+  "item.additionalguns.g11": "G11",
+  "item.additionalguns.mammoth": "맘모스",
+  "item.additionalguns.mat_49": "MAT-49",
+  "item.additionalguns.ots_03": "Ots-03",
+  "item.additionalguns.pp_19": "PP-19 비존",
+  "item.additionalguns.ravens_claw": "밤까마귀의 발톱",
+  "item.additionalguns.schwarzlose": "슈바르츠로제",
+  "item.additionalguns.val": "Val",
+  "item.additionalguns.vector": "벡터",
+  "item.additionalguns.vintorez": "빈토레즈",
+  "item.additionalguns.m4a1s": "M4A1-S",
+  "item.additionalguns.m4a4": "M4A4",
+  "item.additionalguns.glock18": "글록-18",
+  "item.additionalguns.akm": "AKM",
+  "item.additionalguns.akm_custom": "AKM 커스텀",
+  "item.additionalguns.ssg08": "SSG-08",
+  "item.additionalguns.desert_eagle": "데저트 이글",
+  "item.additionalguns.mac10": "MAC-10",
+  "item.additionalguns.awm": "AWM",
+
+  "item.additionalguns.holo_scope": "홀로그램 조준경",
+  "item.additionalguns.zerkalo_scope": "Zerkalo 조준경",
+  "item.additionalguns.extra_long_scope": "초장거리 조준경",
+
+  "item.additionalguns.basic_stock": "기본 개머리판",
+  "item.additionalguns.vintorez_stock": "빈토레즈 개머리판",
+
+  "item.additionalguns.muzzle_brake": "포구 제퇴형 소염기",
+
+  "item.additionalguns.angled_grip": "각진 손잡이",
+
+  "item.additionalguns.ammo_9": "9",
+  "item.additionalguns.ammo_45": "45",
+  "item.additionalguns.ammo_545": "5.45",
+  "item.additionalguns.ammo_556": "5.56",
+  "item.additionalguns.ammo_762_51": "7.62*51",
+  "item.additionalguns.ammo_939": "9*39",
+  "item.additionalguns.ammo_939_sp5": "9*39 SP5",
+  "item.additionalguns.ammo_939_sp6": "9*39 SP6",
+  "item.additionalguns.ammo_jcc": "JCC",
+
+  "subtitle.additionalguns.mammoth_fire": "사격음",
+  "subtitle.additionalguns.mammoth_suppressed": "사격음(소음기 장착됨)",
+  "subtitle.additionalguns.val_fire": "사격음(소음기 장착됨)",
+
+  "itemGroup.additionalguns": "Additional Guns"
+}
