@@ -192,9 +192,9 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addCriterion("has_iron_nugget", hasItem(Tags.Items.NUGGETS_IRON))
                 .build(consumer);
         WorkbenchRecipeBuilder.crafting(ItemRegistry.VINTOREZ_STOCK.get())
-                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 4))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 4))
                 .addIngredient(WorkbenchIngredient.of(Items.STRIPPED_OAK_LOG, 1))
-                .addCriterion("has_iron_ingot", hasItem(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_iron_nugget", hasItem(Tags.Items.NUGGETS_IRON))
                 .addCriterion("has_stripped_oak_log", hasItem(Items.STRIPPED_OAK_LOG))
                 .build(consumer);
 
