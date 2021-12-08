@@ -433,11 +433,11 @@
 			"scale": [0.56, 0.56, 0.56]
 		},
 		"firstperson_righthand": {
-			"translation": [-3, 8.5, 1],
+			"translation": [-3.5, 8.5, 2],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_lefthand": {
-			"translation": [-3, 8.5, 1],
+			"translation": [-3.5, 8.5, 2],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"ground": {
