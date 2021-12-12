@@ -76,7 +76,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.0'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
 
     implementation fg.deobf('curse.maven:obfuscate-289380:3336021')
     implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3553336')
