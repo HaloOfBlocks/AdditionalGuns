@@ -14,14 +14,14 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = "0.4.2-1.16.5"
+version = "0.4.2-1.18.1"
 group = "co.uk.mrpineapple"
 archivesBaseName = "additional-guns"
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 minecraft {
-    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    mappings channel: 'official', version: '1.18.1'
 
     runs {
         client {
@@ -76,13 +76,13 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
+    minecraft 'net.minecraftforge:forge:1.18.1-39.0.0'
 
-    implementation fg.deobf('curse.maven:obfuscate-289380:3336021')
-    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3553336')
-    runtimeOnly fg.deobf('curse.maven:configured-457570:3546348')
-    runtimeOnly fg.deobf('curse.maven:catalogue-459701:3529457')
-    runtimeOnly fg.deobf('curse.maven:jei-238222:3530253')
+    implementation fg.deobf('curse.maven:framework-549225:3559396')
+    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3562019')
+    runtimeOnly fg.deobf('curse.maven:configured-457570:3559398')
+    runtimeOnly fg.deobf('curse.maven:catalogue-459701:3559402')
+    runtimeOnly fg.deobf('curse.maven:jei-238222:3562050')
 }
 
 jar {

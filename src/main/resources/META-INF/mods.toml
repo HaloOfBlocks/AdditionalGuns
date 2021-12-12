@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[39,)"
 license="GNU General Public License v3.0"
 issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
 
@@ -16,25 +16,25 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[39,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17)"
+    versionRange="[1.18.1,1.19)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
     modId="cgm"
     mandatory=true
-    versionRange="[1.1.0,)"
+    versionRange="[1.1.2,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
-    modId="obfuscate"
+    modId="framework"
     mandatory=true
-    versionRange="[0.6.0,)"
+    versionRange="[0.2.2,)"
     ordering="NONE"
     side="BOTH"
 

@@ -21,7 +21,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:black_concrete"
+            "items": [
+              "minecraft:black_concrete"
+            ]
           }
         ]
       }
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:white_concrete"
+            "items": [
+              "minecraft:white_concrete"
+            ]
           }
         ]
       }

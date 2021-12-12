@@ -2,7 +2,7 @@ package co.uk.mrpineapple.additionalguns.core.item;
 
 import co.uk.mrpineapple.additionalguns.core.config.Config;
 import com.mrcrayfish.guns.item.GunItem;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.item.ItemStack;
 
 /**
  * Author: Autovw
@@ -29,7 +29,7 @@ public class AdditionalGunItem extends GunItem {
      * Makes it possible to disable the enchantment glint on guns client-side.
      */
     @Override
-    public boolean hasEffect(ItemStack stack) {
+    public boolean isFoil(ItemStack stack) {
         if (stack.isEnchanted()) {
             return Config.Client.enableGunEnchantmentGlint.get();
         }

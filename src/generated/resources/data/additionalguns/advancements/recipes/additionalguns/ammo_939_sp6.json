@@ -41,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:green_dye"
+            "items": [
+              "minecraft:green_dye"
+            ]
           }
         ]
       }
