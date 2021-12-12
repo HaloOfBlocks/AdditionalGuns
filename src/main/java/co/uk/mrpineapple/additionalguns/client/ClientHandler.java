@@ -10,6 +10,6 @@ public class ClientHandler {
     public static void registerModelOverrides() {
         ModelOverrides.register(ItemRegistry.HOLO_SCOPE.get(), new ShortScopeModel());
         ModelOverrides.register(ItemRegistry.ZERKALO_SCOPE.get(), new ZerkaloScopeModel());
-        //ModelOverrides.register(ItemRegistry.EXTRA_LONG_SCOPE.get(), new LongScopeModel());
+        //ModelOverrides.register(ItemRegistry.ULTRA_LONG_SCOPE.get(), new LongScopeModel());
     }
 }
