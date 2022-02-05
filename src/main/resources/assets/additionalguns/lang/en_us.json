@@ -24,6 +24,11 @@
   "item.additionalguns.desert_eagle": "Desert Eagle",
   "item.additionalguns.mac10": "MAC-10",
   "item.additionalguns.awm": "AWM",
+  "item.additionalguns.ak74": "AK-74",
+  "item.additionalguns.ak74m": "AK-74M",
+  "item.additionalguns.aks74u": "AKS-74U",
+  "item.additionalguns.m16a2": "M16A2",
+  "item.additionalguns.usp": "USP",
 
   "item.additionalguns.holo_scope": "Holo Scope",
   "item.additionalguns.zerkalo_scope": "Zerkalo",

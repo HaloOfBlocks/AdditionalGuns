@@ -165,6 +165,32 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 60))
                 .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.AK_SEVENTY_FOUR.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
+                .addIngredient(WorkbenchIngredient.of(ItemTags.PLANKS, 4))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_planks", has(ItemTags.PLANKS))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.AK_SEVENTY_FOUR_M.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
+                .addIngredient(WorkbenchIngredient.of(Items.BLACK_CONCRETE, 4))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_black_concrete", has(Items.BLACK_CONCRETE))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.AKS_SEVENTY_FOUR_U.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 34))
+                .addIngredient(WorkbenchIngredient.of(ItemTags.PLANKS, 4))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_planks", has(ItemTags.PLANKS))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.M_SIXTEEN_A_TWO.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 38))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.USP.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 16))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
 
 
         // Scopes
