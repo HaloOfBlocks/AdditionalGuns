@@ -44,6 +44,11 @@ public class ItemRegistry {
     public static final RegistryObject<Item> DESERT_EAGLE = registerGun("desert_eagle", true);
     public static final RegistryObject<Item> MAC_TEN = registerGun("mac10", true);
     public static final RegistryObject<Item> AWM = registerGun("awm", true);
+    public static final RegistryObject<Item> AK_SEVENTY_FOUR = registerGun("ak74", true);
+    public static final RegistryObject<Item> AK_SEVENTY_FOUR_M = registerGun("ak74m", true);
+    public static final RegistryObject<Item> AKS_SEVENTY_FOUR_U = registerGun("aks74u", true);
+    public static final RegistryObject<Item> M_SIXTEEN_A_TWO = registerGun("m16a2", true);
+    public static final RegistryObject<Item> USP = registerGun("usp", true);
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.375F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), genericProperties, false));
