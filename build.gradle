@@ -1,18 +1,15 @@
 buildscript {
     repositories {
         maven { url = 'https://files.minecraftforge.net/maven' }
-		maven { url = 'https://repo.spongepowered.org/maven' }
         mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-		classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
 }
 
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
-apply plugin: 'org.spongepowered.mixin'
 
 version = "0.4.2-1.18.1"
 group = "co.uk.mrpineapple"
@@ -29,7 +26,6 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
             property 'mixin.env.disableRefMap', 'true'
-            arg '-mixin.config=additionalguns.mixins.json'
 
             mods {
                 additionalguns {
@@ -42,7 +38,7 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            arg '-mixin.config=additionalguns.mixins.json'
+            property 'mixin.env.disableRefMap', 'true'
 
             mods {
                 additionalguns {
@@ -55,8 +51,8 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.disableRefMap', 'true'
             args '--mod', 'additionalguns', '--all', '--output', file('src/generated/resources/')
-            arg '-mixin.config=additionalguns.mixins.json'
 
             mods {
                 additionalguns {
@@ -94,8 +90,7 @@ jar {
             "Implementation-Title": project.name,
             "Implementation-Version": project.jar.archiveVersion,
             "Implementation-Vendor" :"Mr Pineapple",
-            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-            "MixinConfigs": "additionalguns.mixins.json"
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
 }
