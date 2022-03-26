@@ -6,6 +6,16 @@
     ]
   },
   "criteria": {
+    "has_iron_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:nuggets/iron"
+          }
+        ]
+      }
+    },
     "has_glass_pane": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -37,6 +47,7 @@
   },
   "requirements": [
     [
+      "has_iron_nugget",
       "has_glass_pane",
       "has_redstone",
       "has_the_recipe"
