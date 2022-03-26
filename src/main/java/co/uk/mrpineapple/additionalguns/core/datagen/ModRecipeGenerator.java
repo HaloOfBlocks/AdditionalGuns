@@ -210,6 +210,13 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addCriterion("has_glass_pane", hasItem(Items.GLASS_PANE))
                 .addCriterion("has_redstone", hasItem(Tags.Items.DUSTS_REDSTONE))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.KOBRA_SCOPE.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 3))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.GLASS_PANES, 1))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.DUSTS_REDSTONE, 2))
+                .addCriterion("has_glass_pane", hasItem(Items.GLASS_PANE))
+                .addCriterion("has_redstone", hasItem(Tags.Items.DUSTS_REDSTONE))
+                .build(consumer);
 
 
         // Stocks
