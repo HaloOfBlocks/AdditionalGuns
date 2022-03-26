@@ -195,18 +195,18 @@ public class ModRecipeGenerator extends RecipeProvider {
 
         // Scopes
         WorkbenchRecipeBuilder.crafting(ItemRegistry.HOLO_SCOPE.get())
-                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 7))
-                .addIngredient(WorkbenchIngredient.of(Items.GLASS_PANE, 2))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 7))
+                .addIngredient(WorkbenchIngredient.of(Items.GLASS_PANE, 1))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.DUSTS_REDSTONE, 4))
-                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
                 .addCriterion("has_glass_pane", has(Items.GLASS_PANE))
                 .addCriterion("has_redstone", has(Tags.Items.DUSTS_REDSTONE))
                 .build(consumer);
         WorkbenchRecipeBuilder.crafting(ItemRegistry.ZERKALO_SCOPE.get())
-                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 8))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 8))
                 .addIngredient(WorkbenchIngredient.of(Items.GLASS_PANE, 1))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.DUSTS_REDSTONE, 4))
-                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
                 .addCriterion("has_glass_pane", has(Items.GLASS_PANE))
                 .addCriterion("has_redstone", has(Tags.Items.DUSTS_REDSTONE))
                 .build(consumer);
@@ -214,6 +214,7 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 3))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.GLASS_PANES, 1))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.DUSTS_REDSTONE, 2))
+                .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
                 .addCriterion("has_glass_pane", has(Items.GLASS_PANE))
                 .addCriterion("has_redstone", has(Tags.Items.DUSTS_REDSTONE))
                 .build(consumer);
