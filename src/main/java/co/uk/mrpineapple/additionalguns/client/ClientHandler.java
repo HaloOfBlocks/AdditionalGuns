@@ -1,5 +1,6 @@
 package co.uk.mrpineapple.additionalguns.client;
 
+import co.uk.mrpineapple.additionalguns.client.render.gun.model.KobraScopeModel;
 import co.uk.mrpineapple.additionalguns.client.render.gun.model.ZerkaloScopeModel;
 import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
 import com.mrcrayfish.guns.client.render.gun.ModelOverrides;
@@ -10,6 +11,7 @@ public class ClientHandler {
     public static void registerModelOverrides() {
         ModelOverrides.register(ItemRegistry.HOLO_SCOPE.get(), new ShortScopeModel());
         ModelOverrides.register(ItemRegistry.ZERKALO_SCOPE.get(), new ZerkaloScopeModel());
+        ModelOverrides.register(ItemRegistry.KOBRA_SCOPE.get(), new KobraScopeModel());
         //ModelOverrides.register(ItemRegistry.ULTRA_LONG_SCOPE.get(), new LongScopeModel());
     }
 }
