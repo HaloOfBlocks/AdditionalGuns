@@ -1,3 +1,5 @@
+![banner](https://i.postimg.cc/MGHJy92p/banner.png)
+
 ### 📖 About:
 
 We all love MrCrayfish's Gun Mod, but have you ever wanted more?\
