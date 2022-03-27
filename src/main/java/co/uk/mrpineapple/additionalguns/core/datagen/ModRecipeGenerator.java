@@ -195,6 +195,10 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 22))
                 .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.MP_SEVEN_A_TWO.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 26))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
 
 
         // Scopes
