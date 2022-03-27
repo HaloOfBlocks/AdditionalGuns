@@ -52,8 +52,8 @@ public class ItemRegistry {
     public static final RegistryObject<Item> M_ONE_ZERO_ONE_FOUR = registerGun("m1014", true);
 
     /* Scope Attachments */
-    public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.375F, GunModifiers.SLOW_ADS).viewFinderOffset(0.3), genericProperties, false));
-    public static final RegistryObject<Item> ZERKALO_SCOPE = ITEMS.register("zerkalo_scope", () -> new ScopeItem(Scope.create(0.025F, 1.275F, GunModifiers.SLOWER_ADS).viewFinderOffset(0.3), genericProperties, false));
+    public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.55F, GunModifiers.SLOW_ADS).viewFinderOffset(0.4), genericProperties, false));
+    public static final RegistryObject<Item> ZERKALO_SCOPE = ITEMS.register("zerkalo_scope", () -> new ScopeItem(Scope.create(0.025F, 1.1F, GunModifiers.SLOWER_ADS).viewFinderOffset(0.3), genericProperties, false));
     public static final RegistryObject<Item> KOBRA_SCOPE = ITEMS.register("kobra", () -> new ScopeItem(Scope.create(0.15F, 2.35F, GunModifiers.SLOW_ADS).viewFinderOffset(0.4), genericProperties));
     // Removed until fixed!
     //public static final RegistryObject<Item> ULTRA_LONG_SCOPE = ITEMS.register("extra_long_scope", () -> new ScopeItem(Scope.create(0.45F, 1.25D, GunModifiers.SLOWER_ADS).viewFinderOffset(0.5), genericProperties));
