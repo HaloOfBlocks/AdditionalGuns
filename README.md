@@ -20,6 +20,7 @@ After submitting a model or working on the addon, we'll add your name here as we
  - Pomeow16
  - VIKTORWOOD
  - PixVoxel
+ - Mercuriousity
 
 ### 📥 Updates & Downloads
 
