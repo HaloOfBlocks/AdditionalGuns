@@ -21,7 +21,7 @@
     "life": 10
   },
   "sounds": {
-    "fire": "additionalguns:item.additionalguns.val_fire",
+    "fire": "additionalguns:item.val.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
     "silencedFire": "additionalguns:item.additionalguns.val_fire"

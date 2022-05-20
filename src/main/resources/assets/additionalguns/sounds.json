@@ -1,5 +1,5 @@
 {
-  "item.additionalguns.mammoth_fire": {
+  "item.mammoth.fire": {
     "subtitle": "subtitle.additionalguns.mammoth_fire",
     "sounds": [
       {
@@ -7,7 +7,7 @@
       }
     ]
   },
-  "item.additionalguns.mammoth_suppressed": {
+  "item.mammoth.suppressed": {
     "subtitle": "subtitle.additionalguns.mammoth_suppressed",
     "sounds": [
       {
@@ -15,11 +15,51 @@
       }
     ]
   },
-  "item.additionalguns.val_fire": {
+  "item.val.fire": {
     "subtitle": "subtitle.additionalguns.val_fire",
     "sounds": [
       {
         "name": "additionalguns:item/val_fire"
+      }
+    ]
+  },
+  "item.akm.fire": {
+    "subtitle": "subtitle.additionalguns.akm_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/akm_fire"
+      }
+    ]
+  },
+  "item.ak105.fire": {
+    "subtitle": "subtitle.additionalguns.ak105_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ak105_fire"
+      }
+    ]
+  },
+  "item.ak74.fire": {
+    "subtitle": "subtitle.additionalguns.ak74_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ak74_fire"
+      }
+    ]
+  },
+  "item.aks74u.fire": {
+    "subtitle": "subtitle.additionalguns.aks74u_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/aks74u_fire"
+      }
+    ]
+  },
+  "item.ak.suppressed": {
+    "subtitle": "subtitle.additionalguns.ak_suppressed",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ak_suppressed"
       }
     ]
   }

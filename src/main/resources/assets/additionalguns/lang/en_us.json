@@ -57,6 +57,11 @@
   "subtitle.additionalguns.mammoth_fire": "Gunfire",
   "subtitle.additionalguns.mammoth_suppressed": "Silenced gunfire",
   "subtitle.additionalguns.val_fire": "Silenced gunfire",
+  "subtitle.additionalguns.akm_fire": "Gunfire",
+  "subtitle.additionalguns.ak105_fire": "Gunfire",
+  "subtitle.additionalguns.ak74_fire": "Gunfire",
+  "subtitle.additionalguns.aks74u_fire": "Gunfire",
+  "subtitle.additionalguns.ak_suppressed": "Silenced gunfire",
 
   "itemGroup.additionalguns": "Additional Guns"
 }
