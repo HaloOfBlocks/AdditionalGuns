@@ -28,7 +28,7 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="cgm"
     mandatory=true
-    versionRange="[1.2.0,)"
+    versionRange="[1.2.5,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
