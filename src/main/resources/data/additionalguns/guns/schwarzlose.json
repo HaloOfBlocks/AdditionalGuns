@@ -28,25 +28,25 @@
   },
   "display": {
     "flash": {
-      "yOffset": 3.0,
-      "zOffset": 2.25
+      "yOffset": 6.0,
+      "zOffset": -5.75
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
-      "yOffset": 5.2,
-      "zOffset": -13.5
+      "yOffset": 7.25,
+      "zOffset": -2.5
     },
     "attachments": {
       "barrel": {
-        "yOffset": 3.0,
-        "zOffset": 2.25,
+        "yOffset": 6.0,
+        "zOffset": -5.75,
         "scale": 0.5
       },
       "stock": {
-        "yOffset": 3.1,
-        "zOffset": 12.85
+        "yOffset": 6.1,
+        "zOffset": 4.85
       }
     }
   }
