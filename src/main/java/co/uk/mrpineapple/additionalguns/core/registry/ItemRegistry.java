@@ -16,7 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 //CLASS FOR REGISTERING GUNS
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdditionalGuns.ID);
-    public static final Item.Properties genericProperties = new Item.Properties().maxStackSize(1).group(AdditionalGuns.GROUP);
+    public static final Item.Properties genericProperties = new Item.Properties().stacksTo(1).tab(AdditionalGuns.GROUP);
 
     /* Guns */
     public static final RegistryObject<Item> MAMMOTH = registerGun("mammoth", false);
@@ -101,6 +101,6 @@ public class ItemRegistry {
      * @return The ammunition
      */
     private static RegistryObject<Item> registerAmmo(String name) {
-        return ITEMS.register(name, () -> new AmmoItem(new Item.Properties().group(AdditionalGuns.GROUP)));
+        return ITEMS.register(name, () -> new AmmoItem(new Item.Properties().tab(AdditionalGuns.GROUP)));
     }
 }

@@ -15,13 +15,13 @@ public class AdditionalGunsTab extends ItemGroup {
     }
 
     @Override
-    public ItemStack createIcon() {
+    public ItemStack makeIcon() {
         return new ItemStack(ItemRegistry.AMMO_SEVEN_SIX_TWO_FIFTY_ONE.get());
     }
 
     @Override
-    public void fill(NonNullList<ItemStack> items) {
-        super.fill(items);
+    public void fillItemList(NonNullList<ItemStack> items) {
+        super.fillItemList(items);
         CustomGunManager.fill(items);
     }
 }
