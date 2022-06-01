@@ -199,6 +199,24 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 26))
                 .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.AK_ONE_TWO.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 36))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.AK_ONE_FIVE.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 36))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.AK_ONE_ZERO_FOUR.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 30))
+                .addIngredient(WorkbenchIngredient.of(Items.BLACK_CONCRETE, 4))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_black_concrete", has(Items.BLACK_CONCRETE))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.P_TWO_FIVE_ZERO.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 16))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
 
 
         // Scopes
@@ -246,6 +264,16 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 3))
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 6))
                 .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.TACTICAL_SILENCER.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 4))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 2))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.SNIPER_MUZZLE_BRAKE.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 8))
                 .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
                 .build(consumer);
 

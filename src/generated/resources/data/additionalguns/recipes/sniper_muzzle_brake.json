@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:nuggets/iron",
+      "count": 8
+    }
+  ],
+  "result": {
+    "item": "additionalguns:sniper_muzzle_brake"
+  }
+}
