@@ -62,5 +62,13 @@
         "name": "additionalguns:item/ak_suppressed"
       }
     ]
+  },
+  "item.ace_of_spades.fire": {
+    "subtitle": "subtitle.additionalguns.ace_of_spades_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ace_of_spades_fire"
+      }
+    ]
   }
 }
