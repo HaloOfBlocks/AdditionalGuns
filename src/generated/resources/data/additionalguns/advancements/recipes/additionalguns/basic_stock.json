@@ -16,6 +16,16 @@
         ]
       }
     },
+    "has_gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gray_wool"
+          }
+        ]
+      }
+    },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -26,6 +36,7 @@
   "requirements": [
     [
       "has_iron_nugget",
+      "has_gray_wool",
       "has_the_recipe"
     ]
   ]
