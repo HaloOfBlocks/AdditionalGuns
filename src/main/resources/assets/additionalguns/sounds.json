@@ -70,5 +70,13 @@
         "name": "additionalguns:item/ace_of_spades_fire"
       }
     ]
+  },
+  "item.awm.fire": {
+    "subtitle": "subtitle.additionalguns.awm_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/awm_fire"
+      }
+    ]
   }
 }
