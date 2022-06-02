@@ -34,7 +34,7 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="obfuscate"
     mandatory=true
-    versionRange="[0.6.0,)"
+    versionRange="[0.6.3,)"
     ordering="NONE"
     side="BOTH"
 
