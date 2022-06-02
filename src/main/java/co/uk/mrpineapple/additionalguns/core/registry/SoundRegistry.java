@@ -22,6 +22,8 @@ public class SoundRegistry {
     public static final RegistryObject<SoundEvent> AK_SUPPRESSED = register("item.ak.suppressed");
     public static final RegistryObject<SoundEvent> ACE_OF_SPADES_FIRE = register("item.ace_of_spades.fire");
     public static final RegistryObject<SoundEvent> AWM_FIRE = register("item.awm.fire");
+    public static final RegistryObject<SoundEvent> M_FOUR_FIRE = register("item.m4.fire");
+    public static final RegistryObject<SoundEvent> M_FOUR_SUPPRESSED = register("item.m4.suppressed");
 
     private static RegistryObject<SoundEvent> register(String name) {
         return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(AdditionalGuns.ID, name)));
