@@ -249,7 +249,9 @@ public class ModRecipeGenerator extends RecipeProvider {
         // Stocks
         WorkbenchRecipeBuilder.crafting(ItemRegistry.BASIC_STOCK.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 9))
+                .addIngredient(WorkbenchIngredient.of(Items.GRAY_WOOL, 1))
                 .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
+                .addCriterion("has_gray_wool", has(Items.GRAY_WOOL))
                 .build(consumer);
         WorkbenchRecipeBuilder.crafting(ItemRegistry.VINTOREZ_STOCK.get())
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 4))

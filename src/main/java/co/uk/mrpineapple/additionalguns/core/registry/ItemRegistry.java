@@ -64,8 +64,8 @@ public class ItemRegistry {
     //public static final RegistryObject<Item> ULTRA_LONG_SCOPE = ITEMS.register("extra_long_scope", () -> new ScopeItem(Scope.create(0.45F, 1.25D, GunModifiers.SLOWER_ADS).viewFinderOffset(0.5), genericProperties));
 
     /* Stock Attachments */
-    public static final RegistryObject<Item> BASIC_STOCK = ITEMS.register("basic_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), genericProperties, false));
-    public static final RegistryObject<Item> VINTOREZ_STOCK = ITEMS.register("vintorez_stock", () -> new StockItem(Stock.create(GunModifiers.SLOW_ADS), genericProperties, false));
+    public static final RegistryObject<Item> BASIC_STOCK = ITEMS.register("basic_stock", () -> new StockItem(Stock.create(GunModifiers.STABILISED), genericProperties, false));
+    public static final RegistryObject<Item> VINTOREZ_STOCK = ITEMS.register("vintorez_stock", () -> new StockItem(Stock.create(GunModifiers.BETTER_CONTROL), genericProperties, false));
 
     /* Barrel Attachments */
     public static final RegistryObject<Item> MUZZLE_BRAKE = ITEMS.register("muzzle_brake", () -> new BarrelItem(Barrel.create(9.5f, GunModifiers.REDUCED_RECOIL), genericProperties, false));

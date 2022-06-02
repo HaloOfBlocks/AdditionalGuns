@@ -4,6 +4,10 @@
     {
       "tag": "forge:nuggets/iron",
       "count": 9
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "count": 1
     }
   ],
   "result": {
