@@ -78,5 +78,21 @@
         "name": "additionalguns:item/awm_fire"
       }
     ]
+  },
+  "item.m4.fire": {
+    "subtitle": "subtitle.additionalguns.m4_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/m4_fire"
+      }
+    ]
+  },
+  "item.m4.suppressed": {
+    "subtitle": "subtitle.additionalguns.m4_suppressed",
+    "sounds": [
+      {
+        "name": "additionalguns:item/m4_suppressed"
+      }
+    ]
   }
 }

@@ -21,10 +21,10 @@
     "life": 10
   },
   "sounds": {
-    "fire": "cgm:item.mini_gun.fire",
+    "fire": "additionalguns:item.m4.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "cgm:item.assault_rifle.silenced_fire"
+    "silencedFire": "additionalguns:item.m4.suppressed"
   },
   "display": {
     "flash": {
