@@ -23,7 +23,10 @@ public class Config {
         public Client(ForgeConfigSpec.Builder builder) {
             builder.push("client");
             {
-                enableGunEnchantmentGlint = builder.comment("If true, renders enchanted guns from Additional Guns with the enchantment glint. True by default.").define("enableGunEnchantmentGlint", true);
+                enableGunEnchantmentGlint = builder
+                        .comment("If true, renders enchanted guns from Additional Guns with the enchantment glint. True by default.")
+                        .translation("config.additionalguns.client.enable_gun_enchantment_glint")
+                        .define("enableGunEnchantmentGlint", true);
             }
             builder.pop();
         }
