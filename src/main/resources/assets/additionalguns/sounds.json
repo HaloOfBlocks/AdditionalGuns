@@ -1,6 +1,6 @@
 {
   "item.mammoth.fire": {
-    "subtitle": "subtitle.additionalguns.mammoth_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/mammoth_fire"
@@ -8,7 +8,7 @@
     ]
   },
   "item.mammoth.suppressed": {
-    "subtitle": "subtitle.additionalguns.mammoth_suppressed",
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
     "sounds": [
       {
         "name": "additionalguns:item/mammoth_suppressed"
@@ -16,7 +16,7 @@
     ]
   },
   "item.val.fire": {
-    "subtitle": "subtitle.additionalguns.val_fire",
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
     "sounds": [
       {
         "name": "additionalguns:item/val_fire"
@@ -24,7 +24,7 @@
     ]
   },
   "item.akm.fire": {
-    "subtitle": "subtitle.additionalguns.akm_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/akm_fire"
@@ -32,7 +32,7 @@
     ]
   },
   "item.ak105.fire": {
-    "subtitle": "subtitle.additionalguns.ak105_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/ak105_fire"
@@ -40,7 +40,7 @@
     ]
   },
   "item.ak74.fire": {
-    "subtitle": "subtitle.additionalguns.ak74_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/ak74_fire"
@@ -48,7 +48,7 @@
     ]
   },
   "item.aks74u.fire": {
-    "subtitle": "subtitle.additionalguns.aks74u_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/aks74u_fire"
@@ -56,7 +56,7 @@
     ]
   },
   "item.ak.suppressed": {
-    "subtitle": "subtitle.additionalguns.ak_suppressed",
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
     "sounds": [
       {
         "name": "additionalguns:item/ak_suppressed"
@@ -64,7 +64,7 @@
     ]
   },
   "item.ace_of_spades.fire": {
-    "subtitle": "subtitle.additionalguns.ace_of_spades_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/ace_of_spades_fire"
@@ -72,7 +72,7 @@
     ]
   },
   "item.awm.fire": {
-    "subtitle": "subtitle.additionalguns.awm_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/awm_fire"
@@ -80,7 +80,7 @@
     ]
   },
   "item.m4.fire": {
-    "subtitle": "subtitle.additionalguns.m4_fire",
+    "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/m4_fire"
@@ -88,7 +88,7 @@
     ]
   },
   "item.m4.suppressed": {
-    "subtitle": "subtitle.additionalguns.m4_suppressed",
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
     "sounds": [
       {
         "name": "additionalguns:item/m4_suppressed"

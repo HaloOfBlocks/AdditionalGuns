@@ -60,16 +60,8 @@
   "item.additionalguns.ammo_939_sp6": "9*39 SP6",
   "item.additionalguns.ammo_jcc": "JCC",
 
-  "subtitle.additionalguns.mammoth_fire": "Gunfire",
-  "subtitle.additionalguns.mammoth_suppressed": "Silenced gunfire",
-  "subtitle.additionalguns.val_fire": "Silenced gunfire",
-  "subtitle.additionalguns.akm_fire": "Gunfire",
-  "subtitle.additionalguns.ak105_fire": "Gunfire",
-  "subtitle.additionalguns.ak74_fire": "Gunfire",
-  "subtitle.additionalguns.aks74u_fire": "Gunfire",
-  "subtitle.additionalguns.ak_suppressed": "Silenced gunfire",
-  "subtitle.additionalguns.ace_of_spades_fire": "Gunfire",
-  "subtitle.additionalguns.awm_fire": "Gunfire",
+  "subtitle.additionalguns.regular_fire": "Gunfire",
+  "subtitle.additionalguns.suppressed_fire": "Silenced gunfire",
 
   "config.additionalguns.client.enable_gun_enchantment_glint": "If true, renders enchanted guns from Additional Guns with the enchantment glint.",
 
