@@ -24,7 +24,7 @@
     "fire": "additionalguns:item.val.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "additionalguns:item.additionalguns.val_fire"
+    "silencedFire": "additionalguns:item.val.fire"
   },
   "display": {
     "flash": {
