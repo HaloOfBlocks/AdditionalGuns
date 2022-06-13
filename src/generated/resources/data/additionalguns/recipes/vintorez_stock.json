@@ -2,12 +2,12 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "tag": "forge:nuggets/iron",
-      "count": 4
+      "count": 4,
+      "tag": "forge:nuggets/iron"
     },
     {
-      "item": "minecraft:stripped_oak_log",
-      "count": 1
+      "count": 1,
+      "item": "minecraft:stripped_oak_log"
     }
   ],
   "result": {

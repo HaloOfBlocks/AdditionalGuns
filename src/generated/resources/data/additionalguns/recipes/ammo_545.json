@@ -2,24 +2,24 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "tag": "forge:gunpowder",
-      "count": 4
+      "count": 4,
+      "tag": "forge:gunpowder"
     },
     {
-      "tag": "forge:nuggets/iron",
-      "count": 4
+      "count": 4,
+      "tag": "forge:nuggets/iron"
     },
     {
-      "tag": "forge:nuggets/gold",
-      "count": 1
+      "count": 1,
+      "tag": "forge:nuggets/gold"
     },
     {
-      "item": "minecraft:red_dye",
-      "count": 1
+      "count": 1,
+      "item": "minecraft:red_dye"
     }
   ],
   "result": {
-    "item": "additionalguns:ammo_545",
-    "count": 16
+    "count": 16,
+    "item": "additionalguns:ammo_545"
   }
 }

@@ -2,12 +2,12 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "tag": "forge:ingots/iron",
-      "count": 34
+      "count": 34,
+      "tag": "forge:ingots/iron"
     },
     {
-      "tag": "minecraft:planks",
-      "count": 4
+      "count": 4,
+      "tag": "minecraft:planks"
     }
   ],
   "result": {

@@ -11,14 +11,14 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
-version = "0.6.1-1.18.2"
+version = "0.6.1-1.19"
 group = "co.uk.mrpineapple"
 archivesBaseName = "additional-guns"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 minecraft {
-    mappings channel: 'official', version: '1.18.2'
+    mappings channel: 'official', version: '1.19'
 
     runs {
         client {
@@ -72,13 +72,13 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.20'
+    minecraft 'net.minecraftforge:forge:1.19-41.0.19'
 
-    implementation fg.deobf('curse.maven:framework-549225:3723144')
-    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3773565')
-    runtimeOnly fg.deobf('curse.maven:configured-457570:3721946')
-    runtimeOnly fg.deobf('curse.maven:catalogue-459701:3721991')
-    runtimeOnly fg.deobf('curse.maven:jei-238222:3788739')
+    implementation fg.deobf('curse.maven:framework-549225:3828731')
+    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3830436')
+    runtimeOnly fg.deobf('curse.maven:configured-457570:3822820')
+    runtimeOnly fg.deobf('curse.maven:catalogue-459701:3822882')
+    //runtimeOnly fg.deobf('curse.maven:jei-238222:3788739')
 }
 
 jar {

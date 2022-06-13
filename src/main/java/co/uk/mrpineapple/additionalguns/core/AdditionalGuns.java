@@ -39,6 +39,6 @@ public class AdditionalGuns {
 
     private void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
-        generator.addProvider(new ModRecipeGenerator(generator));
+        generator.addProvider(event.includeServer(), new ModRecipeGenerator(generator));
     }
 }
