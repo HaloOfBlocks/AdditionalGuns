@@ -1,0 +1,33 @@
+{
+  "general": {
+    "rate": 7,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 8,
+    "reloadAmount": 2,
+    "recoilAngle": 11.5,
+    "recoilKick": 1.5,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 7.0
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_45",
+    "damage": 12.0,
+    "size": 0.1,
+    "speed": 100.0,
+    "life": 100
+  },
+  "sounds": {
+    "fire": "additionalguns:item.m1911a1.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.pistol.cock",
+    "silencedFire": "cgm:item.pistol.silenced_fire"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 20,
+      "zOffset": 0.0
+    }
+  }
+}

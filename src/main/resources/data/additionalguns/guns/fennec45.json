@@ -1,0 +1,59 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 3,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 25,
+    "reloadAmount": 5,
+    "recoilAngle": 2.0,
+    "recoilKick": 1.5,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_45",
+    "visible": false,
+    "gravity": true,
+    "damage": 9.0,
+    "size": 0.15,
+    "speed": 50.0,
+    "life": 100
+  },
+  "sounds": {
+    "fire": "additionalguns:item.fennec45.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.rifle.cock",
+    "silencedFire": "additionalguns:item.mammoth.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 13.5,
+      "zOffset": -12.0
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 15.55,
+      "zOffset": 5.0
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 15.0,
+        "zOffset": -3,
+        "scale": 0.6
+      },
+      "underBarrel": {
+        "yOffset": 13.0,
+        "zOffset": -7.5,
+        "scale": 0.6
+      },
+      "barrel": {
+        "yOffset": 13.5,
+        "zOffset": -10.35,
+        "scale": 0.4
+      }
+    }
+  }
+}
