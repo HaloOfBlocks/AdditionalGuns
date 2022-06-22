@@ -1,0 +1,28 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 128
+    },
+    {
+      "item": "minecraft:iron_horse_armor",
+      "count": 1
+    },
+    {
+      "item": "cgm:shotgun",
+      "count": 1
+    },
+    {
+      "item": "additionalguns:m590a1m",
+      "count": 1
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:ksg12"
+  }
+}

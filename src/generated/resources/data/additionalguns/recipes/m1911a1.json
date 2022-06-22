@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 10
+    },
+    {
+      "tag": "forge:ingots/copper",
+      "count": 5
+    },
+    {
+      "tag": "minecraft:planks",
+      "count": 8
+    }
+  ],
+  "result": {
+    "item": "additionalguns:m1911a1"
+  }
+}

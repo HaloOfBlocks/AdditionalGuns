@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 30
+    },
+    {
+      "tag": "forge:ingots/copper",
+      "count": 25
+    },
+    {
+      "item": "minecraft:smooth_sandstone",
+      "count": 8
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:fennec45"
+  }
+}

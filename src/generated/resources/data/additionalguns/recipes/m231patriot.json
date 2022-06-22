@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "cgm:mini_gun",
+      "count": 1
+    },
+    {
+      "item": "additionalguns:m16a4",
+      "count": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 10
+    },
+    {
+      "tag": "forge:ingots/netherite",
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "additionalguns:m231patriot"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "cgm:heavy_rifle",
+      "count": 1
+    },
+    {
+      "item": "additionalguns:ots_03",
+      "count": 1
+    },
+    {
+      "item": "additionalguns:awm",
+      "count": 1
+    },
+    {
+      "tag": "forge:ingots/netherite",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:awp"
+  }
+}

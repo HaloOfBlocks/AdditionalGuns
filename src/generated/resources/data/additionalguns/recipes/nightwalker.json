@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 150
+    },
+    {
+      "tag": "forge:ingots/netherite",
+      "count": 1
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "count": 1
+    },
+    {
+      "item": "additionalguns:scarh",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:nightwalker"
+  }
+}
