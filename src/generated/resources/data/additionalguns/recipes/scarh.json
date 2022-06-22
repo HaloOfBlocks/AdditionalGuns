@@ -1,0 +1,32 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 50
+    },
+    {
+      "tag": "forge:ingots/copper",
+      "count": 30
+    },
+    {
+      "tag": "forge:ingots/gold",
+      "count": 10
+    },
+    {
+      "item": "minecraft:smooth_sandstone",
+      "count": 32
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "count": 1
+    },
+    {
+      "item": "cgm:assault_rifle",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:scarh"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 20
+    },
+    {
+      "tag": "forge:ingots/copper",
+      "count": 15
+    },
+    {
+      "tag": "forge:ingots/gold",
+      "count": 5
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "additionalguns:m16a4"
+  }
+}

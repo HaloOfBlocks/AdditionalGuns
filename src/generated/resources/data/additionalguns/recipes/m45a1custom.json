@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "item": "cgm:pistol",
+      "count": 1
+    },
+    {
+      "item": "additionalguns:m1911a1",
+      "count": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 3
+    }
+  ],
+  "result": {
+    "item": "additionalguns:m45a1custom"
+  }
+}

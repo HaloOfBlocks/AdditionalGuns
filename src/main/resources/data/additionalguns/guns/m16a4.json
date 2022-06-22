@@ -1,0 +1,49 @@
+{
+  "general": {
+    "auto": true,
+    "rate": 4,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 30,
+    "reloadAmount": 6,
+    "recoilAngle": 4.0,
+    "recoilKick": 0.5,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 3.0
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_556",
+    "visible": true,
+    "gravity": true,
+    "damage": 11.0,
+    "size": 0.075,
+    "speed": 75.0,
+    "life": 100
+  },
+  "sounds": {
+    "fire": "additionalguns:item.m16a4.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.assault_rifle.cock",
+    "silencedFire": "additionalguns:item.m4.suppressed"
+  },
+  "display": {
+    "flash": {
+      "yOffset": 9.8,
+      "zOffset": -14
+    }
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 11.40,
+      "zOffset": 2.0
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 9.3,
+        "zOffset": -12,
+        "scale": 0.35
+      }
+    }
+  }
+}
