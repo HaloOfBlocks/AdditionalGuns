@@ -24,6 +24,8 @@ After submitting a model or working on the addon, we'll add your name here as we
  - PixVoxel
  - Mercuriousity
  - Stabilizer
+ - CasualNoLifer
+ - WitherFlint343
 
 ### 📥 Updates & Downloads
 
