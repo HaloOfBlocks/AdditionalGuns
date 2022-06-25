@@ -1,0 +1,35 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 6,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 30,
+    "reloadAmount": 5,
+    "recoilAngle": 5.5,
+    "recoilKick": 1.0,
+    "recoilAdsReduction": 0.50,
+    "alwaysSpread": true,
+    "spread": 1.0
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_762_51",
+    "visible": false,
+    "gravity": true,
+    "damage": 25,
+    "size": 0.76251,
+    "speed": 200.0,
+    "life": 1000
+  },
+  "sounds": {
+    "fire": "additionalguns:item.scarh.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.rifle.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.45,
+      "yOffset": 9.6,
+      "zOffset": 7.10
+    }
+  }
+}

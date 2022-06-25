@@ -1,0 +1,43 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 7,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 12,
+    "reloadAmount": 4,
+    "recoilAngle": 2.5,
+    "recoilKick": 1.0,
+    "recoilAdsReduction": 0.50,
+    "alwaysSpread": true,
+    "spread": 1.5
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_10",
+    "visible": false,
+    "gravity": true,
+    "damage": 16.5,
+    "size": 0.380,
+    "speed": 100.0,
+    "life": 100
+  },
+  "sounds": {
+    "fire": "additionalguns:item.razer.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.pistol.cock",
+    "silencedFire": "additionalguns:item.pistolalt.suppressed"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 9.0,
+      "zOffset": 1
+    },
+    "attachments": {
+      "barrel": {
+        "yOffset": 8.425,
+        "zOffset": -1.15,
+        "scale": 0.25
+      }
+    }
+  }
+}

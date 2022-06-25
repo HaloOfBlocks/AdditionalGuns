@@ -1,0 +1,36 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 8,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 8,
+    "reloadAmount": 1,
+    "recoilAngle": 9.0,
+    "recoilKick": 2.5,
+    "recoilAdsReduction": 0.75,
+    "alwaysSpread": true,
+    "spread": 10.0,
+    "projectileAmount": 8
+  },
+  "projectile": {
+    "item": "cgm:shell",
+    "visible": false,
+    "gravity": true,
+    "damage": 24,
+    "size": 1.0,
+    "speed": 30.0,
+    "life": 1000
+  },
+  "sounds": {
+    "fire": "additionalguns:item.benelli.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.shotgun.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 15.4,
+      "zOffset": 7.5
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "general": {
+    "auto": false,
+    "rate": 4,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 15,
+    "reloadAmount": 5,
+    "recoilAngle": 4.5,
+    "recoilKick": 0.5,
+    "recoilAdsReduction": 0.5,
+    "alwaysSpread": true,
+    "spread": 3.0
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_10",
+    "visible": false,
+    "gravity": true,
+    "damage": 10,
+    "size": 0.1,
+    "speed": 30.0,
+    "life": 100
+  },
+  "sounds": {
+    "fire": "additionalguns:item.glock19.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.pistol.cock",
+    "silencedFire": "additionalguns:item.pistolalt.suppressed"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.8,
+      "yOffset": 9.8,
+      "zOffset": 1
+    },
+    "attachments": {
+      "scope": {
+        "yOffset": 9.5,
+        "zOffset": 2,
+        "scale": 0.60
+      },
+      "barrel": {
+        "yOffset": 9.0,
+        "zOffset": -1.35,
+        "scale": 0.35
+      },
+      "stock": {
+        "yOffset": 8.0,
+        "zOffset": 4.5,
+        "scale": 0.8
+      }
+    }
+  }
+}

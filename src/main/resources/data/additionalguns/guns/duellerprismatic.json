@@ -1,0 +1,33 @@
+{
+  "general": {
+    "rate": 7,
+    "gripType": "cgm:one_handed",
+    "maxAmmo": 8,
+    "reloadAmount": 3,
+    "recoilAngle": 9.0,
+    "recoilKick": 1.5,
+    "recoilAdsReduction": 0.5,
+    "projectileAmount": 2,
+    "alwaysSpread": true,
+    "spread": 2.0
+  },
+  "projectile": {
+    "item": "additionalguns:ammo_45",
+    "damage": 28.0,
+    "size": 0.15,
+    "speed": 100.0,
+    "life": 100
+  },
+  "sounds": {
+    "fire": "additionalguns:item.duellerprismatic.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.pistol.cock"
+  },
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 9,
+      "zOffset": 2
+    }
+  }
+}
