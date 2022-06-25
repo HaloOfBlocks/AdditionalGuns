@@ -1,0 +1,33 @@
+{
+  "general": {
+    "rate": 15,
+    "gripType": "cgm:two_handed",
+    "maxAmmo": 9,
+    "reloadAmount": 1,
+    "recoilAngle": 7.0,
+    "recoilKick": 2.5,
+    "recoilAdsReduction": 0.50,
+    "projectileAmount": 8,
+    "alwaysSpread": true,
+    "spread": 15.0
+  },
+  "projectile": {
+    "item": "cgm:shell",
+    "damage": 24.0,
+    "size": 1.25,
+    "speed": 30.0,
+    "life": 1000
+  },
+  "sounds": {
+    "fire": "additionalguns:item.m590a1m.fire",
+    "reload": "cgm:item.pistol.reload",
+    "cock": "cgm:item.shotgun.cock"
+  },
+  "modules": {
+    "zoom": {
+      "yOffset": 10.25,
+      "zOffset": 7.5,
+      "fovModifier": 0.8
+    }
+  }
+}
