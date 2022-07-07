@@ -1,7 +1,7 @@
 {
   "general": {
     "auto": true,
-    "rate": 3,
+    "rate": 4,
     "gripType": "cgm:two_handed",
     "maxAmmo": 30,
     "reloadAmount": 3,
@@ -12,19 +12,19 @@
     "spread": 1.0
   },
   "projectile": {
-    "item": "additionalguns:ammo_939_sp5",
+    "item": "cgm:advanced_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 7.5,
+    "damage": 10.0,
     "size": 0.0625,
     "speed": 30.0,
     "life": 10
   },
   "sounds": {
-    "fire": "cgm:item.rifle.silenced_fire",
+    "fire": "additionalguns:item.val.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "cgm:item.rifle.silenced_fire"
+    "silencedFire": "additionalguns:item.val.fire"
   },
   "display": {
     "flash": {
@@ -43,11 +43,6 @@
         "yOffset": 4.35,
         "zOffset": 4.1,
         "scale": 0.75
-      },
-      "barrel": {
-        "yOffset": 3.6,
-        "zOffset": -7.8,
-        "scale": 0.5
       },
       "stock": {
         "yOffset": 3.65,

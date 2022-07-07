@@ -11,13 +11,13 @@
     "spread": 1.5
   },
   "projectile": {
-    "item": "additionalguns:ammo_762_51",
+    "item": "cgm:advanced_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 25.0,
-    "size": 0.0625,
-    "speed": 30.0,
-    "life": 10
+    "damage": 19.0,
+    "size": 0.75,
+    "speed": 1000.0,
+    "life": 1000
   },
   "sounds": {
     "fire": "cgm:item.rifle.fire",

@@ -1,23 +1,23 @@
 {
   "general": {
-    "rate": 10,
+    "rate": 20,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 10,
-    "reloadAmount": 2,
-    "recoilAngle": 15.0,
+    "maxAmmo": 5,
+    "reloadAmount": 1,
+    "recoilAngle": 20.0,
     "recoilKick": 3.0,
-    "recoilAdsReduction": 0.5,
+    "recoilAdsReduction": 0.75,
     "alwaysSpread": true,
-    "spread": 3.0
+    "spread": 1.5
   },
   "projectile": {
     "item": "cgm:advanced_bullet",
     "visible": false,
     "gravity": true,
-    "damage": 25.0,
-    "size": 0.0625,
-    "speed": 30.0,
-    "life": 10
+    "damage": 35.0,
+    "size": 2.0,
+    "speed": 1000.0,
+    "life": 1000
   },
   "sounds": {
     "fire": "additionalguns:item.awm.fire",
@@ -39,17 +39,17 @@
     },
     "attachments": {
       "scope": {
-        "yOffset": 4.3,
-        "zOffset": 6.85
+        "yOffset": 3.95,
+        "zOffset": 7
       },
       "barrel": {
         "yOffset": 3.6,
-        "zOffset": -18.75,
-        "scale": 0.75
+        "zOffset": -16.75,
+        "scale": 0.55
       },
       "underBarrel": {
         "yOffset": 2.0,
-        "zOffset": 0.25
+        "zOffset": 3.5
       }
     }
   }
