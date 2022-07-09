@@ -278,6 +278,12 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 8))
                 .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.TACTICAL_MUZZLE_BRAKE.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 3))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_IRON, 8))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_iron_nugget", has(Tags.Items.NUGGETS_IRON))
+                .build(consumer);
 
 
         // Under Barrels
