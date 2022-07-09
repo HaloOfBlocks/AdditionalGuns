@@ -71,6 +71,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> MUZZLE_BRAKE = ITEMS.register("muzzle_brake", () -> new BarrelItem(Barrel.create(9.5f, GunModifiers.REDUCED_RECOIL), genericProperties, false));
     public static final RegistryObject<Item> TACTICAL_SILENCER = ITEMS.register("tactical_silencer", () -> new BarrelItem(Barrel.create(16.0f, GunModifiers.SILENCED), genericProperties));
     public static final RegistryObject<Item> SNIPER_MUZZLE_BRAKE = ITEMS.register("sniper_muzzle_brake", () -> new BarrelItem(Barrel.create(6.0f, GunModifiers.BETTER_CONTROL), genericProperties));
+    public static final RegistryObject<Item> TACTICAL_MUZZLE_BRAKE = ITEMS.register("tactical_muzzle_brake", () -> new BarrelItem(Barrel.create(7.5f, GunModifiers.REDUCED_RECOIL), genericProperties, false));
 
     /* Under Barrel Attachments */
     public static final RegistryObject<Item> ANGLED_GRIP = ITEMS.register("angled_grip", () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.LIGHT_RECOIL), genericProperties));
