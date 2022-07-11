@@ -1,48 +1,49 @@
 {
   "general": {
-    "rate": 4,
+    "rate": 8,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 12,
-    "reloadAmount": 4,
+    "maxAmmo": 13,
+    "reloadAmount": 5,
     "recoilAngle": 8.0,
-    "recoilAdsReduction": 0.5,
+    "recoilKick": 1.0,
+    "recoilAdsReduction": 0.7,
     "alwaysSpread": true,
-    "spread": 1.0
+    "spread": 2.0
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
-    "damage": 6.0,
+    "item": "additionalguns:bullet_small",
+    "damage": 15.0,
     "size": 0.2,
-    "speed": 10.0,
-    "life": 100
+    "speed": 50.0,
+    "life": 500
   },
   "sounds": {
-    "fire": "cgm:item.pistol.fire",
+    "fire": "additionalguns:item.p250.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.pistol.cock",
-    "silencedFire": "cgm:item.pistol.silenced_fire",
-    "enchantedFire": "cgm:item.pistol.enchanted_fire"
+    "silencedFire": "additionalguns:item.pistol.suppressed"
   },
   "display": {
     "flash": {
       "yOffset": 7.1,
-      "zOffset": -7.8
+      "zOffset": -2.8
     }
   },
   "modules": {
     "zoom": {
-      "fovModifier": 0.7,
-      "yOffset": 8.5,
-      "zOffset": 1.0
+      "fovModifier": 0.8,
+      "yOffset": 8.4,
+      "zOffset": 1.5
     },
     "attachments": {
       "scope": {
         "yOffset": 8.0,
-        "zOffset": -1.5
+        "zOffset": 6.0,
+        "scale": 1.1
       },
       "barrel": {
         "yOffset": 7.1,
-        "zOffset": -7.8,
+        "zOffset": -2.8,
         "scale": 0.75
       }
     }

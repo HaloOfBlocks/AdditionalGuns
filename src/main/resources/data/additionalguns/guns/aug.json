@@ -1,7 +1,7 @@
 {
   "general": {
     "auto": true,
-    "rate": 4,
+    "rate": 2,
     "gripType": "cgm:two_handed",
     "maxAmmo": 42,
     "reloadAmount": 11,
@@ -12,19 +12,19 @@
     "spread": 1.0
   },
   "projectile": {
-    "item": "additionalguns:ammo_jcc",
+    "item": "additionalguns:bullet_medium",
     "visible": false,
     "gravity": true,
-    "damage": 7.5,
-    "size": 0.0625,
-    "speed": 30.0,
-    "life": 10
+    "damage": 8.5,
+    "size": 0.1,
+    "speed": 100.0,
+    "life": 250
   },
   "sounds": {
-    "fire": "cgm:item.assault_rifle.fire",
+    "fire": "additionalguns:item.medium.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "cgm:item.assault_rifle.silenced_fire"
+    "silencedFire": "additionalguns:item.ar15.suppressed"
   },
   "display": {
     "flash": {
@@ -40,7 +40,7 @@
     "attachments": {
       "scope": {
         "yOffset": 4.5,
-        "zOffset": 4.2,
+        "zOffset": 3.7,
         "scale": 0.75
       },
       "barrel": {
