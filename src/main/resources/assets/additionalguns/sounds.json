@@ -7,51 +7,35 @@
       }
     ]
   },
-  "item.mammoth.suppressed": {
-    "subtitle": "subtitle.additionalguns.suppressed_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/mammoth_suppressed"
-      }
-    ]
-  },
-  "item.val.fire": {
-    "subtitle": "subtitle.additionalguns.suppressed_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/val_fire"
-      }
-    ]
-  },
-  "item.akm.fire": {
+  "item.deagle.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
-        "name": "additionalguns:item/akm_fire"
+        "name": "additionalguns:item/deagle_fire"
       }
     ]
   },
-  "item.ak105.fire": {
+  "item.ak1.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
-        "name": "additionalguns:item/ak105_fire"
+        "name": "additionalguns:item/ak1_fire"
       }
     ]
   },
-  "item.ak74.fire": {
+  "item.ak2.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
-        "name": "additionalguns:item/ak74_fire"
+        "name": "additionalguns:item/ak2_fire"
       }
     ]
   },
-  "item.aks74u.fire": {
+  "item.ak3.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
-        "name": "additionalguns:item/aks74u_fire"
+        "name": "additionalguns:item/ak3_fire"
       }
     ]
   },
@@ -63,11 +47,11 @@
       }
     ]
   },
-  "item.ace_of_spades.fire": {
+  "item.aos.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
-        "name": "additionalguns:item/ace_of_spades_fire"
+        "name": "additionalguns:item/aos_fire"
       }
     ]
   },
@@ -79,19 +63,107 @@
       }
     ]
   },
-  "item.m4.fire": {
+  "item.ar15.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
-        "name": "additionalguns:item/m4_fire"
+        "name": "additionalguns:item/ar15_fire"
       }
     ]
   },
-  "item.m4.suppressed": {
+  "item.ar15.suppressed": {
     "subtitle": "subtitle.additionalguns.suppressed_fire",
     "sounds": [
       {
-        "name": "additionalguns:item/m4_suppressed"
+        "name": "additionalguns:item/ar15_suppressed"
+      }
+    ]
+  },
+  "item.intsup.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/intsup"
+      }
+    ]
+  },
+  "item.smg.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/smg_fire"
+      }
+    ]
+  },
+  "item.smg.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/smg_suppressed"
+      }
+    ]
+  },
+  "item.medium.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/medium_fire"
+      }
+    ]
+  },
+  "item.mp7a2.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/mp7a2_fire"
+      }
+    ]
+  },
+  "item.ots03.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ots03_fire"
+      }
+    ]
+  },
+  "item.p250.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/p250_fire"
+      }
+    ]
+  },
+  "item.pistol.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/pistol_fire"
+      }
+    ]
+  },
+  "item.pistol.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/pistol_suppressed"
+      }
+    ]
+  },
+  "item.vector.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/vector_fire"
+      }
+    ]
+  },
+  "item.vector.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/vector_suppressed"
       }
     ]
   }
