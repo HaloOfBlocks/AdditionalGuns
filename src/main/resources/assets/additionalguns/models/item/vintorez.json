@@ -2,10 +2,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "minecraft:block/anvil",
+		"1": "block/anvil",
 		"2": "additionalguns:item/universal3",
-		"6": "minecraft:block/stripped_oak_log",
-		"particle": "minecraft:block/anvil"
+		"6": "block/stripped_oak_log",
+		"particle": "block/anvil"
 	},
 	"elements": [
 		{
@@ -461,10 +461,12 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 4.75, -6.5]
+			"translation": [0, 7, -9.75],
+			"scale": [1.45, 1.45, 1.45]
 		},
 		"thirdperson_lefthand": {
-			"translation": [0, 4.75, -6.5]
+			"translation": [0, 7, -9.75],
+			"scale": [1.45, 1.45, 1.45]
 		},
 		"firstperson_righthand": {
 			"translation": [-3.75, 8.75, -1.5]
@@ -473,17 +475,18 @@
 			"translation": [-3.75, 8.75, -1.5]
 		},
 		"ground": {
-			"translation": [0, 5, -1]
+			"translation": [0, 8, -2],
+			"scale": [1.5, 1.5, 1.5]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [0.75, 3.75, 0],
-			"scale": [1.3, 1.3, 1.3]
+			"translation": [0.5, 3.75, 0],
+			"scale": [1.25, 1.25, 1.25]
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [-1.75, 5, -1.5],
-			"scale": [1.3, 1.3, 1.3]
+			"translation": [-5.25, 10.25, -1.5],
+			"scale": [2, 2, 2]
 		}
 	},
 	"groups": [
