@@ -1,10 +1,10 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by VIKTORWOOD",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "additionalguns:block/anvil",
+		"1": "minecraft:block/anvil",
 		"2": "additionalguns:item/universal3",
-		"particle": "additionalguns:block/anvil"
+		"particle": "minecraft:block/anvil"
 	},
 	"elements": [
 		{

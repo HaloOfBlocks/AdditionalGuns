@@ -1,9 +1,9 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench by VIKTORWOOD",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "additionalguns:item/ak15",
-		"particle": "additionalguns:item/ak15"
+		"0": "additionalguns:item/ak12",
+		"particle": "additionalguns:item/ak12"
 	},
 	"elements": [
 		{
