@@ -87,6 +87,13 @@ public class ItemRegistry {
     public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_SIX = registerAmmo("ammo_939_sp6");
     public static final RegistryObject<Item> AMMO_JCC = registerAmmo("ammo_jcc");
 
+    public static final RegistryObject<Item> AMMO_HEAVY = registerAmmo("bullet_heavy");
+    public static final RegistryObject<Item> AMMO_LONG = registerAmmo("bullet_long");
+    public static final RegistryObject<Item> AMMO_MEDIUM = registerAmmo("bullet_medium");
+    public static final RegistryObject<Item> AMMO_SHORT = registerAmmo("bullet_short");
+    public static final RegistryObject<Item> AMMO_SMALL = registerAmmo("bullet_small");
+    public static final RegistryObject<Item> AMMO_SPECIAL = registerAmmo("bullet_special");
+
     /**
      * Helper method used to register guns in Additional Guns.
      *
