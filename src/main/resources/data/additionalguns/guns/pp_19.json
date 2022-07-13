@@ -1,30 +1,30 @@
 {
   "general": {
     "auto": true,
-    "rate": 3,
+    "rate": 2,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 60,
+    "maxAmmo": 64,
     "reloadAmount": 6,
-    "recoilAngle": 4.5,
-    "recoilKick": 0.6,
-    "recoilAdsReduction": 0.5,
+    "recoilAngle": 4.0,
+    "recoilKick": 1.5,
+    "recoilAdsReduction": 0.6,
     "alwaysSpread": true,
-    "spread": 1.0
+    "spread": 3.0
   },
   "projectile": {
-    "item": "additionalguns:ammo_9",
+    "item": "additionalguns:bullet_small",
     "visible": false,
     "gravity": true,
-    "damage": 4,
-    "size": 0.0625,
-    "speed": 30.0,
-    "life": 10
+    "damage": 5.5,
+    "size": 0.1,
+    "speed": 50.0,
+    "life": 100
   },
   "sounds": {
-    "fire": "cgm:item.machine_pistol.fire",
+    "fire": "additionalguns:item.smg.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "cgm:item.machine_pistol.silenced_fire"
+    "silencedFire": "additionalguns:item.smg.suppressed"
   },
   "display": {
     "flash": {
