@@ -8,7 +8,7 @@
     "recoilKick": 2.5,
     "recoilAdsReduction": 0.8,
     "alwaysSpread": true,
-    "spread": 3.0
+    "spread": 1.5
   },
   "projectile": {
     "item": "additionalguns:bullet_heavy",
