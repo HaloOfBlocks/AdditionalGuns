@@ -61,6 +61,13 @@
   "item.additionalguns.ammo_939_sp6": "9*39 SP6",
   "item.additionalguns.ammo_jcc": "JCC",
 
+  "item.additionalguns.bullet_heavy": "Heavy Bullet",
+  "item.additionalguns.bullet_long": "Long Bullet",
+  "item.additionalguns.bullet_medium": "Medium Bullet",
+  "item.additionalguns.bullet_short": "Short Bullet",
+  "item.additionalguns.bullet_small": "Small Bullet",
+  "item.additionalguns.bullet_special": "Special Bullet",
+
   "subtitle.additionalguns.regular_fire": "Gunfire",
   "subtitle.additionalguns.suppressed_fire": "Silenced gunfire",
 
