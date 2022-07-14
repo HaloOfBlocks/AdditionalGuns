@@ -33,6 +33,8 @@ public class SoundRegistry {
     public static final RegistryObject<SoundEvent> PISTOL_SUPPRESSED = register("item.pistol.suppressed");
     public static final RegistryObject<SoundEvent> VECTOR_FIRE = register("item.vector.fire");
     public static final RegistryObject<SoundEvent> VECTOR_SUPPRESSED = register("item.vector.suppressed");
+    public static final RegistryObject<SoundEvent> HEAVY_FIRE = register("item.heavy.fire");
+    public static final RegistryObject<SoundEvent> SSG_ZERO_EIGHT_FIRE = register("item.ssg08.fire");
 
     private static RegistryObject<SoundEvent> register(String name) {
         return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(AdditionalGuns.ID, name)));

@@ -166,5 +166,21 @@
         "name": "additionalguns:item/vector_suppressed"
       }
     ]
+  },
+  "item.heavy.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/heavy_fire"
+      }
+    ]
+  },
+  "item.ssg08.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ssg08_fire"
+      }
+    ]
   }
 }
