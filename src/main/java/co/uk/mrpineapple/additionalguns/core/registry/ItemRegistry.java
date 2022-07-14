@@ -94,6 +94,14 @@ public class ItemRegistry {
     public static final RegistryObject<Item> BULLET_SMALL = registerAmmo("bullet_small");
     public static final RegistryObject<Item> BULLET_SPECIAL = registerAmmo("bullet_special");
 
+    /* Bullet casings */
+    public static final RegistryObject<Item> CASING_HEAVY = registerCasing("casing_heavy");
+    public static final RegistryObject<Item> CASING_LONG = registerCasing("casing_long");
+    public static final RegistryObject<Item> CASING_MEDIUM = registerCasing("casing_medium");
+    public static final RegistryObject<Item> CASING_SHORT = registerCasing("casing_short");
+    public static final RegistryObject<Item> CASING_SMALL = registerCasing("casing_small");
+    public static final RegistryObject<Item> CASING_SPECIAL = registerCasing("casing_special");
+
     /**
      * Helper method used to register guns in Additional Guns.
      *
@@ -113,5 +121,9 @@ public class ItemRegistry {
      */
     private static RegistryObject<Item> registerAmmo(String name) {
         return ITEMS.register(name, () -> new AmmoItem(new Item.Properties().tab(AdditionalGuns.GROUP)));
+    }
+
+    private static RegistryObject<Item> registerCasing(String name) {
+        return ITEMS.register(name, () -> new Item(new Item.Properties().tab(AdditionalGuns.GROUP)));
     }
 }

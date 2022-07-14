@@ -68,6 +68,13 @@
   "item.additionalguns.bullet_small": "Small Bullet",
   "item.additionalguns.bullet_special": "Special Bullet",
 
+  "item.additionalguns.casing_heavy": "Heavy Bullet Casing",
+  "item.additionalguns.casing_long": "Long Bullet Casing",
+  "item.additionalguns.casing_medium": "Medium Bullet Casing",
+  "item.additionalguns.casing_short": "Short Bullet Casing",
+  "item.additionalguns.casing_small": "Small Bullet Casing",
+  "item.additionalguns.casing_special": "Special Bullet Casing",
+
   "subtitle.additionalguns.regular_fire": "Gunfire",
   "subtitle.additionalguns.suppressed_fire": "Silenced gunfire",
 
