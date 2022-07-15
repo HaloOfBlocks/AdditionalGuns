@@ -31,22 +31,6 @@
       }
     ]
   },
-  "item.ak3.fire": {
-    "subtitle": "subtitle.additionalguns.regular_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/ak3_fire"
-      }
-    ]
-  },
-  "item.ak.suppressed": {
-    "subtitle": "subtitle.additionalguns.suppressed_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/ak_suppressed"
-      }
-    ]
-  },
   "item.aos.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
@@ -71,43 +55,11 @@
       }
     ]
   },
-  "item.ar15.suppressed": {
-    "subtitle": "subtitle.additionalguns.suppressed_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/ar15_suppressed"
-      }
-    ]
-  },
   "item.intsup.fire": {
     "subtitle": "subtitle.additionalguns.regular_fire",
     "sounds": [
       {
         "name": "additionalguns:item/intsup"
-      }
-    ]
-  },
-  "item.smg.fire": {
-    "subtitle": "subtitle.additionalguns.regular_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/smg_fire"
-      }
-    ]
-  },
-  "item.smg.suppressed": {
-    "subtitle": "subtitle.additionalguns.suppressed_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/smg_suppressed"
-      }
-    ]
-  },
-  "item.medium.fire": {
-    "subtitle": "subtitle.additionalguns.regular_fire",
-    "sounds": [
-      {
-        "name": "additionalguns:item/medium_fire"
       }
     ]
   },
@@ -180,6 +132,126 @@
     "sounds": [
       {
         "name": "additionalguns:item/ssg08_fire"
+      }
+    ]
+  },
+  "item.aug.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/aug_fire"
+      }
+    ]
+  },
+  "item.banshee.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/banshee_fire"
+      }
+    ]
+  },
+  "item.fn2000.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/fn2000_fire"
+      }
+    ]
+  },
+  "item.m1014.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/m1014_fire"
+      }
+    ]
+  },
+  "item.m1911.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/m1911_fire"
+      }
+    ]
+  },
+  "item.m1911.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/m1911_suppressed"
+      }
+    ]
+  },
+  "item.m1911.enchanted": {
+    "subtitle": "subtitle.additionalguns.enchanted_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/m1911_enchanted"
+      }
+    ]
+  },
+  "item.mac10.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/mac10_fire"
+      }
+    ]
+  },
+  "item.magnum.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/magnum_fire"
+      }
+    ]
+  },
+  "item.pp19.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/pp19_fire"
+      }
+    ]
+  },
+  "item.ravensclaw.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ravensclaw_fire"
+      }
+    ]
+  },
+  "item.rifle.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/rifle_suppressed"
+      }
+    ]
+  },
+  "item.light.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/light_suppression"
+      }
+    ]
+  },
+  "item.medium.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/medium_suppression"
+      }
+    ]
+  },
+  "item.heavy.suppressed": {
+    "subtitle": "subtitle.additionalguns.suppressed_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/heavy_suppression"
       }
     ]
   }
