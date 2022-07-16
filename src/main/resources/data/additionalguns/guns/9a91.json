@@ -12,19 +12,19 @@
     "spread": 1.0
   },
   "projectile": {
-    "item": "additionalguns:ammo_939_sp5",
+    "item": "additionalguns:bullet_special",
     "visible": false,
     "gravity": true,
-    "damage": 7.5,
-    "size": 0.0625,
-    "speed": 30.0,
-    "life": 10
+    "damage": 10.0,
+    "size": 0.1,
+    "speed": 100.0,
+    "life": 250
   },
   "sounds": {
-    "fire": "cgm:item.rifle.silenced_fire",
+    "fire": "additionalguns:item.intsup.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "cgm:item.rifle.silenced_fire"
+    "silencedFire": "additionalguns:item.intsup.fire"
   },
   "display": {
     "flash": {
@@ -35,19 +35,14 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 4.5,
-      "zOffset": 1.0
+      "yOffset": 4.8,
+      "zOffset": 2.5
     },
     "attachments": {
       "scope": {
         "yOffset": 4.35,
         "zOffset": 4.1,
         "scale": 0.75
-      },
-      "barrel": {
-        "yOffset": 3.6,
-        "zOffset": -7.8,
-        "scale": 0.5
       },
       "stock": {
         "yOffset": 3.65,
