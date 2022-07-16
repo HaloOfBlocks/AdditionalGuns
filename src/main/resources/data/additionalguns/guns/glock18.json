@@ -20,10 +20,10 @@
     "life": 100
   },
   "sounds": {
-    "fire": "additionalguns:item.pistol.fire",
+    "fire": "additionalguns:item.mac10.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.pistol.cock",
-    "silencedFire": "additionalguns:item.pistol.suppressed"
+    "silencedFire": "additionalguns:item.light.suppressed"
   },
   "display": {
     "flash": {

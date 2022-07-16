@@ -5,7 +5,7 @@
     "maxAmmo": 8,
     "reloadAmount": 2,
     "recoilAngle": 9.0,
-    "recoilKick": 1.5,
+    "recoilKick": 1.0,
     "recoilAdsReduction": 0.4,
     "projectileAmount": 8,
     "alwaysSpread": true,
@@ -19,10 +19,10 @@
     "life": 100
   },
   "sounds": {
-    "fire": "cgm:item.shotgun.fire",
+    "fire": "additionalguns:item.m1014.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.shotgun.cock",
-    "silencedFire": "cgm:item.heavy_rifle.silenced_fire"
+    "silencedFire": "additionalguns:item.heavy.suppressed"
   },
   "display": {
     "flash": {
@@ -49,8 +49,8 @@
       },
       "scope": {
         "yOffset": 3,
-        "zOffset": 3.5,
-        "scale": 1.25
+        "zOffset": 4.0,
+        "scale": 1.75
       }
     }
   }

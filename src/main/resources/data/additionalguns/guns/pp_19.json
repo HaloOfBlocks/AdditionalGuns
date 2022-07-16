@@ -21,10 +21,10 @@
     "life": 100
   },
   "sounds": {
-    "fire": "additionalguns:item.smg.fire",
+    "fire": "additionalguns:item.pp19.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "additionalguns:item.smg.suppressed"
+    "silencedFire": "additionalguns:item.light.suppressed"
   },
   "display": {
     "flash": {
@@ -35,7 +35,8 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.8,
-      "yOffset": 4.3
+      "yOffset": 4.3,
+      "zOffset": 2.0
     },
     "attachments": {
       "scope": {

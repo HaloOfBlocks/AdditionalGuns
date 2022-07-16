@@ -21,10 +21,10 @@
     "life": 100
   },
   "sounds": {
-    "fire": "additionalguns:item.medium.fire",
+    "fire": "additionalguns:item.fn2000.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "additionalguns:item.ar15.suppressed"
+    "silencedFire": "additionalguns:item.medium.suppressed"
   },
   "display": {
     "flash": {
