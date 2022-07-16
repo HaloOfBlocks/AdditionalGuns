@@ -28,7 +28,7 @@
   "display": {
     "flash": {
       "yOffset": 4.6,
-      "zOffset": -2.775
+      "zOffset": -0.75
     }
   },
   "modules": {
@@ -39,7 +39,7 @@
     "attachments": {
       "barrel": {
         "yOffset": 4.6,
-        "zOffset": -2.75,
+        "zOffset": -0.75,
         "scale": 0.5
       }
     }

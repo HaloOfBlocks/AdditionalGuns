@@ -15,16 +15,16 @@
     "item": "additionalguns:bullet_special",
     "visible": false,
     "gravity": true,
-    "damage": 13.0,
+    "damage": 15.0,
     "size": 0.2,
     "speed": 1000.0,
     "life": 1000
   },
   "sounds": {
-    "fire": "additionalguns:item.heavy.fire",
+    "fire": "additionalguns:item.ravensclaw.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "additionalguns:item.ak.suppressed"
+    "silencedFire": "additionalguns:item.rifle.suppressed"
   },
   "display": {
     "flash": {
