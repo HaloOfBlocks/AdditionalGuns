@@ -29,24 +29,24 @@
   "display": {
     "flash": {
       "yOffset": 6.0,
-      "zOffset": -5.75
+      "zOffset": -3.75
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
       "yOffset": 7.25,
-      "zOffset": -2.5
+      "zOffset": 2.0
     },
     "attachments": {
       "barrel": {
         "yOffset": 6.0,
-        "zOffset": -5.75,
+        "zOffset": -3.75,
         "scale": 0.5
       },
       "stock": {
         "yOffset": 6.1,
-        "zOffset": 4.85
+        "zOffset": 6.85
       }
     }
   }

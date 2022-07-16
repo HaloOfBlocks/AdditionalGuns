@@ -24,7 +24,7 @@
     "fire": "additionalguns:item.ar15.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.assault_rifle.cock",
-    "silencedFire": "additionalguns:item.ar15.suppressed"
+    "silencedFire": "additionalguns:item.pistol.suppressed"
   },
   "display": {
     "flash": {
@@ -35,8 +35,8 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.6,
-      "yOffset": 4.75,
-      "zOffset": 3.2
+      "yOffset": 5.85,
+      "zOffset": 4
     },
     "attachments": {
       "barrel": {

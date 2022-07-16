@@ -11,8 +11,8 @@
 		"spread": 2.0
 	},
 	"projectile": {
-		"item": "additionalguns:bullet_small",
-		"damage": 15.0,
+		"item": "additionalguns:bullet_short",
+		"damage": 13.0,
 		"size": 0.2,
 		"speed": 50.0,
 		"life": 500
@@ -32,7 +32,7 @@
 	"modules": {
 		"zoom": {
 			"fovModifier": 0.8,
-			"yOffset": 8.4,
+			"yOffset": 8.25,
 			"zOffset": 1.5
 		},
 		"attachments": {

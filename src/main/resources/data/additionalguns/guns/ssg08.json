@@ -23,7 +23,7 @@
     "fire": "additionalguns:item.ssg08.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "cgm:item.rifle.silenced_fire"
+    "silencedFire": "additionalguns:item.heavy.suppressed"
   },
   "display": {
     "flash": {
