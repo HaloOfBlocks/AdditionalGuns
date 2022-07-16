@@ -21,15 +21,15 @@
     "life": 10
   },
   "sounds": {
-    "fire": "additionalguns:item.smg.fire",
+    "fire": "additionalguns:item.mac10.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.rifle.cock",
-    "silencedFire": "additionalguns:item.smg.suppressed"
+    "silencedFire": "additionalguns:item.medium.suppressed"
   },
   "display": {
     "flash": {
       "yOffset": 3.0,
-      "zOffset": -16.0,
+      "zOffset": -15.0,
       "scale": 1.5
     }
   },
@@ -41,12 +41,12 @@
     "attachments": {
       "barrel": {
         "yOffset": 3.0,
-        "zOffset": -12.0,
+        "zOffset": -15.0,
         "scale": 1.0
       },
       "stock": {
         "yOffset": 3.1,
-        "zOffset": 10.75,
+        "zOffset": 7.75,
         "scale": 1.5
       }
     }
