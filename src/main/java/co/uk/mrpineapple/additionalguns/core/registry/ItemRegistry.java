@@ -77,16 +77,6 @@ public class ItemRegistry {
     public static final RegistryObject<Item> ANGLED_GRIP = ITEMS.register("angled_grip", () -> new UnderBarrelItem(UnderBarrel.create(GunModifiers.LIGHT_RECOIL), genericProperties));
 
     /* Ammunition */
-    public static final RegistryObject<Item> AMMO_NINE = registerAmmo("ammo_9");
-    public static final RegistryObject<Item> AMMO_FORTY_FIVE = registerAmmo("ammo_45");
-    public static final RegistryObject<Item> AMMO_FIVE_FOUR_FIVE = registerAmmo("ammo_545");
-    public static final RegistryObject<Item> AMMO_FIVE_FIVE_SIX = registerAmmo("ammo_556");
-    public static final RegistryObject<Item> AMMO_SEVEN_SIX_TWO_FIFTY_ONE = registerAmmo("ammo_762_51");
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE = registerAmmo("ammo_939");
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_FIVE = registerAmmo("ammo_939_sp5");
-    public static final RegistryObject<Item> AMMO_NINE_THREE_NINE_SP_SIX = registerAmmo("ammo_939_sp6");
-    public static final RegistryObject<Item> AMMO_JCC = registerAmmo("ammo_jcc");
-
     public static final RegistryObject<Item> BULLET_HEAVY = registerAmmo("bullet_heavy");
     public static final RegistryObject<Item> BULLET_LONG = registerAmmo("bullet_long");
     public static final RegistryObject<Item> BULLET_MEDIUM = registerAmmo("bullet_medium");
