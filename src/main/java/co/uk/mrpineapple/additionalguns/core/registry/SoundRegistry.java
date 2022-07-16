@@ -13,17 +13,37 @@ public class SoundRegistry {
 
     /* Sounds */
     public static final RegistryObject<SoundEvent> MAMMOTH_FIRE = register("item.mammoth.fire");
-    public static final RegistryObject<SoundEvent> MAMMOTH_SUPPRESSED = register("item.mammoth.suppressed");
-    public static final RegistryObject<SoundEvent> VAL_FIRE = register("item.val.fire");
-    public static final RegistryObject<SoundEvent> AKM_FIRE = register("item.akm.fire");
-    public static final RegistryObject<SoundEvent> AK_ZERO_ONE_FIVE_FIRE = register("item.ak105.fire");
-    public static final RegistryObject<SoundEvent> AK_SEVEN_FOUR_FIRE = register("item.ak74.fire");
-    public static final RegistryObject<SoundEvent> AKS_SEVEN_FOUR_U = register("item.aks74u.fire");
-    public static final RegistryObject<SoundEvent> AK_SUPPRESSED = register("item.ak.suppressed");
-    public static final RegistryObject<SoundEvent> ACE_OF_SPADES_FIRE = register("item.ace_of_spades.fire");
+    public static final RegistryObject<SoundEvent> DEAGLE_FIRE = register("item.deagle.fire");
+    public static final RegistryObject<SoundEvent> AK_ONE_FIRE = register("item.ak1.fire");
+    public static final RegistryObject<SoundEvent> AK_TWO_FIRE = register("item.ak2.fire");
+    public static final RegistryObject<SoundEvent> AOS_FIRE = register("item.aos.fire");
     public static final RegistryObject<SoundEvent> AWM_FIRE = register("item.awm.fire");
-    public static final RegistryObject<SoundEvent> M_FOUR_FIRE = register("item.m4.fire");
-    public static final RegistryObject<SoundEvent> M_FOUR_SUPPRESSED = register("item.m4.suppressed");
+    public static final RegistryObject<SoundEvent> AR_ONE_FIVE_FIRE = register("item.ar15.fire");
+    public static final RegistryObject<SoundEvent> INTSUP_FIRE = register("item.intsup.fire");
+    public static final RegistryObject<SoundEvent> MP_SEVEN_A_TWO_FIRE = register("item.mp7a2.fire");
+    public static final RegistryObject<SoundEvent> OTS_ZERO_THREE_FIRE = register("item.ots03.fire");
+    public static final RegistryObject<SoundEvent> P_TWO_FIVE_ONE_FIRE = register("item.p250.fire");
+    public static final RegistryObject<SoundEvent> PISTOL_FIRE = register("item.pistol.fire");
+    public static final RegistryObject<SoundEvent> PISTOL_SUPPRESSED = register("item.pistol.suppressed");
+    public static final RegistryObject<SoundEvent> VECTOR_FIRE = register("item.vector.fire");
+    public static final RegistryObject<SoundEvent> VECTOR_SUPPRESSED = register("item.vector.suppressed");
+    public static final RegistryObject<SoundEvent> HEAVY_FIRE = register("item.heavy.fire");
+    public static final RegistryObject<SoundEvent> SSG_ZERO_EIGHT_FIRE = register("item.ssg08.fire");
+    public static final RegistryObject<SoundEvent> AUG_FIRE = register("item.aug.fire");
+    public static final RegistryObject<SoundEvent> BANSHEE_FIRE = register("item.banshee.fire");
+    public static final RegistryObject<SoundEvent> FN_TWO_THOUSAND_FIRE = register("item.fn2000.fire");
+    public static final RegistryObject<SoundEvent> M_ONE_ZERO_ONE_FOUR_FIRE = register("item.m1014.fire");
+    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_FIRE = register("item.1911.fire");
+    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_SUPPRESSED = register("item.1911.suppressed");
+    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_ENCHANTED = register("item.1911.enchanted");
+    public static final RegistryObject<SoundEvent> MAC_TEN_FIRE = register("item.mac10.fire");
+    public static final RegistryObject<SoundEvent> MAGNUM_FIRE = register("item.magnum.fire");
+    public static final RegistryObject<SoundEvent> PP_ONE_NINE_FIRE = register("item.pp19.fire");
+    public static final RegistryObject<SoundEvent> RAVENSCLAW_FIRE = register("item.ravensclaw.fire");
+    public static final RegistryObject<SoundEvent> RIFLE_SUPPRESSED = register("item.rifle.suppressed");
+    public static final RegistryObject<SoundEvent> LIGHT_SUPPRESSION = register("item.light.suppressed");
+    public static final RegistryObject<SoundEvent> MEDIUM_SUPPRESSION = register("item.medium.suppressed");
+    public static final RegistryObject<SoundEvent> HEAVY_SUPPRESSION = register("item.heavy.suppressed");
 
     private static RegistryObject<SoundEvent> register(String name) {
         return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(AdditionalGuns.ID, name)));

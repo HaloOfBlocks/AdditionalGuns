@@ -12,7 +12,7 @@
     "spread": 1.0
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
+    "item": "additionalguns:bullet_small",
     "visible": false,
     "gravity": true,
     "damage": 12,
@@ -21,32 +21,32 @@
     "life": 10
   },
   "sounds": {
-    "fire": "cgm:item.pistol.fire",
+    "fire": "additionalguns:item.pistol.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.pistol.cock",
-    "silencedFire": "cgm:item.pistol.silenced_fire"
+    "silencedFire": "additionalguns:item.pistol.suppressed"
   },
   "display": {
     "flash": {
       "yOffset": 6.0,
-      "zOffset": -5.75
+      "zOffset": -3.75
     }
   },
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
       "yOffset": 7.25,
-      "zOffset": -2.5
+      "zOffset": 2.0
     },
     "attachments": {
       "barrel": {
         "yOffset": 6.0,
-        "zOffset": -5.75,
+        "zOffset": -3.75,
         "scale": 0.5
       },
       "stock": {
         "yOffset": 6.1,
-        "zOffset": 4.85
+        "zOffset": 6.85
       }
     }
   }

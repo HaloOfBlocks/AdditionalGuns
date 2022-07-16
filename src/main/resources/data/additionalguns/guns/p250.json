@@ -1,50 +1,51 @@
 {
-  "general": {
-    "rate": 4,
-    "gripType": "cgm:one_handed",
-    "maxAmmo": 12,
-    "reloadAmount": 4,
-    "recoilAngle": 8.0,
-    "recoilAdsReduction": 0.5,
-    "alwaysSpread": true,
-    "spread": 1.0
-  },
-  "projectile": {
-    "item": "cgm:basic_bullet",
-    "damage": 6.0,
-    "size": 0.2,
-    "speed": 10.0,
-    "life": 100
-  },
-  "sounds": {
-    "fire": "cgm:item.pistol.fire",
-    "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.pistol.cock",
-    "silencedFire": "cgm:item.pistol.silenced_fire",
-    "enchantedFire": "cgm:item.pistol.enchanted_fire"
-  },
-  "display": {
-    "flash": {
-      "yOffset": 7.1,
-      "zOffset": -7.8
-    }
-  },
-  "modules": {
-    "zoom": {
-      "fovModifier": 0.7,
-      "yOffset": 8.5,
-      "zOffset": 1.0
-    },
-    "attachments": {
-      "scope": {
-        "yOffset": 8.0,
-        "zOffset": -1.5
-      },
-      "barrel": {
-        "yOffset": 7.1,
-        "zOffset": -7.8,
-        "scale": 0.75
-      }
-    }
-  }
+	"general": {
+		"rate": 5,
+		"gripType": "cgm:one_handed",
+		"maxAmmo": 13,
+		"reloadAmount": 5,
+		"recoilAngle": 8.0,
+		"recoilKick": 1.0,
+		"recoilAdsReduction": 0.7,
+		"alwaysSpread": true,
+		"spread": 2.0
+	},
+	"projectile": {
+		"item": "additionalguns:bullet_short",
+		"damage": 13.0,
+		"size": 0.2,
+		"speed": 50.0,
+		"life": 500
+	},
+	"sounds": {
+		"fire": "additionalguns:item.p250.fire",
+		"reload": "cgm:item.pistol.reload",
+		"cock": "cgm:item.pistol.cock",
+		"silencedFire": "additionalguns:item.pistol.suppressed"
+	},
+	"display": {
+		"flash": {
+			"yOffset": 7.1,
+			"zOffset": -2.8
+		}
+	},
+	"modules": {
+		"zoom": {
+			"fovModifier": 0.8,
+			"yOffset": 8.25,
+			"zOffset": 1.5
+		},
+		"attachments": {
+			"scope": {
+				"yOffset": 8.0,
+				"zOffset": 6.0,
+				"scale": 1.1
+			},
+			"barrel": {
+				"yOffset": 7.1,
+				"zOffset": -2.8,
+				"scale": 0.75
+			}
+		}
+	}
 }
