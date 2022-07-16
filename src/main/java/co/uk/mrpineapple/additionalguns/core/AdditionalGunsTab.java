@@ -1,5 +1,6 @@
 package co.uk.mrpineapple.additionalguns.core;
 
+import co.uk.mrpineapple.additionalguns.core.item.AdditionalGunItem;
 import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
 import com.mrcrayfish.guns.client.CustomGunManager;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,7 +17,10 @@ public class AdditionalGunsTab extends CreativeModeTab {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ItemRegistry.AMMO_SEVEN_SIX_TWO_FIFTY_ONE.get());
+        AdditionalGunItem gunItem = (AdditionalGunItem) ItemRegistry.ACE_OF_SPADES.get();
+        ItemStack stack = gunItem.getDefaultInstance();
+        stack.getOrCreateTag().putInt("AmmoCount", gunItem.getGun().getGeneral().getMaxAmmo());
+        return stack;
     }
 
     @Override
