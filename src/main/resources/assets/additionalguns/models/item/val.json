@@ -1,10 +1,10 @@
 {
-	"credit": "Made with Blockbench by ThatAvocado_Boi",
+	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "minecraft:block/anvil",
+		"1": "block/anvil",
 		"2": "additionalguns:item/universal3",
-		"particle": "minecraft:block/anvil"
+		"particle": "block/anvil"
 	},
 	"elements": [
 		{
@@ -48,7 +48,7 @@
 		},
 		{
 			"from": [7.43787, 3.42929, 11.701],
-			"to": [7.82887, 3.82929, 16.3],
+			"to": [7.82887, 3.82929, 16.29609],
 			"rotation": {"angle": 45, "axis": "z", "origin": [7.23787, 3.92929, 10.701]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
@@ -74,7 +74,7 @@
 		},
 		{
 			"from": [8.14613, 3.42929, 11.701],
-			"to": [8.56213, 3.82929, 16.3],
+			"to": [8.56213, 3.82929, 16.29609],
 			"rotation": {"angle": -45, "axis": "z", "origin": [8.76213, 3.92929, 10.701]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
