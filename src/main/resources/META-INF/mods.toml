@@ -16,7 +16,7 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="forge"
     mandatory=true
-    versionRange="[41,)"
+    versionRange="[41.0.94,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
@@ -28,13 +28,13 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="cgm"
     mandatory=true
-    versionRange="[1.2.7,)"
+    versionRange="[1.2.8,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
     modId="framework"
     mandatory=true
-    versionRange="[0.3.0,)"
+    versionRange="[0.3.2,)"
     ordering="NONE"
     side="BOTH"
 

@@ -7,13 +7,13 @@ import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
 import co.uk.mrpineapple.additionalguns.core.registry.SoundRegistry;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
 @Mod(AdditionalGuns.ID)
 public class AdditionalGuns {
@@ -33,11 +33,11 @@ public class AdditionalGuns {
         bus.addListener(this::gatherData);
     }
 
-    void clientSetup(FMLClientSetupEvent event) {
+    private void clientSetup(final FMLClientSetupEvent event) {
         ClientHandler.registerModelOverrides();
     }
 
-    private void gatherData(GatherDataEvent event) {
+    private void gatherData(final GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         generator.addProvider(event.includeServer(), new ModRecipeGenerator(generator));
     }
