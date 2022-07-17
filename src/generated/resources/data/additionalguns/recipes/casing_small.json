@@ -1,0 +1,13 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 2,
+      "tag": "forge:nuggets/iron"
+    }
+  ],
+  "result": {
+    "count": 32,
+    "item": "additionalguns:casing_small"
+  }
+}

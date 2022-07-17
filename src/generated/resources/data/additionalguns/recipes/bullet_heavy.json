@@ -1,0 +1,21 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 16,
+      "item": "additionalguns:casing_heavy"
+    },
+    {
+      "count": 4,
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 4,
+      "tag": "forge:nuggets/gold"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "item": "additionalguns:bullet_heavy"
+  }
+}
