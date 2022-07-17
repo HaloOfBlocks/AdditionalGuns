@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "additionalguns:casing_small"
+      "additionalguns:magnum"
     ]
   },
   "criteria": {
-    "has_iron_nugget": {
+    "has_iron_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:nuggets/iron"
+            "tag": "forge:ingots/iron"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "additionalguns:casing_small"
+        "recipe": "additionalguns:magnum"
       }
     }
   },
   "requirements": [
     [
-      "has_iron_nugget",
+      "has_iron_ingot",
       "has_the_recipe"
     ]
   ]

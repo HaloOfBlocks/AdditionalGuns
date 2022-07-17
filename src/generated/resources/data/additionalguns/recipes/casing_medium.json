@@ -2,12 +2,12 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 3,
-      "tag": "forge:nuggets/iron"
+      "tag": "forge:nuggets/iron",
+      "count": 3
     }
   ],
   "result": {
-    "count": 24,
-    "item": "additionalguns:casing_medium"
+    "item": "additionalguns:casing_medium",
+    "count": 24
   }
 }

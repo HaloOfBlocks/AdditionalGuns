@@ -2,20 +2,20 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "count": 32,
-      "item": "additionalguns:casing_short"
+      "item": "additionalguns:casing_short",
+      "count": 32
     },
     {
-      "count": 4,
-      "tag": "forge:gunpowder"
+      "tag": "forge:gunpowder",
+      "count": 4
     },
     {
-      "count": 2,
-      "tag": "forge:nuggets/gold"
+      "tag": "forge:nuggets/gold",
+      "count": 2
     }
   ],
   "result": {
-    "count": 32,
-    "item": "additionalguns:bullet_short"
+    "item": "additionalguns:bullet_short",
+    "count": 32
   }
 }
