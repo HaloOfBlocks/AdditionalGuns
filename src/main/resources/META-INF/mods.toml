@@ -39,5 +39,5 @@ issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
     side="BOTH"
 
 [modproperties.additionalguns]
-    catalogueItemIcon="additionalguns:ammo_762_51"
+    catalogueItemIcon="additionalguns:ace_of_spades"
     configuredBackground="minecraft:textures/block/stripped_birch_log.png"
