@@ -2,6 +2,7 @@ package co.uk.mrpineapple.additionalguns.core.registry;
 
 import co.uk.mrpineapple.additionalguns.core.AdditionalGuns;
 import co.uk.mrpineapple.additionalguns.core.item.AdditionalGunItem;
+import co.uk.mrpineapple.additionalguns.core.item.BulletCasingItem;
 import com.mrcrayfish.guns.common.GunModifiers;
 import com.mrcrayfish.guns.item.*;
 import com.mrcrayfish.guns.item.attachment.impl.Barrel;
@@ -116,6 +117,6 @@ public class ItemRegistry {
     }
 
     private static RegistryObject<Item> registerCasing(String name) {
-        return ITEMS.register(name, () -> new Item(new Item.Properties().tab(AdditionalGuns.GROUP)));
+        return ITEMS.register(name, () -> new BulletCasingItem(new Item.Properties().tab(AdditionalGuns.GROUP)));
     }
 }

@@ -81,6 +81,9 @@
   "subtitle.additionalguns.suppressed_fire": "Silenced gunfire",
   "subtitle.additionalguns.enchanted_fire": "Enchanted gunfire",
 
+  "tooltip.additionalguns.hold_shift_key": "Hold %s to view the item information",
+  "tooltip.additionalguns.bullet_casing_info": "This item can be used as an ingredient to craft a bullet, and is not usable as ammunition",
+
   "config.additionalguns.client.enable_gun_enchantment_glint": "If true, renders enchanted guns from Additional Guns with the enchantment glint.",
 
   "itemGroup.additionalguns": "Additional Guns"
