@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "additionalguns:bullet_short"
+    ]
+  },
+  "criteria": {
+    "has_casing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "additionalguns:casing_short"
+          }
+        ]
+      }
+    },
+    "has_gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gunpowder"
+          }
+        ]
+      }
+    },
+    "has_gold_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:nuggets/gold"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "additionalguns:bullet_short"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_casing",
+      "has_gunpowder",
+      "has_gold_nugget",
+      "has_the_recipe"
+    ]
+  ]
+}
