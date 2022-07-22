@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 17,
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "result": {
+    "item": "additionalguns:m1911"
+  }
+}
