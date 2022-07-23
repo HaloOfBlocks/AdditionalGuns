@@ -16,8 +16,10 @@ jobs:
         with:
           support-label: 'dependency'
           issue-comment: >
-            :wave: Hello @{issue-author}, your issue report doesn't seem to apply to Additional Guns, but rather one of its dependencies. \
+            :wave: Hello @{issue-author}, your issue report doesn't seem to apply to Additional Guns, but rather one of its dependencies.
+            
             Dependency issue trackers:
+            
             * [MrCrayfish's Gun Mod](https://github.com/MrCrayfish/MrCrayfishGunMod/issues)
             * [Framework](https://github.com/MrCrayfish/Framework/issues) (1.18.x and above)
             * [Obfuscate](https://github.com/MrCrayfish/Obfuscate/issues) (1.16.x)
