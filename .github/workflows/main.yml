@@ -26,7 +26,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: dessant/support-requests@v2
         with:
-          github-token: ${{secrets.ACCESS_TOKEN}}
+          #github-token: ${{secrets.ACCESS_TOKEN}}
           support-label: 'eol'
           issue-comment: Hello, we no longer support this version
           close-issue: true
