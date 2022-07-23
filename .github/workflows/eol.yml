@@ -28,4 +28,4 @@ jobs:
             Try updating to a newer version of the game and open a new issue if the issue still applies.
           close-issue: true
           lock-issue: true
-          issue-lock-reason: 'off-topic'
+          issue-lock-reason: 'resolved'
