@@ -24,7 +24,7 @@
 		"fire": "additionalguns:item.ak2.fire",
 		"reload": "cgm:item.pistol.reload",
 		"cock": "cgm:item.assault_rifle.cock",
-		"silencedFire": "additionalguns:item.ak.suppressed"
+		"silencedFire": "additionalguns:item.rifle.suppressed"
 	},
 	"display": {
 		"flash": {
