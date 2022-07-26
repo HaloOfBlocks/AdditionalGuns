@@ -1,0 +1,61 @@
+name: 'support-bot'
+
+on:
+  issues:
+    types: [labeled, unlabeled, reopened]
+
+permissions:
+  issues: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: dessant/support-requests@v2
+        with:
+          support-label: 'action:dependency'
+          issue-comment: >
+            :wave: Hello @{issue-author}, your issue report doesn't seem to apply to Additional Guns, but rather one of its dependencies.
+            
+            
+            **Dependency issue trackers:**
+            
+            * [MrCrayfish's Gun Mod](https://github.com/MrCrayfish/MrCrayfishGunMod/issues)
+            
+            * [Framework](https://github.com/MrCrayfish/Framework/issues) (1.18.x and above)
+            
+            * [Obfuscate](https://github.com/MrCrayfish/Obfuscate/issues) (1.16.x)
+          close-issue: true
+          lock-issue: false
+
+      - uses: dessant/support-requests@v2
+        with:
+          support-label: 'action:eol'
+          issue-comment: >
+            :wave: Hello @{issue-author}, you appear to be reporting an issue for a version we no longer support.
+            Try updating to a newer version of the game and open a new issue if the issue still applies.
+          close-issue: true
+          lock-issue: true
+          issue-lock-reason: 'resolved'
+
+      - uses: dessant/support-requests@v2
+        with:
+          support-label: 'action:legacy version'
+          issue-comment: >
+            :wave: Hello @{issue-author}, it seems that you are asking for a backport to an older Minecraft version.
+            Unfortunately there are no plans on backporting the mod to discontinued versions of the game.
+            The team would like to dedicate their time moving forward instead.
+          close-issue: true
+          lock-issue: true
+          issue-lock-reason: 'off-topic'
+
+      - uses: dessant/support-requests@v2
+        with:
+          support-label: 'action:off-topic'
+          issue-comment: >
+            :wave: Hello @{issue-author}, we use the issue tracker exclusively for bug reports.
+            However, this seems to be better suited for our Discord server, Discussions tab or CurseForge comment section.
+          close-issue: true
+          lock-issue: true
+          issue-lock-reason: 'off-topic'
