@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Pinelog-Studios/AdditionalGuns/issues"
 
 [[mods]]
     modId="additionalguns"
-    version="0.7.1"
+    version="0.7.2"
     displayName="Additional Guns"
     updateJSONURL="https://raw.githubusercontent.com/Pinelog-Studios/VersionChecker/main/additionalguns/update.json"
     displayURL="https://www.curseforge.com/minecraft/mc-mods/additional-guns"
