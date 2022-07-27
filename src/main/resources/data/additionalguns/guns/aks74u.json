@@ -24,12 +24,12 @@
 		"fire": "additionalguns:item.ak1.fire",
 		"reload": "cgm:item.pistol.reload",
 		"cock": "cgm:item.assault_rifle.cock",
-		"silencedFire": "additionalguns:item.ak.suppressed"
+		"silencedFire": "additionalguns:item.rifle.suppressed"
 	},
 	"display": {
 		"flash": {
 			"yOffset": 2.5,
-			"zOffset": -11.8
+			"zOffset": -11.825
 		}
 	},
 	"modules": {
