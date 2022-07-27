@@ -8,7 +8,7 @@ Well, the community has come together to add more! This addon introduces a range
 
 ### 🔨 Contributing
 
-Check out the [Additional Guns Wiki](https://github.com/Mr-Pineapple/AdditionalGuns/wiki/How-To-Contribute:-Introduction) if you would like to submit a weapon or other asset to add to the mod.
+Check out the [Additional Guns Wiki](https://github.com/Pinelog-Studios/AdditionalGuns/wiki/How-To-Contribute:-Introduction) if you would like to submit a weapon or other asset to add to the mod.
 
 ### 📜 Current Contributors
 
