@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="[41,)"
 license="GNU General Public License v3.0"
-issueTrackerURL="https://github.com/Mr-Pineapple/AdditionalGuns/issues"
+issueTrackerURL="https://github.com/Pinelog-Studios/AdditionalGuns/issues"
 
 [[mods]]
     modId="additionalguns"
     version="0.7.1"
     displayName="Additional Guns"
-    updateJSONURL="https://raw.githubusercontent.com/Mr-Pineapple/ModUpdateJSON/master/additionalguns/update.json"
+    updateJSONURL="https://raw.githubusercontent.com/Pinelog-Studios/VersionChecker/main/additionalguns/update.json"
     displayURL="https://www.curseforge.com/minecraft/mc-mods/additional-guns"
     authors="Mr. Pineapple, Autovw"
     credits="ThatAvocado_Boi, JamesTheMaker, JaMychal1, SirSpark1313, VIKTORWOOD, Mercuriousity, Stabilizer, CasualNoLifer, Igggosha, W1therFl1nt343, Joel McCassidy"
