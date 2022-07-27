@@ -5,9 +5,9 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 30,
     "reloadAmount": 6,
-    "recoilAngle": 3.0,
+    "recoilAngle": 2.0,
     "recoilKick": 1.0,
-    "recoilAdsReduction": 0.5,
+    "recoilAdsReduction": 0.55,
     "alwaysSpread": true,
     "spread": 10.0
   },
@@ -15,7 +15,7 @@
     "item": "additionalguns:bullet_medium",
     "visible": false,
     "gravity": true,
-    "damage": 9.0,
+    "damage": 8.0,
     "size": 0.1,
     "speed": 50.0,
     "life": 100
