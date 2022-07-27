@@ -1,18 +1,18 @@
 {
   "general": {
-    "rate": 5,
+    "rate": 6,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 12,
-    "reloadAmount": 4,
+    "maxAmmo": 14,
+    "reloadAmount": 5,
     "recoilAngle": 6.0,
     "recoilKick": 1.5,
-    "recoilAdsReduction": 0.65,
+    "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
-    "spread": 3.0
+    "spread": 1.0
   },
   "projectile": {
     "item": "additionalguns:bullet_short",
-    "damage": 9.0,
+    "damage": 11.0,
     "size": 0.1,
     "speed": 10.0,
     "life": 100
@@ -32,8 +32,8 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.85,
-      "yOffset": 7.3,
-      "zOffset": 1.0
+      "yOffset": 7.2,
+      "zOffset": 0.0
     },
     "attachments": {
       "scope": {
