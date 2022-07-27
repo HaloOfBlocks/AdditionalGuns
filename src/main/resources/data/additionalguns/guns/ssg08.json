@@ -16,8 +16,8 @@
     "gravity": true,
     "damage": 28.0,
     "size": 0.5,
-    "speed": 300.0,
-    "life": 1000
+    "speed": 100.0,
+    "life": 30
   },
   "sounds": {
     "fire": "additionalguns:item.ssg08.fire",
