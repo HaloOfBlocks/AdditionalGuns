@@ -3,7 +3,7 @@ name: Publish To Wiki
 on:
   push:
     paths:
-      - 'wiki/**'
+      - '.wiki/**'
     branches:
       - main
 jobs:
