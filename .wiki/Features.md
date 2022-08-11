@@ -33,7 +33,7 @@
 |M4A1-S|0.3.0|VIKTORWOOD|
 |M4A4|0.3.0|VIKTORWOOD|
 |MAC-10|0.4.0|VIKTORWOOD|
-|Magnum|0.7.0|CasualNoLifer & W1therFl1nt343|
+|Magnum|0.7.0|CasualNoLifer & WitherFlint343|
 |Mammoth|0.2.0|ThatAvocado_Boi|
 |MAT-49|0.2.0|SirSpark1313|
 |MP7A2|0.5.0|Mercuriousity|
