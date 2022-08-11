@@ -4,12 +4,17 @@
 Welcome to the **Additional Guns** wiki! **[WIP]**
 
 ### 📖 About
-Additional Guns is an addon for the Gun Mod created by MrCrayfish. This mod adds new guns created by the community. \
+Additional Guns is an addon for MrCrayfish's Gun Mod. This mod adds new guns created by the community. \
 New guns will be added over time, as well as new features.
 
-Select pages in the sidebar!
+Select pages to read in the sidebar of this wiki!
 
 ### 📥 Updates & Downloads
 This mod will be updated with new content over time so ensure you keep updated! \
 The mod can be downloaded from [this CurseForge page](https://www.curseforge.com/minecraft/mc-mods/additional-guns)!
+
+### 📦 Dependencies
+* [MrCrayfish's Gun Mod](https://www.curseforge.com/minecraft/mc-mods/mrcrayfishs-gun-mod) (Required)
+* [Framework](https://www.curseforge.com/minecraft/mc-mods/framework) (Required, **1.18.x versions and above**)
+* [Obfuscate](https://www.curseforge.com/minecraft/mc-mods/obfuscate) (Required, **1.16.x versions**)
 
