@@ -77,5 +77,7 @@
   "config.additionalguns.client.enable_gun_enchantment_glint": "If true, renders enchanted guns from Additional Guns with the enchantment glint.",
   "config.additionalguns.client.enable_bullet_casing_tooltip": "If true, displays helpful tooltip on bullet casings explaining their use-case.",
 
+  "config.additionalguns.common.experimental.force_dye_ability_guns": "If true, forces the ability to dye guns even if this behavior is turned of for the gun by default. This option might be useful to modpack and/or resource pack devs.",
+
   "itemGroup.additionalguns": "Additional Guns"
 }

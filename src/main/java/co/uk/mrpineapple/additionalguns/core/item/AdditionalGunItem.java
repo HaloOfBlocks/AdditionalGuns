@@ -22,7 +22,7 @@ public class AdditionalGunItem extends GunItem {
 
     @Override
     public boolean canColor(ItemStack stack) {
-        return this.canColor;
+        return this.canColor || Config.Common.Experimental.forceDyeAbilityGuns.get();
     }
 
     /**

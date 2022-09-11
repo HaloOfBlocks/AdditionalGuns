@@ -11,10 +11,17 @@ public class Config {
     public static final ForgeConfigSpec clientConfig;
     public static final Config.Client CLIENT;
 
+    public static final ForgeConfigSpec commonConfig;
+    public static final Config.Common COMMON;
+
     static {
         final Pair<Client, ForgeConfigSpec> clientConfigPair = new ForgeConfigSpec.Builder().configure(Client::new);
         clientConfig = clientConfigPair.getRight();
         CLIENT = clientConfigPair.getLeft();
+
+        final Pair<Common, ForgeConfigSpec> commonConfigPair = new ForgeConfigSpec.Builder().configure(Common::new);
+        commonConfig = commonConfigPair.getRight();
+        COMMON = commonConfigPair.getLeft();
     }
 
     public static class Client {
@@ -34,6 +41,34 @@ public class Config {
                         .define("enableBulletCasingTooltip", true);
             }
             builder.pop();
+        }
+
+    }
+
+    public static class Common {
+        public static Experimental experimental;
+
+        public Common(ForgeConfigSpec.Builder builder) {
+            builder.push("common");
+            {
+                experimental = new Experimental(builder);
+            }
+            builder.pop();
+        }
+
+        public static class Experimental {
+            public static ForgeConfigSpec.BooleanValue forceDyeAbilityGuns;
+
+            public Experimental(ForgeConfigSpec.Builder builder) {
+                builder.push("experimental");
+                {
+                    forceDyeAbilityGuns = builder
+                            .comment("If true, forces the ability to dye guns even if this behavior is turned of for the gun by default. This option might be useful to modpack and/or resource pack devs. False by default.")
+                            .translation("config.additionalguns.common.experimental.force_dye_ability_guns")
+                            .define("forceDyeAbilityGuns", false);
+                }
+                builder.pop();
+            }
         }
     }
 }

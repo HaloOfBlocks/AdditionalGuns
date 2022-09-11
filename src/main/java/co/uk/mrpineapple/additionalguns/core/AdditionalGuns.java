@@ -22,6 +22,7 @@ public class AdditionalGuns {
 
     public AdditionalGuns() {
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.clientConfig);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.commonConfig);
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.register(this);
