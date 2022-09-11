@@ -19,6 +19,7 @@ public class Config {
 
     public static class Client {
         public static ForgeConfigSpec.BooleanValue enableGunEnchantmentGlint;
+        public static ForgeConfigSpec.BooleanValue enableBulletCasingTooltip;
 
         public Client(ForgeConfigSpec.Builder builder) {
             builder.push("client");
@@ -27,6 +28,10 @@ public class Config {
                         .comment("If true, renders enchanted guns from Additional Guns with the enchantment glint. True by default.")
                         .translation("config.additionalguns.client.enable_gun_enchantment_glint")
                         .define("enableGunEnchantmentGlint", true);
+                enableBulletCasingTooltip = builder
+                        .comment("If true, displays helpful tooltip on bullet casings explaining their use-case. True by default.")
+                        .translation("config.additionalguns.client.enable_bullet_casing_tooltip")
+                        .define("enableBulletCasingTooltip", true);
             }
             builder.pop();
         }

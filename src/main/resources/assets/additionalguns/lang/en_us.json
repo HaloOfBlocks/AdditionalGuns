@@ -75,6 +75,7 @@
   "tooltip.additionalguns.bullet_casing_info": "This item can be used as an ingredient to craft a bullet, and is not usable as ammunition",
 
   "config.additionalguns.client.enable_gun_enchantment_glint": "If true, renders enchanted guns from Additional Guns with the enchantment glint.",
+  "config.additionalguns.client.enable_bullet_casing_tooltip": "If true, displays helpful tooltip on bullet casings explaining their use-case.",
 
   "itemGroup.additionalguns": "Additional Guns"
 }
