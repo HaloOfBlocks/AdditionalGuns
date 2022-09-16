@@ -8,7 +8,11 @@ import com.mrcrayfish.guns.client.render.gun.ModelOverrides;
 import com.mrcrayfish.guns.client.render.gun.model.ShortScopeModel;
 
 public class ClientHandler {
-    public static void registerModelOverrides() {
+    public static void setup() {
+        registerModelOverrides();
+    }
+
+    private static void registerModelOverrides() {
         ModelOverrides.register(ItemRegistry.HOLO_SCOPE.get(), new ShortScopeModel());
         ModelOverrides.register(ItemRegistry.ZERKALO_SCOPE.get(), new ZerkaloScopeModel());
         ModelOverrides.register(ItemRegistry.KOBRA_SCOPE.get(), new KobraScopeModel());

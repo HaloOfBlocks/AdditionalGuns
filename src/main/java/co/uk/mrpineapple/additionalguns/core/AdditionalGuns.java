@@ -35,7 +35,7 @@ public class AdditionalGuns {
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {
-        ClientHandler.registerModelOverrides();
+        event.enqueueWork(ClientHandler::setup);
     }
 
     private void gatherData(final GatherDataEvent event) {
