@@ -23,10 +23,9 @@ After submitting a model or working on the addon, we'll add your name here as we
  - VIKTORWOOD
  - PixVoxel
  - Mercuriousity
- - Stabilizer
  - CasualNoLifer
  - Igggosha
- - W1therFl1nt343
+ - WitherFlint343
  - Joel McCassidy
 
 ### 📥 Updates & Downloads
