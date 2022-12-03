@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench by Hobbeswyn",
 	"textures": {
-		"1": "projectarsenal:item/mossou_wood",
-		"2": "projectarsenal:item/mossou_wood_2",
-		"3": "projectarsenal:item/mossou_silver",
-		"4": "projectarsenal:item/mossou_barrel",
-		"5": "projectarsenal:item/mossou_black",
-		"particle": "projectarsenal:item/mossou_wood"
+		"1": "additionalguns:item/mossou_wood",
+		"2": "additionalguns:item/mossou_wood_2",
+		"3": "additionalguns:item/mossou_silver",
+		"4": "additionalguns:item/mossou_barrel",
+		"5": "additionalguns:item/mossou_black",
+		"particle": "additionalguns:item/mossou_wood"
 	},
 	"elements": [
 		{

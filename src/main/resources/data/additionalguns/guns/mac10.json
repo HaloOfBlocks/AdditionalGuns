@@ -22,7 +22,7 @@
   "sounds": {
     "fire": "additionalguns:item.pistol.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.rifle.cock",
+    "cock": "cgm:item.assault_rifle.cock",
     "silencedFire": "additionalguns:item.pistol.suppressed"
   },
   "display": {

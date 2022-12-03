@@ -1,23 +1,23 @@
 {
   "general": {
-    "rate": 8,
+    "rate": 10,
     "gripType": "cgm:one_handed",
     "maxAmmo": 6,
     "reloadAmount": 1,
-    "recoilAngle": 20.0,
+    "recoilAngle": 11.0,
     "recoilKick": 4.0,
-    "recoilAdsReduction": 0.85,
+    "recoilAdsReduction": 0.55,
     "alwaysSpread": true,
-    "spread": 2.0
+    "spread": 3.0
   },
   "projectile": {
     "item": "additionalguns:bullet_short",
     "visible": false,
     "gravity": true,
-    "damage": 18.0,
-    "size": 0.2,
-    "speed": 300.0,
-    "life": 100
+    "damage": 15.0,
+    "size": 0.5,
+    "speed": 40.0,
+    "life": 70
   },
   "sounds": {
     "fire": "additionalguns:item.magnum.fire",
@@ -34,7 +34,7 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
-      "yOffset": 7.5,
+      "yOffset": 7.4,
       "zOffset": 2.0
     },
       "attachments": {

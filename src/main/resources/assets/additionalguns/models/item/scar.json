@@ -1,13 +1,13 @@
 {
 	"credit": "Made with Blockbench by WitherFlint343 and CasualNoLifer",
 	"textures": {
-		"4": "projectarsenal:item/gunmetal_light",
-		"6": "projectarsenal:item/gunmetal_bright4",
-		"8": "projectarsenal:item/gunmetal_bright",
-		"9": "projectarsenal:item/gunmetal_bright5",
-		"10": "projectarsenal:item/gunmetal",
-		"11": "projectarsenal:item/gunmetal_bright3",
-		"particle": "projectarsenal:item/gunmetal_bright6"
+		"4": "additionalguns:item/gunmetal_light",
+		"6": "additionalguns:item/gunmetal_bright4",
+		"8": "additionalguns:item/gunmetal_bright",
+		"9": "additionalguns:item/gunmetal_bright5",
+		"10": "additionalguns:item/gunmetal",
+		"11": "additionalguns:item/gunmetal_bright3",
+		"particle": "additionalguns:item/gunmetal_bright6"
 	},
 	"elements": [
 		{
