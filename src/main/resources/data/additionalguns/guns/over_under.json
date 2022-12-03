@@ -22,7 +22,7 @@
     "life": 10
   },
   "sounds": {
-    "fire": "projectarsenal:item.ou.fire",
+    "fire": "additionalguns:item.ou.fire",
     "reload": "cgm:item.pistol.reload",
     "cock": "cgm:item.shotgun.cock"
   },
