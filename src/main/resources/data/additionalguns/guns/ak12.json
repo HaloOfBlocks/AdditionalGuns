@@ -15,7 +15,7 @@
 		"item": "additionalguns:bullet_medium",
 		"visible": false,
 		"gravity": true,
-		"damage": 6.5,
+		"damage": 7.5,
 		"size": 0.1,
 		"speed": 50.0,
 		"life": 60

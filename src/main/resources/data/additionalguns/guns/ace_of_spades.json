@@ -33,21 +33,9 @@
   },
   "modules": {
     "zoom": {
-      "fovModifier": 0.8,
+      "fovModifier": 0.5,
       "yOffset": 6.5,
       "zOffset": 4.0
-    },
-    "attachments": {
-      "scope": {
-        "yOffset": 6,
-        "zOffset": 3.0,
-        "scale": 0.75
-      },
-      "barrel": {
-        "yOffset": 3.7,
-        "zOffset": -5.2,
-        "scale": 0.75
-      }
     }
   }
 }

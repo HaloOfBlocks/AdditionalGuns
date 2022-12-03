@@ -10,13 +10,13 @@
 		"recoilAdsReduction": 0.35,
 		"projectileAmount": 8,
 		"alwaysSpread": true,
-		"spread": 12.0
+		"spread": 15.0
 	},
 	"projectile": {
 		"item": "cgm:shell",
 		"visible": false,
 		"gravity": true,
-		"damage": 24,
+		"damage": 32,
 		"size": 0.75,
 		"speed": 30.0,
 		"life": 30

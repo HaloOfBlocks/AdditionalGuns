@@ -12,7 +12,7 @@
     "spread": 5.0
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
+    "item": "additionalguns:bullet_small",
     "visible": false,
     "gravity": true,
     "damage": 5.0,
