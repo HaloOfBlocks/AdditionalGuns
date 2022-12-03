@@ -48,6 +48,7 @@ public class SoundRegistry {
     public static final RegistryObject<SoundEvent> PYTHON_FIRE = register("item.python.fire");
     public static final RegistryObject<SoundEvent> SCAR_FIRE = register("item.scar.fire");
     public static final RegistryObject<SoundEvent> OU_FIRE = register("item.ou.fire");
+    public static final RegistryObject<SoundEvent> USAS_TWELVE = register("item.usas12.fire");
 
     private static RegistryObject<SoundEvent> register(String name) {
         return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(AdditionalGuns.ID, name)));

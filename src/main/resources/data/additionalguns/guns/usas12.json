@@ -22,7 +22,7 @@
 		"life": 30
 	},
 	"sounds": {
-		"fire": "additionalguns:item.m1014.fire",
+		"fire": "additionalguns:item.usas12.fire",
 		"reload": "cgm:item.pistol.reload",
 		"cock": "cgm:item.assault_rifle.cock",
 		"silencedFire": "cgm:item.shotgun.suppressed"
