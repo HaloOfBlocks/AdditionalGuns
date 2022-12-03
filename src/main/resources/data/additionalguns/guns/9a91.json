@@ -17,8 +17,8 @@
     "gravity": true,
     "damage": 10.0,
     "size": 0.1,
-    "speed": 100.0,
-    "life": 250
+    "speed": 30.0,
+    "life": 50
   },
   "sounds": {
     "fire": "additionalguns:item.intsup.fire",

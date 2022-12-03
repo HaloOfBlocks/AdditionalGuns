@@ -17,7 +17,7 @@
     "damage": 35.0,
     "size": 2.0,
     "speed": 100.0,
-    "life": 50
+    "life": 100
   },
   "sounds": {
     "fire": "additionalguns:item.awm.fire",

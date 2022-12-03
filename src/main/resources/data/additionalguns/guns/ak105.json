@@ -17,8 +17,8 @@
 		"gravity": true,
 		"damage": 12.5,
 		"size": 0.2,
-		"speed": 300.0,
-		"life": 300
+		"speed": 70.0,
+		"life": 80
 	},
 	"sounds": {
 		"fire": "additionalguns:item.ak2.fire",

@@ -1,8 +1,8 @@
 {
   "general": {
-    "rate": 18,
+    "rate": 10,
     "gripType": "cgm:one_handed",
-    "maxAmmo": 12,
+    "maxAmmo": 13,
     "reloadAmount": 4,
     "recoilAngle": 12.5,
     "recoilKick": 2.5,
@@ -15,9 +15,9 @@
     "visible": false,
     "gravity": false,
     "damage": 25.0,
-    "size": 0.75,
+    "size": 1.0,
     "speed": 100.0,
-    "life": 1000
+    "life": 100
   },
   "sounds": {
     "fire": "additionalguns:item.aos.fire",

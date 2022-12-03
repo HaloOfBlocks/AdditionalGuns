@@ -15,7 +15,7 @@
     "damage": 11.0,
     "size": 0.1,
     "speed": 10.0,
-    "life": 100
+    "life": 50
   },
   "sounds": {
     "fire": "additionalguns:item.pistol.fire",

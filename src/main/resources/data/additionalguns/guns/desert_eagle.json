@@ -1,10 +1,10 @@
 {
   "general": {
-    "rate": 13,
+    "rate": 10,
     "gripType": "cgm:one_handed",
     "maxAmmo": 7,
     "reloadAmount": 3,
-    "recoilAngle": 11.0,
+    "recoilAngle": 14.0,
     "recoilKick": 2.5,
     "recoilAdsReduction": 0.65,
     "alwaysSpread": true,
@@ -15,8 +15,8 @@
     "visible": false,
     "damage": 17,
     "size": 1.0,
-    "speed": 100.0,
-    "life": 1000
+    "speed": 80.0,
+    "life": 100
   },
   "sounds": {
     "fire": "additionalguns:item.deagle.fire",

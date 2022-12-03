@@ -8,7 +8,7 @@
     "recoilKick": 2.5,
     "recoilAdsReduction": 0.65,
     "alwaysSpread": true,
-    "spread": 4.5
+    "spread": 1.5
   },
   "projectile": {
     "item": "additionalguns:bullet_long",
@@ -17,7 +17,7 @@
     "damage": 28.0,
     "size": 0.5,
     "speed": 100.0,
-    "life": 30
+    "life": 100
   },
   "sounds": {
     "fire": "additionalguns:item.ssg08.fire",
