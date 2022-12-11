@@ -33,9 +33,9 @@ public class SoundRegistry {
     public static final RegistryObject<SoundEvent> BANSHEE_FIRE = register("item.banshee.fire");
     public static final RegistryObject<SoundEvent> FN_TWO_THOUSAND_FIRE = register("item.fn2000.fire");
     public static final RegistryObject<SoundEvent> M_ONE_ZERO_ONE_FOUR_FIRE = register("item.m1014.fire");
-    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_FIRE = register("item.1911.fire");
-    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_SUPPRESSED = register("item.1911.suppressed");
-    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_ENCHANTED = register("item.1911.enchanted");
+    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_FIRE = register("item.m1911.fire");
+    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_SUPPRESSED = register("item.m1911.suppressed");
+    public static final RegistryObject<SoundEvent> M_ONE_NINE_ONE_ONE_ENCHANTED = register("item.m1911.enchanted");
     public static final RegistryObject<SoundEvent> MAC_TEN_FIRE = register("item.mac10.fire");
     public static final RegistryObject<SoundEvent> MAGNUM_FIRE = register("item.magnum.fire");
     public static final RegistryObject<SoundEvent> PP_ONE_NINE_FIRE = register("item.pp19.fire");
