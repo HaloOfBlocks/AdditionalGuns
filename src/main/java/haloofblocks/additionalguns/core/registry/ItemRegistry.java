@@ -1,8 +1,8 @@
-package co.uk.mrpineapple.additionalguns.core.registry;
+package haloofblocks.additionalguns.core.registry;
 
-import co.uk.mrpineapple.additionalguns.core.AdditionalGuns;
-import co.uk.mrpineapple.additionalguns.core.item.AdditionalGunItem;
-import co.uk.mrpineapple.additionalguns.core.item.BulletCasingItem;
+import haloofblocks.additionalguns.AdditionalGuns;
+import haloofblocks.additionalguns.common.item.AdditionalGunItem;
+import haloofblocks.additionalguns.common.item.BulletCasingItem;
 import com.mrcrayfish.guns.common.GunModifiers;
 import com.mrcrayfish.guns.item.*;
 import com.mrcrayfish.guns.item.attachment.impl.Barrel;

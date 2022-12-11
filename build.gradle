@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
 version = "0.7.2-1.18.2"
-group = "co.uk.mrpineapple"
+group = "haloofblocks.additionalguns"
 archivesBaseName = "additional-guns"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -85,11 +85,11 @@ jar {
     manifest {
         attributes([
             "Specification-Title": "Additional Guns",
-            "Specification-Vendor": "Mr Pineapple",
+            "Specification-Vendor": "Halo of Blocks",
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": project.jar.archiveVersion,
-            "Implementation-Vendor" :"Mr Pineapple",
+            "Implementation-Vendor" : "Halo of Blocks",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

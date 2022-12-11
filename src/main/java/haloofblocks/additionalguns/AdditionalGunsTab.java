@@ -1,7 +1,7 @@
-package co.uk.mrpineapple.additionalguns.core;
+package haloofblocks.additionalguns;
 
-import co.uk.mrpineapple.additionalguns.core.item.AdditionalGunItem;
-import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
+import haloofblocks.additionalguns.common.item.AdditionalGunItem;
+import haloofblocks.additionalguns.core.registry.ItemRegistry;
 import com.mrcrayfish.guns.client.CustomGunManager;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;

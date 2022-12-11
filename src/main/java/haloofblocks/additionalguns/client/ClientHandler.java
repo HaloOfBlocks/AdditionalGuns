@@ -1,8 +1,8 @@
-package co.uk.mrpineapple.additionalguns.client;
+package haloofblocks.additionalguns.client;
 
-import co.uk.mrpineapple.additionalguns.client.render.gun.model.KobraScopeModel;
-import co.uk.mrpineapple.additionalguns.client.render.gun.model.ZerkaloScopeModel;
-import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
+import haloofblocks.additionalguns.client.render.gun.model.KobraScopeModel;
+import haloofblocks.additionalguns.client.render.gun.model.ZerkaloScopeModel;
+import haloofblocks.additionalguns.core.registry.ItemRegistry;
 import com.mrcrayfish.guns.client.render.gun.ModelOverrides;
 //import com.mrcrayfish.guns.client.render.gun.model.LongScopeModel;
 import com.mrcrayfish.guns.client.render.gun.model.ShortScopeModel;

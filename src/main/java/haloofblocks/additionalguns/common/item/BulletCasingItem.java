@@ -1,4 +1,4 @@
-package co.uk.mrpineapple.additionalguns.core.item;
+package haloofblocks.additionalguns.common.item;
 
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
