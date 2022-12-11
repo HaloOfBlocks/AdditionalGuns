@@ -1,6 +1,6 @@
-package co.uk.mrpineapple.additionalguns.core.datagen;
+package haloofblocks.additionalguns.datagen;
 
-import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
+import haloofblocks.additionalguns.core.registry.ItemRegistry;
 import com.mrcrayfish.guns.crafting.WorkbenchIngredient;
 import com.mrcrayfish.guns.crafting.WorkbenchRecipeBuilder;
 import net.minecraft.data.DataGenerator;

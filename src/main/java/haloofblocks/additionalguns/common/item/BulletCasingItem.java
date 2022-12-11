@@ -1,4 +1,4 @@
-package co.uk.mrpineapple.additionalguns.core.item;
+package haloofblocks.additionalguns.common.item;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.ITooltipFlag;

@@ -1,7 +1,7 @@
-package co.uk.mrpineapple.additionalguns.core.event;
+package haloofblocks.additionalguns.common.event;
 
-import co.uk.mrpineapple.additionalguns.core.AdditionalGuns;
-import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
+import haloofblocks.additionalguns.AdditionalGuns;
+import haloofblocks.additionalguns.core.registry.ItemRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;

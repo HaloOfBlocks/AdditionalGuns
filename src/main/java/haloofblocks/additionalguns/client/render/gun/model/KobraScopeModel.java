@@ -1,4 +1,4 @@
-package co.uk.mrpineapple.additionalguns.client.render.gun.model;
+package haloofblocks.additionalguns.client.render.gun.model;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
