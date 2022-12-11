@@ -14,8 +14,8 @@
 		"item": "additionalguns:bullet_short",
 		"damage": 13.0,
 		"size": 0.2,
-		"speed": 50.0,
-		"life": 500
+		"speed": 40.0,
+		"life": 50
 	},
 	"sounds": {
 		"fire": "additionalguns:item.p250.fire",
