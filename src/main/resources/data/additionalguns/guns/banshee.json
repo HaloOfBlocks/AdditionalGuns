@@ -15,10 +15,10 @@
 		"item": "additionalguns:bullet_short",
 		"visible": false,
 		"gravity": true,
-		"damage": 15,
-		"size": 0.15,
-		"speed": 50.0,
-		"life": 100
+		"damage": 14,
+		"size": 0.5,
+		"speed": 70.0,
+		"life": 80
 	},
 	"sounds": {
 		"fire": "additionalguns:item.pistol.fire",

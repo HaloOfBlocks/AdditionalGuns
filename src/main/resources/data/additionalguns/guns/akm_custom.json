@@ -15,10 +15,10 @@
 		"item": "additionalguns:bullet_heavy",
 		"visible": false,
 		"gravity": true,
-		"damage": 12.5,
+		"damage": 12,
 		"size": 0.2,
-		"speed": 300.0,
-		"life": 300
+		"speed": 60.0,
+		"life": 70
 	},
 	"sounds": {
 		"fire": "additionalguns:item.ak2.fire",
