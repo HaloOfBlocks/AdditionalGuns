@@ -1,17 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
 license="GNU General Public License v3.0"
-issueTrackerURL="https://github.com/Pinelog-Studios/AdditionalGuns/issues"
+issueTrackerURL="https://github.com/HaloOfBlocks/AdditionalGuns/issues"
 
 [[mods]]
     modId="additionalguns"
     version="0.7.2"
     displayName="Additional Guns"
-    updateJSONURL="https://raw.githubusercontent.com/Pinelog-Studios/VersionChecker/main/additionalguns/update.json"
+    updateJSONURL="https://raw.githubusercontent.com/HaloOfBlocks/VersionChecker/main/additionalguns/update.json"
     displayURL="https://www.curseforge.com/minecraft/mc-mods/additional-guns"
-    authors="Mr. Pineapple, Autovw"
-    credits="ThatAvocado_Boi, JamesTheMaker, JaMychal1, SirSpark1313, VIKTORWOOD, Mercuriousity, CasualNoLifer, Igggosha, WitherFlint343, Joel McCassidy"
-    description="A community addon pack for MrCrayfish's Gun Mod - To contribute, head over the GitHub or simply join discord.gg/mrcrayfish and let us know!"
+    authors="Halo of Blocks Team: Autovw, CasualNoLifer"
+    credits="Mr. Pineapple, ThatAvocado_Boi, JamesTheMaker, JaMychal1, SirSpark1313, VIKTORWOOD, Mercuriousity, Igggosha, WitherFlint343, Joel McCassidy"
+    description="Additional Guns focuses on implementing assets made by the community alongside special features that are not included in the base mod to enhance the Gun Mod experience. - To contribute, head over to the GitHub or simply join discord.gg/47c9FG7fdW and let us know!"
 
 [[dependencies.additionalguns]]
     modId="forge"
