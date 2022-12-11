@@ -15,10 +15,10 @@
     "item": "additionalguns:bullet_medium",
     "visible": false,
     "gravity": true,
-    "damage": 8.0,
+    "damage": 7.0,
     "size": 0.1,
-    "speed": 100.0,
-    "life": 250
+    "speed": 40.0,
+    "life": 40
   },
   "sounds": {
     "fire": "additionalguns:item.aug.fire",

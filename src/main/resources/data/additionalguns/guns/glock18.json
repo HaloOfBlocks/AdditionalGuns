@@ -16,8 +16,8 @@
     "visible": false,
     "damage": 4.5,
     "size": 0.1,
-    "speed": 50.0,
-    "life": 100
+    "speed": 10.0,
+    "life": 20
   },
   "sounds": {
     "fire": "additionalguns:item.mac10.fire",

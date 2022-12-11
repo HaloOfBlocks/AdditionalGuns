@@ -254,5 +254,45 @@
         "name": "additionalguns:item/heavy_suppression"
       }
     ]
+  },
+  "item.unica.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/unica_fire"
+      }
+    ]
+  },
+  "item.python.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/python_fire"
+      }
+    ]
+  },
+  "item.scar.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/scar_fire"
+      }
+    ]
+  },
+  "item.ou.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/ou_fire"
+      }
+    ]
+  },
+  "item.usas12.fire": {
+    "subtitle": "subtitle.additionalguns.regular_fire",
+    "sounds": [
+      {
+        "name": "additionalguns:item/usas12_fire"
+      }
+    ]
   }
 }

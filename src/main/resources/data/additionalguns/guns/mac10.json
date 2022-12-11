@@ -14,7 +14,7 @@
   "projectile": {
     "item": "additionalguns:bullet_small",
     "visible": false,
-    "damage": 6.0,
+    "damage": 5.5,
     "size": 0.1,
     "speed": 25.0,
     "life": 10
@@ -22,7 +22,7 @@
   "sounds": {
     "fire": "additionalguns:item.pistol.fire",
     "reload": "cgm:item.pistol.reload",
-    "cock": "cgm:item.rifle.cock",
+    "cock": "cgm:item.assault_rifle.cock",
     "silencedFire": "additionalguns:item.pistol.suppressed"
   },
   "display": {

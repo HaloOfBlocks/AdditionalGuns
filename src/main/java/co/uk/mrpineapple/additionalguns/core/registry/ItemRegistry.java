@@ -21,7 +21,7 @@ public class ItemRegistry {
 
     /* Guns */
     public static final RegistryObject<Item> MAMMOTH = registerGun("mammoth", false);
-    public static final RegistryObject<Item> VECTOR = registerGun("vector", false);
+    public static final RegistryObject<Item> VECTOR = registerGun("vector", true);
     public static final RegistryObject<Item> NINE_A_NINE_ONE = registerGun("9a91", true);
     public static final RegistryObject<Item> ACE_OF_SPADES = registerGun("ace_of_spades", false);
     public static final RegistryObject<Item> G_ELEVEN = registerGun("g11", true);
@@ -58,6 +58,14 @@ public class ItemRegistry {
     public static final RegistryObject<Item> P_TWO_FIVE_ZERO = registerGun("p250", true);
     public static final RegistryObject<Item> M_ONE_NINE_ONE_ONE = registerGun("m1911", true);
     public static final RegistryObject<Item> MAGNUM = registerGun("magnum", true);
+    public static final RegistryObject<Item> SCAR = registerGun("scar", true);
+    public static final RegistryObject<Item> OVER_UNDER = registerGun("over_under", false);
+    public static final RegistryObject<Item> CUSTOM_MAC = registerGun("custom_mac", false);
+    public static final RegistryObject<Item> USAS_TWELVE = registerGun("usas12", true);
+    public static final RegistryObject<Item> PYTHON = registerGun("python", false);
+    public static final RegistryObject<Item> UNICA = registerGun("unica", false);
+    public static final RegistryObject<Item> MP_SEVEN = registerGun("mp7", true);
+
 
     /* Scope Attachments */
     public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.6F, GunModifiers.SLOW_ADS).viewFinderOffset(0.4), genericProperties, false));

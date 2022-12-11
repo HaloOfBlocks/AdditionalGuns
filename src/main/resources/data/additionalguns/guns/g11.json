@@ -5,7 +5,7 @@
     "gripType": "cgm:two_handed",
     "maxAmmo": 48,
     "reloadAmount": 8,
-    "recoilAngle": 5.5,
+    "recoilAngle": 4.35,
     "recoilKick": 1.5,
     "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
@@ -17,8 +17,8 @@
     "gravity": true,
     "damage": 16,
     "size": 0.45,
-    "speed": 500.0,
-    "life": 1000
+    "speed": 90.0,
+    "life": 100
   },
   "sounds": {
     "fire": "additionalguns:item.heavy.fire",
