@@ -1275,12 +1275,12 @@
 			"rotation": {"angle": 45, "axis": "z", "origin": [7.91904, 9.32424, 7.62124]},
 			"color": 4,
 			"faces": {
-				"north": {"uv": [0, 0, 0.075, 0.1], "texture": "#missing"},
-				"east": {"uv": [0, 0, 0.1, 0.025], "rotation": 90, "texture": "#missing"},
-				"south": {"uv": [0, 0, 0.075, 0.1], "rotation": 180, "texture": "#missing"},
-				"west": {"uv": [0, 0, 0.1, 0.025], "rotation": 270, "texture": "#missing"},
-				"up": {"uv": [0, 0, 0.075, 0.025], "texture": "#missing"},
-				"down": {"uv": [0, 0, 0.075, 0.025], "rotation": 180, "texture": "#missing"}
+				"north": {"uv": [0, 0, 0.075, 0.1], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.1, 0.025], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 0.075, 0.1], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 0, 0.1, 0.025], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 0.075, 0.025], "texture": "#0"},
+				"down": {"uv": [0, 0, 0.075, 0.025], "rotation": 180, "texture": "#0"}
 			}
 		},
 		{
@@ -1289,12 +1289,12 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [7.91904, 9.32424, 7.62124]},
 			"color": 4,
 			"faces": {
-				"north": {"uv": [0, 0, 0.075, 0.1], "texture": "#missing"},
-				"east": {"uv": [0, 0, 0.1, 0.025], "rotation": 90, "texture": "#missing"},
-				"south": {"uv": [0, 0, 0.075, 0.1], "rotation": 180, "texture": "#missing"},
-				"west": {"uv": [0, 0, 0.1, 0.025], "rotation": 270, "texture": "#missing"},
-				"up": {"uv": [0, 0, 0.075, 0.025], "texture": "#missing"},
-				"down": {"uv": [0, 0, 0.075, 0.025], "rotation": 180, "texture": "#missing"}
+				"north": {"uv": [0, 0, 0.075, 0.1], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.1, 0.025], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 0.075, 0.1], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [0, 0, 0.1, 0.025], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 0.075, 0.025], "texture": "#0"},
+				"down": {"uv": [0, 0, 0.075, 0.025], "rotation": 180, "texture": "#0"}
 			}
 		},
 		{
