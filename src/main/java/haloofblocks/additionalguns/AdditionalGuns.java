@@ -1,10 +1,10 @@
-package co.uk.mrpineapple.additionalguns.core;
+package haloofblocks.additionalguns;
 
-import co.uk.mrpineapple.additionalguns.client.ClientHandler;
-import co.uk.mrpineapple.additionalguns.core.config.Config;
-import co.uk.mrpineapple.additionalguns.core.datagen.ModRecipeGenerator;
-import co.uk.mrpineapple.additionalguns.core.registry.ItemRegistry;
-import co.uk.mrpineapple.additionalguns.core.registry.SoundRegistry;
+import haloofblocks.additionalguns.client.ClientHandler;
+import haloofblocks.additionalguns.config.Config;
+import haloofblocks.additionalguns.datagen.ModRecipeGenerator;
+import haloofblocks.additionalguns.core.registry.ItemRegistry;
+import haloofblocks.additionalguns.core.registry.SoundRegistry;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.data.event.GatherDataEvent;

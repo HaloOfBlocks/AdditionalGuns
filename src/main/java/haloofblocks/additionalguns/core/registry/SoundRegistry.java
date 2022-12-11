@@ -1,6 +1,6 @@
-package co.uk.mrpineapple.additionalguns.core.registry;
+package haloofblocks.additionalguns.core.registry;
 
-import co.uk.mrpineapple.additionalguns.core.AdditionalGuns;
+import haloofblocks.additionalguns.AdditionalGuns;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraftforge.registries.DeferredRegister;

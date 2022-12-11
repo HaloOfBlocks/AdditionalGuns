@@ -1,6 +1,6 @@
-package co.uk.mrpineapple.additionalguns.core.item;
+package haloofblocks.additionalguns.common.item;
 
-import co.uk.mrpineapple.additionalguns.core.config.Config;
+import haloofblocks.additionalguns.config.Config;
 import com.mrcrayfish.guns.item.GunItem;
 import net.minecraft.world.item.ItemStack;
 
