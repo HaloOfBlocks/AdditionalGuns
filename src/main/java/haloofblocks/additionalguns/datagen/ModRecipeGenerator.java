@@ -225,6 +225,54 @@ public class ModRecipeGenerator extends RecipeProvider {
                 .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 19))
                 .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
                 .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.SCAR.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 48))
+                .addIngredient(WorkbenchIngredient.of(Items.BLACK_CONCRETE, 2))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_black_concrete", has(Items.BLACK_CONCRETE))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.OVER_UNDER.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 36))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_GOLD, 12))
+                .addIngredient(WorkbenchIngredient.of(ItemTags.PLANKS, 24))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_gold_ingot", has(Tags.Items.INGOTS_GOLD))
+                .addCriterion("has_planks", has(ItemTags.PLANKS))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.CUSTOM_MAC.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 24))
+                .addIngredient(WorkbenchIngredient.of(Items.GRAY_CONCRETE, 6))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_gray_concrete", has(Items.GRAY_CONCRETE))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.USAS_TWELVE.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 56))
+                .addIngredient(WorkbenchIngredient.of(Items.BLACK_CONCRETE, 4))
+                .addIngredient(WorkbenchIngredient.of(Items.GRAY_CONCRETE, 2))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_black_concrete", has(Items.BLACK_CONCRETE))
+                .addCriterion("has_gray_concrete", has(Items.GRAY_CONCRETE))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.PYTHON.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 18))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_GOLD, 6))
+                .addIngredient(WorkbenchIngredient.of(ItemTags.PLANKS, 12))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_gold_nugget", has(Tags.Items.NUGGETS_GOLD))
+                .addCriterion("has_planks", has(ItemTags.PLANKS))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.UNICA.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 20))
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.NUGGETS_GOLD, 6))
+                .addIngredient(WorkbenchIngredient.of(ItemTags.PLANKS, 12))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .addCriterion("has_gold_nugget", has(Tags.Items.NUGGETS_GOLD))
+                .addCriterion("has_planks", has(ItemTags.PLANKS))
+                .build(consumer);
+        WorkbenchRecipeBuilder.crafting(ItemRegistry.MP_SEVEN.get())
+                .addIngredient(WorkbenchIngredient.of(Tags.Items.INGOTS_IRON, 32))
+                .addCriterion("has_iron_ingot", has(Tags.Items.INGOTS_IRON))
+                .build(consumer);
 
 
         // Scopes
