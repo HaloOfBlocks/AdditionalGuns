@@ -744,7 +744,8 @@
 			"translation": [-3.25, 9.25, -0.5]
 		},
 		"ground": {
-			"translation": [-1, 5.75, -5]
+			"translation": [-1, 5, -5],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
@@ -753,8 +754,8 @@
 		},
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [-3.75, 5.25, -2],
-			"scale": [1.2, 1.2, 1.2]
+			"translation": [-9, 9.25, -1.25],
+			"scale": [1.75, 1.75, 1.75]
 		}
 	},
 	"groups": [
