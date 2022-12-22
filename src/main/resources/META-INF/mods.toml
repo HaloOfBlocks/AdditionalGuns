@@ -34,7 +34,7 @@ issueTrackerURL="https://github.com/HaloOfBlocks/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="framework"
     mandatory=true
-    versionRange="[0.3.2,)"
+    versionRange="[0.3.3,)"
     ordering="NONE"
     side="BOTH"
 
