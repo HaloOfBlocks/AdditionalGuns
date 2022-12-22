@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:ingots/iron",
+      "count": 24
+    },
+    {
+      "item": "minecraft:gray_concrete",
+      "count": 6
+    }
+  ],
+  "result": {
+    "item": "additionalguns:custom_mac"
+  }
+}
