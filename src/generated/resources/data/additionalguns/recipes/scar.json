@@ -1,0 +1,16 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 48,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:black_concrete"
+    }
+  ],
+  "result": {
+    "item": "additionalguns:scar"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "count": 20,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 6,
+      "tag": "forge:nuggets/gold"
+    },
+    {
+      "count": 12,
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "item": "additionalguns:unica"
+  }
+}
