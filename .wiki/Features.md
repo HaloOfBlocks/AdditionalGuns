@@ -33,23 +33,23 @@
 | M4A1-S             | 0.3.0    | VIKTORWOOD                      |
 | M4A4               | 0.3.0    | VIKTORWOOD                      |
 | MAC-10             | 0.4.0    | VIKTORWOOD                      |
-| MAC-10 Custom      | 0.8.0    | ???                             |
-| Magnum             | 0.7.0    | CasualNoLifer & Wh1therFl1nt343 |
+| MAC-10 Custom      | 0.8.0    | GreenFox011                     |
+| Magnum             | 0.7.0    | CasualNoLifer & WhitherFlint343 |
 | Mammoth            | 0.2.0    | ThatAvocado_Boi                 |
 | MAT-49             | 0.2.0    | SirSpark1313                    |
-| MP7                | 0.8.0    | ???                             |
+| MP7                | 0.8.0    | CasualNoLifer & Mercuriousity   |
 | MP7A2              | 0.5.0    | Mercuriousity                   |
 | Ots-03             | 0.2.0    | ThatAvocado_Boi                 |
-| Over/Under Shotgun | 0.8.0    | ???                             |
+| Over/Under Shotgun | 0.8.0    | Hobbeswyn                       |
 | P250               | 0.6.0    | VIKTORWOOD                      |
 | PP-19 Bizon        | 0.2.0    | ThatAvocado_Boi                 |
-| Python             | 0.8.0    | ???                             |
+| Python             | 0.8.0    | Lieutenant Howitzer             |
 | Raven's Claw       | 0.2.0    | ThatAvocado_Boi                 |
-| SCAR               | 0.8.0    | CasualNoLifer & Wh1therFl1nt343 |
+| SCAR               | 0.8.0    | CasualNoLifer & WhitherFlint343 |
 | Schwarzlose        | 0.2.0    | SirSpark1313                    |
 | SSG-08             | 0.3.0    | VIKTORWOOD                      |
 | UMP45              | upcoming | Mercuriousity                   |
-| Unica              | 0.8.0    | ???                             |
+| Unica M6           | 0.8.0    | Lieutenant Howitzer             |
 | USAS-12            | 0.8.0    | lazy_percel                     |
 | USP                | 0.5.0    | VIKTORWOOD                      |
 | Val                | 0.2.0    | ThatAvocado_Boi                 |
