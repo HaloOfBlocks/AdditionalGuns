@@ -10,7 +10,7 @@ issueTrackerURL="https://github.com/HaloOfBlocks/AdditionalGuns/issues"
     updateJSONURL="https://raw.githubusercontent.com/HaloOfBlocks/VersionChecker/main/additionalguns/update.json"
     displayURL="https://www.curseforge.com/minecraft/mc-mods/additional-guns"
     authors="Halo of Blocks Team: Autovw, CasualNoLifer"
-    credits="Mr. Pineapple, ThatAvocado_Boi, JamesTheMaker, JaMychal1, SirSpark1313, VIKTORWOOD, Mercuriousity, Igggosha, WitherFlint343, Joel McCassidy"
+    credits="Mr. Pineapple, ThatAvocado_Boi, JamesTheMaker, JaMychal1, SirSpark1313, VIKTORWOOD, Mercuriousity, Igggosha, WitherFlint343, Joel McCassidy, GreenFox011, Lieutenant Howitzer, Hobbeswyn"
     description="Additional Guns focuses on implementing assets made by the community alongside special features that are not included in the base mod to enhance the Gun Mod experience. - To contribute, head over to the GitHub or simply join discord.gg/47c9FG7fdW and let us know!"
 
 [[dependencies.additionalguns]]
