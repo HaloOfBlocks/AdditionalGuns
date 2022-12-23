@@ -22,7 +22,7 @@ issueTrackerURL="https://github.com/HaloOfBlocks/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19,1.20)"
+    versionRange="[1.19,1.19.3)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
