@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/HaloOfBlocks/AdditionalGuns/issues"
 
 [[mods]]
     modId="additionalguns"
-    version="0.8.0"
+    version="0.8.1"
     displayName="Additional Guns"
     updateJSONURL="https://raw.githubusercontent.com/HaloOfBlocks/VersionChecker/main/additionalguns/update.json"
     displayURL="https://www.curseforge.com/minecraft/mc-mods/additional-guns"
