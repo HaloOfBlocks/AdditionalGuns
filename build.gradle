@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
-version = "0.8.0-1.19.2"
+version = "0.8.1-1.19.2"
 group = "haloofblocks.additionalguns"
 archivesBaseName = "additional-guns"
 
