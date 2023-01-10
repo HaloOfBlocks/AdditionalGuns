@@ -74,8 +74,8 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
 
-    implementation fg.deobf('curse.maven:framework-549225:3926055')
-    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:3874034')
+    implementation fg.deobf('curse.maven:framework-549225:4287474')
+    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4325670')
     runtimeOnly fg.deobf('curse.maven:configured-457570:4011355')
     runtimeOnly fg.deobf('curse.maven:catalogue-459701:4171024')
     runtimeOnly fg.deobf('curse.maven:jei-238222:4239206')
