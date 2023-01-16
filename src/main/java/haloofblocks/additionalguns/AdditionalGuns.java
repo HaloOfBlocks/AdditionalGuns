@@ -33,8 +33,8 @@ public class AdditionalGuns {
         bus.addListener(this::gatherData);
     }
 
-    void clientSetup(FMLClientSetupEvent event) {
-        ClientHandler.registerModelOverrides();
+    private void clientSetup(FMLClientSetupEvent event) {
+        event.enqueueWork(ClientHandler::registerModelOverrides);
     }
 
     private void gatherData(GatherDataEvent event) {
