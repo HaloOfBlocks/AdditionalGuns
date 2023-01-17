@@ -42,6 +42,7 @@ public class ClientHandler {
         ModelOverrides.register(ItemRegistry.SSG_ZERO_EIGHT.get(), new SimpleModel(SpecialModels.SSG_ZERO_EIGHT::getModel));
         ModelOverrides.register(ItemRegistry.DESERT_EAGLE.get(), new SimpleModel(SpecialModels.DESERT_EAGLE::getModel));
         ModelOverrides.register(ItemRegistry.MAC_TEN.get(), new SimpleModel(SpecialModels.MAC_TEN::getModel));
+        ModelOverrides.register(ItemRegistry.AWM.get(), new SimpleModel(SpecialModels.AWM::getModel));
         ModelOverrides.register(ItemRegistry.AK_SEVENTY_FOUR.get(), new SimpleModel(SpecialModels.AK_SEVENTY_FOUR::getModel));
         ModelOverrides.register(ItemRegistry.AK_SEVENTY_FOUR_M.get(), new SimpleModel(SpecialModels.AK_SEVENTY_FOUR_M::getModel));
         ModelOverrides.register(ItemRegistry.AKS_SEVENTY_FOUR_U.get(), new SimpleModel(SpecialModels.AKS_SEVENTY_FOUR_U::getModel));
