@@ -754,38 +754,6 @@
 			}
 		}
 	],
-	"display": {
-		"thirdperson_righthand": {
-			"translation": [0, 6.75, -13],
-			"scale": [1.5, 1.5, 1.5]
-		},
-		"thirdperson_lefthand": {
-			"translation": [0, 6.75, -13],
-			"scale": [1.5, 1.5, 1.5]
-		},
-		"firstperson_righthand": {
-			"translation": [-4.25, 10.25, -5.25],
-			"scale": [1.25, 1.25, 1.25]
-		},
-		"firstperson_lefthand": {
-			"translation": [-4.25, 10.25, -5.25],
-			"scale": [1.25, 1.25, 1.25]
-		},
-		"ground": {
-			"translation": [0, 9.75, -8.25],
-			"scale": [1.5, 1.5, 1.5]
-		},
-		"gui": {
-			"rotation": [30, 225, 0],
-			"translation": [5.5, 4.25, 0],
-			"scale": [1.63, 1.63, 1.63]
-		},
-		"fixed": {
-			"rotation": [0, 90, 0],
-			"translation": [-10.25, 10.75, -2],
-			"scale": [2, 2, 2]
-		}
-	},
 	"groups": [
 		0,
 		1,

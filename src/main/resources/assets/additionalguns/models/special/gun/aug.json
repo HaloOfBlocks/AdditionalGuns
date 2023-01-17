@@ -730,34 +730,6 @@
 			}
 		}
 	],
-	"display": {
-		"thirdperson_righthand": {
-			"translation": [0, 6, -6.25]
-		},
-		"thirdperson_lefthand": {
-			"translation": [0, 6, -4.25]
-		},
-		"firstperson_righthand": {
-			"translation": [-3.25, 9.25, -0.5]
-		},
-		"firstperson_lefthand": {
-			"translation": [-3.25, 9.25, -0.5]
-		},
-		"ground": {
-			"translation": [-1, 5, -5],
-			"scale": [0.8, 0.8, 0.8]
-		},
-		"gui": {
-			"rotation": [30, 225, 0],
-			"translation": [2.75, 2.25, 0],
-			"scale": [0.95, 0.95, 0.95]
-		},
-		"fixed": {
-			"rotation": [0, 90, 0],
-			"translation": [-9, 9.25, -1.25],
-			"scale": [1.75, 1.75, 1.75]
-		}
-	},
 	"groups": [
 		{
 			"name": "AUG",
