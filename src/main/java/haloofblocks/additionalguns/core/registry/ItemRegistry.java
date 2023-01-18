@@ -68,7 +68,7 @@ public class ItemRegistry {
 
 
     /* Scope Attachments */
-    public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.create(0.25F, 1.6F, GunModifiers.SLOW_ADS).viewFinderOffset(0.4), genericProperties, false));
+    public static final RegistryObject<Item> HOLO_SCOPE = ITEMS.register("holo_scope", () -> new ScopeItem(Scope.builder().additionalZoom(0.25F).reticleOffset(1.6F).viewFinderOffset(0.4).modifiers(GunModifiers.SLOW_ADS).build(), genericProperties, false));
     public static final RegistryObject<Item> ZERKALO_SCOPE = ITEMS.register("zerkalo_scope", () -> new ScopeItem(Scope.create(0.025F, 1.25F, GunModifiers.SLOWER_ADS).viewFinderOffset(0.3), genericProperties, false));
     public static final RegistryObject<Item> KOBRA_SCOPE = ITEMS.register("kobra", () -> new ScopeItem(Scope.create(0.15F, 1.75F, GunModifiers.SLOW_ADS).viewFinderOffset(0.4), genericProperties));
     // Removed until fixed!

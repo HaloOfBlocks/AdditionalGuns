@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
 	"textures": {
 		"1": "additionalguns:item/holo_scope",
+		"2": "cgm:effect/red_dot_reticle",
 		"particle": "additionalguns:item/holo_scope"
 	},
 	"elements": [
@@ -121,6 +122,13 @@
 				"north": {"uv": [0, 4, 1, 6], "texture": "#1", "tintindex": 0},
 				"east": {"uv": [14, 2, 16, 4], "rotation": 90, "texture": "#1", "tintindex": 0},
 				"west": {"uv": [10, 7, 16, 11], "rotation": 270, "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.95, 9.5, 7.65],
+			"to": [8.05, 9.6, 7.65],
+			"faces": {
+				"south": {"uv": [6, 6, 10, 10], "texture": "#2", "tintindex": 2}
 			}
 		}
 	],
