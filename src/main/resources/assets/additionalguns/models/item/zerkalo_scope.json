@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench by ThatAvocado_Boi",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "additionalguns:item/zerkalo_scope",
+		"1": "cgm:effect/red_dot_reticle_glow",
 		"particle": "additionalguns:item/zerkalo_scope"
 	},
 	"elements": [
@@ -199,6 +199,13 @@
 				"west": {"uv": [0, 0, 0, 0], "texture": "#0"},
 				"up": {"uv": [0, 0, 16, 2], "rotation": 90, "texture": "#0", "tintindex": 0},
 				"down": {"uv": [-2, 6, 5, 8], "rotation": 90, "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.95, 9.2, 7.75],
+			"to": [8.05, 9.3, 7.75],
+			"faces": {
+				"south": {"uv": [4, 4, 12, 12], "texture": "#1", "tintindex": 2, "emissivity": 15}
 			}
 		}
 	],
