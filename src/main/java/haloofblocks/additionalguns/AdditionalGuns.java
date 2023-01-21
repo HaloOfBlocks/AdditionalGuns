@@ -15,6 +15,9 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
+/**
+ * @author Autovw
+ */
 @Mod(AdditionalGuns.ID)
 public class AdditionalGuns {
     public static final String ID = "additionalguns";
