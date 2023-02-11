@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
  * Class used for registering sounds added by the mod.
  * @author Autovw
  */
-public class SoundRegistry {
+public final class SoundRegistry {
     // Deferred Register for sound registration.
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AdditionalGuns.ID);
 
@@ -55,6 +55,6 @@ public class SoundRegistry {
     public static final RegistryObject<SoundEvent> USAS_TWELVE = register("item.usas12.fire");
 
     private static RegistryObject<SoundEvent> register(String name) {
-        return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(AdditionalGuns.ID, name)));
+        return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(AdditionalGuns.ID, name)));
     }
 }

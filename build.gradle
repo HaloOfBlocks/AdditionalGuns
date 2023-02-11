@@ -11,14 +11,14 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'maven-publish'
 
-version = "0.8.2-1.19.2"
+version = "0.8.2-1.19.3"
 group = "haloofblocks.additionalguns"
 archivesBaseName = "additional-guns"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 minecraft {
-    mappings channel: 'official', version: '1.19.2'
+    mappings channel: 'official', version: '1.19.3'
 
     runs {
         client {
@@ -72,13 +72,13 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
+    minecraft 'net.minecraftforge:forge:1.19.3-44.1.0'
 
-    implementation fg.deobf('curse.maven:framework-549225:4287474')
-    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4344225')
-    runtimeOnly fg.deobf('curse.maven:configured-457570:4011355')
-    runtimeOnly fg.deobf('curse.maven:catalogue-459701:4171024')
-    runtimeOnly fg.deobf('curse.maven:jei-238222:4354615')
+    implementation fg.deobf('curse.maven:framework-549225:4389992')
+    implementation fg.deobf('curse.maven:mrcrayfishs-gun-mod-289479:4390785')
+    runtimeOnly fg.deobf('curse.maven:configured-457570:4166861')
+    runtimeOnly fg.deobf('curse.maven:catalogue-459701:4171025')
+    runtimeOnly fg.deobf('curse.maven:jei-238222:4371830')
 }
 
 jar {
@@ -89,7 +89,7 @@ jar {
             "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": project.jar.archiveVersion,
-            "Implementation-Vendor" : "Halo of Blocks",
+            "Implementation-Vendor": "Halo of Blocks",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

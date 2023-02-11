@@ -18,9 +18,9 @@ import net.minecraftforge.registries.RegistryObject;
  * Class used for registering items added by the mod.
  * @author Autovw
  */
-public class ItemRegistry {
+public final class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdditionalGuns.ID);
-    public static final Item.Properties genericProperties = new Item.Properties().stacksTo(1).tab(AdditionalGuns.GROUP);
+    public static final Item.Properties genericProperties = new Item.Properties().stacksTo(1);
 
     /* Guns */
     public static final RegistryObject<Item> MAMMOTH = registerGun("mammoth", false);
@@ -124,10 +124,10 @@ public class ItemRegistry {
      * @return The ammunition
      */
     private static RegistryObject<Item> registerAmmo(String name) {
-        return ITEMS.register(name, () -> new AmmoItem(new Item.Properties().tab(AdditionalGuns.GROUP)));
+        return ITEMS.register(name, () -> new AmmoItem(new Item.Properties()));
     }
 
     private static RegistryObject<Item> registerCasing(String name) {
-        return ITEMS.register(name, () -> new BulletCasingItem(new Item.Properties().tab(AdditionalGuns.GROUP)));
+        return ITEMS.register(name, () -> new BulletCasingItem(new Item.Properties()));
     }
 }

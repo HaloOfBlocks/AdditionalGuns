@@ -6,7 +6,7 @@ import haloofblocks.additionalguns.datagen.ModRecipeGenerator;
 import haloofblocks.additionalguns.core.registry.ItemRegistry;
 import haloofblocks.additionalguns.core.registry.SoundRegistry;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.data.PackOutput;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -21,13 +21,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(AdditionalGuns.ID)
 public class AdditionalGuns {
     public static final String ID = "additionalguns";
-    public static final CreativeModeTab GROUP = new AdditionalGunsTab(ID);
 
     public AdditionalGuns() {
         ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, Config.clientConfig);
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         bus.register(this);
+        bus.register(new AdditionalGunsTab());
 
         ItemRegistry.ITEMS.register(bus);
         SoundRegistry.SOUNDS.register(bus);
@@ -42,6 +42,7 @@ public class AdditionalGuns {
 
     private void gatherData(final GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
-        generator.addProvider(event.includeServer(), new ModRecipeGenerator(generator));
+        PackOutput packOutput = generator.getPackOutput();
+        generator.addProvider(event.includeServer(), new ModRecipeGenerator(packOutput));
     }
 }

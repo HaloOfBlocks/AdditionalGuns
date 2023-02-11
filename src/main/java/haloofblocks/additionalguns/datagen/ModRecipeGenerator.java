@@ -3,7 +3,7 @@ package haloofblocks.additionalguns.datagen;
 import haloofblocks.additionalguns.core.registry.ItemRegistry;
 import com.mrcrayfish.guns.crafting.WorkbenchIngredient;
 import com.mrcrayfish.guns.crafting.WorkbenchRecipeBuilder;
-import net.minecraft.data.DataGenerator;
+import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.Items;
@@ -13,16 +13,16 @@ import net.minecraftforge.common.Tags;
 import java.util.function.Consumer;
 
 /**
- * Author: Autovw
+ * @author Autovw
  */
 public class ModRecipeGenerator extends RecipeProvider {
 
-    public ModRecipeGenerator(DataGenerator generatorIn) {
-        super(generatorIn);
+    public ModRecipeGenerator(PackOutput packOutput) {
+        super(packOutput);
     }
 
     @Override
-    protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer) {
+    protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
 
         // Guns
         WorkbenchRecipeBuilder.crafting(ItemRegistry.MAMMOTH.get())
