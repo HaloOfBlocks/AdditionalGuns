@@ -1,9 +1,9 @@
 {
     "pack": {
         "description": "Additional Guns Resources",
-        "pack_format": 10,
-        "forge:resource_pack_format": 12,
-        "forge:data_pack_format": 10,
+        "pack_format": 13,
+        "forge:resource_pack_format": 13,
+        "forge:data_pack_format": 12,
         "_comment": "A community addon pack for MrCrayfish's Gun Mod - To contribute, head over the GitHub or simply join discord.gg/mrcrayfish and let us know!"
     }
 }

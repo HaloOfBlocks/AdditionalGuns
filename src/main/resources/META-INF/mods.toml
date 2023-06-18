@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[44,)"
+loaderVersion="[45,)"
 license="GNU General Public License v3.0"
 issueTrackerURL="https://github.com/HaloOfBlocks/AdditionalGuns/issues"
 
@@ -16,19 +16,19 @@ issueTrackerURL="https://github.com/HaloOfBlocks/AdditionalGuns/issues"
 [[dependencies.additionalguns]]
     modId="forge"
     mandatory=true
-    versionRange="[44,)"
+    versionRange="[45,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.3,1.20)"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]
     modId="cgm"
     mandatory=true
-    versionRange="[1.3.4,)"
+    versionRange="[1.3.5,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.additionalguns]]

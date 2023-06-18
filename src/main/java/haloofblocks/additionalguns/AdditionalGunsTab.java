@@ -25,7 +25,7 @@ public class AdditionalGunsTab {
                 stack.getOrCreateTag().putBoolean("IgnoreAmmo", true);
                 return stack;
             });
-            builder.displayItems((flags, entries, perms) -> {
+            builder.displayItems((flags, entries) -> {
                 ItemRegistry.ITEMS.getEntries().stream().map(RegistryObject::get).forEach((entry) -> {
                     if (entry instanceof AdditionalGunItem gunItem) {
                         ItemStack stack = gunItem.getDefaultInstance();
